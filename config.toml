@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://csudsi.netlify.com/"
 title = "CSUC DSI"
 theme = "ghostwriter"
 languageCode = "en-us"
