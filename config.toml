@@ -1,0 +1,56 @@
+baseurl = "/"
+title = "CSUC DSI"
+theme = "ghostwriter"
+languageCode = "en-us"
+copyright = "Robin Donatello"
+disqusShortname = "XXX"
+googleAnalytics = "XXX"
+
+[Author]
+    name = "My Name"
+    profile = "www.datascience.csuchico.edu"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "Chico State Data Science"
+    description = "Without data, you're just another person with an opinion. - W.E. Deming"
+    github = "https://github.com/csucdsi"
+    gitlab = ""
+    linkedin = ""
+    gplus = ""
+    twitter = ""
+    stackoverflow = ""
+    email = "datascience@csuchico.onmicrosoft.com"
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = true
+    shareLinkedIn = false
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Recent"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 2
+    
+[[menu.main]]
+    name = "Workshops"
+    url = "/project/"
+    weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url = "/page/contact/"
+    weight = 4
+
