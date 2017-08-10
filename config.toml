@@ -7,7 +7,7 @@ disqusShortname = "XXX"
 googleAnalytics = "XXX"
 
 [Author]
-    name = "My Name"
+    name = ""
     profile = "www.datascience.csuchico.edu"
 
 [Taxonomies]
@@ -24,7 +24,7 @@ googleAnalytics = "XXX"
     twitter = ""
     stackoverflow = ""
     email = "datascience@csuchico.onmicrosoft.com"
-    opengraph = true
+    opengraph = false
     shareTwitter = true
     shareFacebook = true
     shareGooglePlus = true
@@ -46,7 +46,7 @@ googleAnalytics = "XXX"
     
 [[menu.main]]
     name = "Workshops"
-    url = "/project/"
+    url = "/workshop/"
     weight = 3
 
 [[menu.main]]
