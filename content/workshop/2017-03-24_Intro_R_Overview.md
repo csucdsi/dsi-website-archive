@@ -2,7 +2,7 @@
 title: Getting started with R and R Studio
 author: Robin Donatello
 date: '2017-03-24'
-slug: test-workshop-post
+slug: getting_started
 categories: [learning]
 tags: [R, Rstudio]
 description: ''
@@ -32,7 +32,7 @@ Double clicking on these will start the standard installation process.
 
 [Video walkthrough](http://www.youtube.com/watch?v=uxuuWXU-7UQ)
 
-Install via [Homebrew](http://datascience.csuchico.edu/materials/install_r_with_homebrew.md). Guide courtesy of Justin Bankes (2017).
+Install via [Homebrew](/materials/install_r_with_homebrew.html). Guide courtesy of Justin Bankes (2017).
 
 
 # R Studio
@@ -56,29 +56,29 @@ console telling you the version of R that you're running.
 
 The console is where you type commands and have them immediately performed. 
 
-![](img/rstudio/rstudio-console-add.png)
+![](/img/rstudio/rstudio-console-add.png)
 
 ###  Environment
 The panel in the upper right contains your *workspace* (aka Environment)
 
-![](img/rstudio/rstudio-env.png)
+![](/img/rstudio/rstudio-env.png)
 
 
 - This shows you a list of objects/variables that R has saved. 
 - For example here a value of 3 has been _assigned_ to the object `a`.
 
-![](img/rstudio/rstudio-env-items.png)
+![](/img/rstudio/rstudio-env-items.png)
 
 ###  History
 
 Up here there is an additional tab to see the *history* of the commands that you've previously entered.  
 
-![](img/rstudio/rstudio-history.png)
+![](/img/rstudio/rstudio-history.png)
 
 ###  Files
 The files tab allows you to open code/script files within R studio.
 
-![](img/rstudio/rstudio-files.png)
+![](/img/rstudio/rstudio-files.png)
 
 ###  Plots
 Any plots that you generate will show up in the panel in the lower right corner.
