@@ -1,0 +1,289 @@
+---
+title: Exploring your data with R
+author: Robin Donatello
+date: '2017-04-14'
+slug: r_import
+categories:
+  - R
+tags: []
+---
+
+```{r, echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE, eval=TRUE)
+```
+
+## Learning Objectives
+In this workshop you will learn and practice the following: 
+
+* How to get data into R from a variety of places including the web, from excel, from a CSV file and from a simple text file. 
+* How to start looking at your data using tables and simple plots
+* Identifying problems in the data such as missing data or numbers stored as characters
+
+
+## Pre-Requirements / Setup 
+* A laptop with R (v3.3.0+), and RStudio (v1.1.136) installed and operational. 
+* The `readxl` and `ggplot2` packages installed. 
+    - You can install these by typing `install.packages("package name")` into your console.
+* A connection to campus internet. 
+* Create a **DSI** folder in an easy to find place. Desktop is fine, C: (or root) drive is better. 
+* Download the following files into this folder. 
+    - [High school and Beyond](http://www.norcalbiostat.com/data/hsb2.txt) -- Right click on the link and choose "save as". 
+    - [Police Shootings](http://www.norcalbiostat.com/data/WashPost%20Police%20Shootings%202015.xlsx)
+    - [North Carolina Births](http://www.norcalbiostat.com/data/NCbirths.csv)
+
+
+## Sticky notes
+
+We will use two colors of sticky notes to provide immediate feedback. I picked up this trick at a [Software Carpentry](https://software-carpentry.org) lesson. 
+
+* While you are following along just fine, have the <span style="color:blue;">blue </span> sticky note on your laptop. 
+
+* When you run into trouble or have a question, switch to the <span style="color:red;">red </span> sticky note. This will notify me or a TA that you have a question or need help. 
+
+At the end of the session you will use these notes to provide feedback. 
+
+- Something that you enjoyed or worked well,  write on the <span style="color:blue;">blue </span> note.   
+- Something that could be improved, write on the <span style="color:red;">red </span> note. 
+
+
+****
+
+<h1 style="text-align:center; font-size:150%;">HANDS ON</h1>
+
+****
+
+# Getting data into R
+
+Start a new R code file. Follow along by typing the commands into the code file at the top, and submit the commands to the console by either
+
+* Clicking the *Run* button in the top right
+* Pressing CTRL+enter (or Command+Enter on a Mac) to submit the line your cursor is on. 
+
+We will use the following libraries. Load them into your session now. 
+```{r, eval=TRUE}
+library(readxl)
+library(ggplot2)
+```
+
+
+## Preparation: What's a delimiter?  
+Before we go much further, let's talk about the word **delimiter**. This is the character, or symbol, that separates columns of data from each other when stored in an external file. 
+
+Click here to [View the High School and Beyond](http://www.norcalbiostat.com/data/hsb2.txt) data file on the web. 
+
+Each column in this data set represents data on a specific variable. This delimiter tells any analysis program (not just R) how to distinguish between the columns. We can visually see that the columns are separated by tabs, hence this data set is tab delimited. 
+
+There are two main types of delimiters we will consider today; comma and tab. That does not mean that data can't be stored in other ways, these are just the two most common. 
+
+> Functions to read data into R tend to start with the word `read`. 
+
+
+
+## Importing data from your computer 
+We'll use the files you downloaded earlier. 
+
+> If you are unfamiliar with how to find your path, have a separate window open to these files and put your red sticky flag up. 
+
+
+For each data set type, I'll demonstrate how to read in the data using that function, including necessary arguments, and look at the `str()` structure of the data set to get a glimpse of what the data contains. 
+
+Follow along, doing this on your computer. Make sure the output of your `str()` matches the ones presented here. 
+
+
+### Text files
+Text files are very simple files that have a `.txt` file extension. Common delimiters include a space, a comma (,) or a tab. Uncommon delimiters could include a % or even a semi-colon. 
+
+We will use the `read.table()` function that is in base R to read in any type of delimited file. The relevant arguments are 
+
+* the delimiter (the `sep`aration character) is a `"\t"` , or a tab, 
+* that the first row contains the variable names: `header=TRUE` 
+
+```{r}
+hsb2 <- read.table("r_import/hsb2.txt", header=TRUE, sep="\t")
+str(hsb2)
+```
+
+**About the data**
+The High School & Beyond data set is a nationally representative, longitudinal study of 10th and 12th grades from 1980. The data set was collected to examine questions such as "What factors influence the students' educational and career outcomes after passing through the American educational system?" More on this study can be found here:  https://nces.ed.gov/surveys/hsb/
+
+
+### CSV: Comma Separated Values
+CSV is a fancy way of saying a text file with comma-separated values (i.e. CSV). 
+We could use `read.table()` but `read.csv()` is optimized to read in CSV files. 
+
+```{r}
+NCbirths <- read.csv("r_import/NCbirths.csv", header=TRUE)
+str(NCbirths)
+```
+
+**About the data**
+Data set on 1,000 randomly sampled births from the birth records released by the state of North Carolina in 2004. This data set has been of interest to medical researchers who are studying the relation between habits and practices of expectant mothers and the birth of their children. Available from: https://www.openintro.org/stat/data/?data=nc
+
+
+### Excel files
+The best method I have found so far to read in Excel files is from the `readxl` package by Hadley Wickham. 
+The `read_excel()` function is used here. 
+
+> Note the use of the underscore `_` instead of a period `.` between read and the file type.  
+
+
+```{r, eval=TRUE}
+washpost15  <- read_excel("r_import/WashPost Police Shootings 2015.xlsx", sheet=1, col_names=TRUE)
+str(washpost15)
+```
+
+**About the data**
+The Washington Post is compiling a database of every fatal shooting in the United States by a police officer in the line of duty since Jan. 1, 2015. You can view details about this data set here. The data set you just imported contains only `NROW(washpost15)` = `NROW(washpost15)` records, from 2015 only. 
+https://www.washingtonpost.com/graphics/national/police-shootings-2016/
+
+
+## Reading data in from the web
+If you know the URL to the data set, you can read it in to R using the appropriate `read.` function. 
+Let's go directly to GitHub and get the most directly up to date version of the Police Shootings data. 
+
+```{r, eval=FALSE}
+# Not Run
+read.csv(url("https://raw.githubusercontent.com/washingtonpost/data-police-shootings/master/fatal-police-shootings-data.csv"), header=TRUE)
+```
+
+# Exploring your data
+
+## Summary Statistics
+
+Many summary statistics have their own functions. 
+
+```{r}
+summary(hsb2$read)  # five number summary
+mean(hsb2$read)     # read
+sd(hsb2$read)       # standard deviation
+IQR(hsb2$read)      # interquartile range
+```
+
+## Frequency tables
+
+Appropriate for categorical data. 
+
+* One variable frequencies use `table()`. 
+
+```{r}
+table(washpost15$flee) 
+```
+
+* One variable proportions: wrap `prop.table()` around `table()`. 
+```{r}
+prop.table(table(washpost15$flee))
+```
+
+* Two way contingency table
+```{r}
+table(washpost15$flee, washpost15$threat_level) 
+```
+
+* Row proportions
+```{r}
+prop.table(table(washpost15$flee, washpost15$threat_level), margin=1)
+```
+
+* Column proportions
+```{r}
+prop.table(table(washpost15$flee, washpost15$threat_level), margin=2)
+```
+
+
+## Visualize your data using plots
+
+#### Continuous variables
+
+* Histogram
+```{r}
+hist(hsb2$write)
+```
+
+* Boxplot
+```{r}
+boxplot(hsb2$read)
+```
+
+* Boxplot across groups
+```{r}
+boxplot(read~gender, data=hsb2)
+```
+
+* Scatterplot
+```{r}
+plot(write~read, data=hsb2) 
+```
+
+#### Categorical variables
+
+* Barchart of a single variable
+```{r}
+barplot(table(washpost15$flee))
+```
+
+* Side by side barchart for two categorical variables
+```{r}
+barplot(table(washpost15$flee, washpost15$threat_level), beside=TRUE, legend=TRUE) 
+```
+
+Want better plots? Come to the [DSI workshop](datascience.csuchico.edu) on 5/5 to learn how to visualize your data using `ggplot2`. 
+
+## Missing Data
+
+R puts a `NA` as a placeholder when the value for that piece of data is missing. 
+This is important because `R` can't do arithmetic on missing data. 
+So `5 + NA = NA`. This can cause confusion when trying to calculate summary 
+statistics and plot data. 
+
+```{r, eval=TRUE}
+mean(washpost15$age)
+ggplot(washpost15, aes(x=flee)) + geom_bar()
+```
+
+Wait, where did that `NA` come from for the `flee` variable? We looked at a table
+earlier and didn't see any.
+
+Using the `useNA` argument to the `table()` function shows us if there are any missing values. 
+```{r}
+table(washpost15$flee, useNA = "always")
+```
+
+
+External Resources for learning about how R handles missing data
+
+* http://www.statmethods.net/input/missingdata.html
+* http://www.ats.ucla.edu/stat/r/faq/missing.htm
+* http://faculty.nps.edu/sebuttre/home/R/missings.html
+
+One of the best statistical methods for dealing with Missing data is called
+Multiple Imputation. Here is a link to learn more about this method.
+https://www.r-bloggers.com/imputing-missing-data-with-r-mice-package/
+**Caution: Do not use without consultation of a trained Statistician.**
+
+**Ok, so what do we do in the meantime?**
+
+Many functions contain a `na.rm` argument, that when set to `TRUE` will remove the missing values before conducting the calculation requested. This is also called the _complete case mean_. 
+
+What's the average age of individuals in the 2015 current police shootings (`washpost15`) data set? 
+```{r}
+mean(washpost15$age)
+```
+
+Any mathmatical calculations like the mean on missing data will result in a missing value.
+
+```{r}
+mean(washpost15$age, na.rm = TRUE)
+```
+
+If you want to plot the data without the missing values, it is recommended that you create a temporary data set that contains only the values that are not missing the variable of interest, and plot that. 
+
+the `is.na()` function creates a boolean vector of TRUE and FALSE values for if the value is missing. 
+
+```{r}
+wp_nomiss <- subset(washpost15, !is.na(washpost15$flee))
+
+ggplot(wp_nomiss, aes(x=flee)) + geom_bar()
+```
+
+
+
