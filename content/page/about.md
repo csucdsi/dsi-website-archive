@@ -29,3 +29,9 @@ The Data Science Initiative aims to help organize the Data Science community by:
 * Community driven - all volunteers
 * Training by expers in the field
 * Open source training materials
+
+
+
+
+
+

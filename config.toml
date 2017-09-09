@@ -50,7 +50,7 @@ googleAnalytics = "XXX"
     weight = 3
 
 [[menu.main]]
-    name = "Courses"
+    name = "Curriculum"
     url = "/page/courses/"
     weight = 4
     

@@ -1,6 +1,6 @@
 # Website for the Chico State Data Science Initative
 
-www.csucdsi.netlify.com
+https://csucdsi.netlify.com
 
 # todo
 1. port over workshop materials
