@@ -1,0 +1,214 @@
+---
+title: Data Visualization 
+author: DSI Team
+date: '2017-04-21'
+slug: ggplot2_intro1
+categories:
+  - R
+  - DataViz
+tags: []
+output: 
+  blogdown::html_page:
+    toc: true
+---
+
+
+```{r, echo=FALSE}
+library(ggplot2)
+knitr::opts_chunk$set(echo = TRUE, fig.height=4, fig.width=6)
+```
+
+## Objective 
+
+In this workshop you will explore data through visual tools using `ggplot`. You will learn how to plot different graphs. The code that follows is what was walked through and discussed during the workshop. It is not a stand alone tutorial. 
+
+## Grammer of Graphics 
+* [[PDF]](ggplot2_files/ggplot2_slides) by Rick Hubbard
+* Introduction section of Robin's Mega [[Data Viz Tutorial]](https://norcalbiostat.github.io/MATH130/materials/day56-data-viz.html) 
+
+## Data
+* Start by loading the Behavioral Risk Factor Surveillance System (BRFSS) data set collected by the Centers for Disease Control and Prevention (CDC), the data set website (http://www.cdc.gov/brfss) contains a complete description of the survey.
+
+We will focus on a random sample of 20,000 people from the BRFSS survey conducted in 2000. While there are over 200 variables in this data set, we will work with a small subset that has been downloaded.
+
+* Create a directory and name it.
+* Knit after each completed code chunk, it will help you ensure your 
+final product works as intended. That way if it breaks, you know exactly where the error lies.
+* Assign the `BRFSS` data to the object `cdc` so you can actually see
+that it's ready for your use. 
+
+```{r}
+cdc <- read.table("ggplot2_intro1/cdc.txt", header=TRUE, sep="\t")
+cdc$exerany <- factor(cdc$exerany, labels=c("No Exercise", "Some Exercise"))
+```
+
+Recall that the data set `cdc` that shows up in your workspace is a *data matrix*, with each row representing a *case* and each column representing a *variable*.  
+
+Using the `BRFSS` data set, we will create several plots. 
+
+# One categorical variable
+
+## Barchart
+A barchart of how often the responders excercised in the past month. 
+
+```{r}
+#geom_bar makes the height of the bar proportional to the number of cases in each group
+cdc$smoke_char <- factor(cdc$smoke100, labels=c("No", "Yes"))
+ggplot(cdc, aes(x=exerany, fill=smoke_char)) + geom_bar(position="dodge")
+```
+
+* using basic R
+
+```{r}
+dc <- table(cdc$genhlth)
+barplot(dc, main="Barchart using base graphics")
+```
+
+# One numeric variable
+
+## Histograms and densities
+of age, with an overlaid density plot in a different color.
+
+```{r, fig.height=4, fig.width=4}
+ggplot(cdc, aes(x=age)) + geom_density(col="blue") + 
+  geom_histogram(aes(y=..density..), colour="black", fill=NA)
+```
+    
+## Boxplots
+A boxplot of weight.
+
+```{r}
+boxplot(cdc$weight, horizontal = TRUE, main="Distribution of respondants weight", xlab="Pounds")
+```
+
+## Quantile-Quantile plots
+Determine if height is normally distributed. 
+
+qqnorm is a generic function the default method of which produces a normal QQ plot of the values in y. 
+qqline adds a line to a "theoretical", by default normal, quantile-quantile plot which passes through the probs quantiles, by default the first and third quartiles.
+qqplot produces a QQ plot of two datasets.
+
+```{r, message=FALSE}
+qqnorm(cdc$height)
+qqline(cdc$height, col="red")
+#used by qqnorm to generate approximations to expected order statistics for a normal distribution.
+```
+
+
+Recall that the closer the points are to the red line, the more "normal" the shape of the distribution is. Height has some deviation away from that line but height seems pretty much normal.
+
+
+# Two categorical variables 
+
+## Grouped barchart
+of exercise frequency _within_ smoking status. 
+
+```{r}
+ggplot(cdc, aes(x=smoke_char, fill=genhlth)) + geom_bar(position="dodge")
+```
+
+
+## Mosaic plots
+But what if you want to know how two categorical variables are related and you don't want 
+to look at two different barplots? Mosaic plots are a way to visualize the proportions in 
+a table. So here's the two-way table we'll be plotting. 
+```{r}
+table(cdc$smoke100, cdc$exerany)
+```
+
+The syntax for a mosiac plot uses _model notation_, which is basically y ~ x where the ~ is read as "twiddle" or "tilde". `color` applies shades of gray to one of the factor levels, and `shade` applies a color gradient scale to the cells in order of what is less than expected (red) to what is more than expected 
+(blue) if these two factors were compltely independent. 
+```{r, fig.width=10}
+par(mfrow=c(1,2)) # display the plots in 1 row and 2 columns
+mosaicplot(smoke100~exerany, data=cdc, color=TRUE)
+```
+
+Mosaic chart, This becomes, more interesting and important when you have categorical variables that takes on more than two `values`.
+
+> One would expect that smokers exercise less than non smokers. 
+  Using a mosiaicplot does there seem to be a relationship
+  between smoking and exercise? 
+
+```{r}
+mosaicplot(genhlth~smoke100, data=cdc)
+#For example, there are fewer nonsmokers who do not exercise. There are fewer smokers who do exercise. 
+#This becomes, more interesting and important when you have categorical variables that take on more than two `values`.
+```
+
+
+# Two numeric variables
+## Scatterplots
+A scatterplot of the weight against desired weight
+
+```{r}
+plot(weight~wtdesire, data=cdc)
+```
+
+a. Add a best fit line in purple.
+
+```{r}
+plot(weight~wtdesire, data=cdc)
+abline(lm(weight~wtdesire, data=cdc), col="purple")
+```
+
+
+# One numeric and one categorical
+
+## Overlaid density plots. 
+
+Overlaid density plots of height by gender. No fill, color only.
+
+```{r}
+ggplot(cdc, aes(x=height, col=gender)) + geom_density()
+```
+
+## Paneled histograms
+Histogram of weight paneled by gender
+
+a. where the panels are horizontal (1 row 2 columns)
+   
+```{r}
+ggplot(cdc, aes(x=weight, fill=gender)) + geom_histogram() + facet_wrap(~gender)
+```
+   
+b. where the panels are vertical (2 rows 1 column)
+
+```{r}
+ggplot(cdc, aes(x=weight, fill=gender)) + geom_histogram() + facet_wrap(~gender, ncol=1)
+```
+
+
+# Two numerical and one categorical
+
+## Scatterplots with color
+
+A scatterplot of height (y) against weight (x) grouped by gender (you can choose grouping by shape or color)
+    
+```{r}
+ggplot(cdc, aes(x=height, y=weight, color=gender)) + geom_point()
+```
+
+## Stratified scatterplots with paneling
+A scatterplot of height against age paneled (faceted) by general health status.
+    
+```{r}
+ggplot(cdc, aes(x=age, y=height, color=genhlth)) + geom_point() + facet_grid(~genhlth)
+```
+
+
+# One numerical and two categorical
+
+## Grouped boxplots 
+Desired weight by exercise & gender. Put one categorical on the x, fill the box color by the other. 
+  
+```{r}
+ggplot(cdc, aes(x=exerany, y=wtdesire, fill=gender)) + geom_boxplot()
+```    
+
+## Grouped boxplots with paneling
+Same plot as above, but now panel by smoking status category. 
+
+```{r}
+ggplot(cdc, aes(x=exerany, y=wtdesire, fill=gender)) + geom_boxplot() +
+  facet_wrap(~smoke_char, ncol=2)
+```    

@@ -1,0 +1,222 @@
+---
+title: Data Visualization 
+author: DSI Team
+date: '2017-04-21'
+slug: ggplot2_intro1
+categories:
+  - R
+  - DataViz
+tags: []
+output: 
+  blogdown::html_page:
+    toc: true
+---
+
+
+<div id="TOC">
+<ul>
+<li><a href="#objective">Objective</a></li>
+<li><a href="#grammer-of-graphics">Grammer of Graphics</a></li>
+<li><a href="#data">Data</a></li>
+<li><a href="#one-categorical-variable">One categorical variable</a><ul>
+<li><a href="#barchart">Barchart</a></li>
+</ul></li>
+<li><a href="#one-numeric-variable">One numeric variable</a><ul>
+<li><a href="#histograms-and-densities">Histograms and densities</a></li>
+<li><a href="#boxplots">Boxplots</a></li>
+<li><a href="#quantile-quantile-plots">Quantile-Quantile plots</a></li>
+</ul></li>
+<li><a href="#two-categorical-variables">Two categorical variables</a><ul>
+<li><a href="#grouped-barchart">Grouped barchart</a></li>
+<li><a href="#mosaic-plots">Mosaic plots</a></li>
+</ul></li>
+<li><a href="#two-numeric-variables">Two numeric variables</a><ul>
+<li><a href="#scatterplots">Scatterplots</a></li>
+</ul></li>
+<li><a href="#one-numeric-and-one-categorical">One numeric and one categorical</a><ul>
+<li><a href="#overlaid-density-plots.">Overlaid density plots.</a></li>
+<li><a href="#paneled-histograms">Paneled histograms</a></li>
+</ul></li>
+<li><a href="#two-numerical-and-one-categorical">Two numerical and one categorical</a><ul>
+<li><a href="#scatterplots-with-color">Scatterplots with color</a></li>
+<li><a href="#stratified-scatterplots-with-paneling">Stratified scatterplots with paneling</a></li>
+</ul></li>
+<li><a href="#one-numerical-and-two-categorical">One numerical and two categorical</a><ul>
+<li><a href="#grouped-boxplots">Grouped boxplots</a></li>
+<li><a href="#grouped-boxplots-with-paneling">Grouped boxplots with paneling</a></li>
+</ul></li>
+</ul>
+</div>
+
+<div id="objective" class="section level2">
+<h2>Objective</h2>
+<p>In this workshop you will explore data through visual tools using <code>ggplot</code>. You will learn how to plot different graphs. The code that follows is what was walked through and discussed during the workshop. It is not a stand alone tutorial.</p>
+</div>
+<div id="grammer-of-graphics" class="section level2">
+<h2>Grammer of Graphics</h2>
+<ul>
+<li><a href="ggplot2_files/ggplot2_slides">[PDF]</a> by Rick Hubbard</li>
+<li>Introduction section of Robin’s Mega <a href="https://norcalbiostat.github.io/MATH130/materials/day56-data-viz.html">[Data Viz Tutorial]</a></li>
+</ul>
+</div>
+<div id="data" class="section level2">
+<h2>Data</h2>
+<ul>
+<li>Start by loading the Behavioral Risk Factor Surveillance System (BRFSS) data set collected by the Centers for Disease Control and Prevention (CDC), the data set website (<a href="http://www.cdc.gov/brfss" class="uri">http://www.cdc.gov/brfss</a>) contains a complete description of the survey.</li>
+</ul>
+<p>We will focus on a random sample of 20,000 people from the BRFSS survey conducted in 2000. While there are over 200 variables in this data set, we will work with a small subset that has been downloaded.</p>
+<ul>
+<li>Create a directory and name it.</li>
+<li>Knit after each completed code chunk, it will help you ensure your final product works as intended. That way if it breaks, you know exactly where the error lies.</li>
+<li>Assign the <code>BRFSS</code> data to the object <code>cdc</code> so you can actually see that it’s ready for your use.</li>
+</ul>
+<pre class="r"><code>cdc &lt;- read.table(&quot;ggplot2_intro1/cdc.txt&quot;, header=TRUE, sep=&quot;\t&quot;)
+cdc$exerany &lt;- factor(cdc$exerany, labels=c(&quot;No Exercise&quot;, &quot;Some Exercise&quot;))</code></pre>
+<p>Recall that the data set <code>cdc</code> that shows up in your workspace is a <em>data matrix</em>, with each row representing a <em>case</em> and each column representing a <em>variable</em>.</p>
+<p>Using the <code>BRFSS</code> data set, we will create several plots.</p>
+</div>
+<div id="one-categorical-variable" class="section level1">
+<h1>One categorical variable</h1>
+<div id="barchart" class="section level2">
+<h2>Barchart</h2>
+<p>A barchart of how often the responders excercised in the past month.</p>
+<pre class="r"><code>#geom_bar makes the height of the bar proportional to the number of cases in each group
+cdc$smoke_char &lt;- factor(cdc$smoke100, labels=c(&quot;No&quot;, &quot;Yes&quot;))
+ggplot(cdc, aes(x=exerany, fill=smoke_char)) + geom_bar(position=&quot;dodge&quot;)</code></pre>
+<p><img src="/workshop/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-3-1.png" width="576" /></p>
+<ul>
+<li>using basic R</li>
+</ul>
+<pre class="r"><code>dc &lt;- table(cdc$genhlth)
+barplot(dc, main=&quot;Barchart using base graphics&quot;)</code></pre>
+<p><img src="/workshop/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-4-1.png" width="576" /></p>
+</div>
+</div>
+<div id="one-numeric-variable" class="section level1">
+<h1>One numeric variable</h1>
+<div id="histograms-and-densities" class="section level2">
+<h2>Histograms and densities</h2>
+<p>of age, with an overlaid density plot in a different color.</p>
+<pre class="r"><code>ggplot(cdc, aes(x=age)) + geom_density(col=&quot;blue&quot;) + 
+  geom_histogram(aes(y=..density..), colour=&quot;black&quot;, fill=NA)</code></pre>
+<pre><code>## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
+<p><img src="/workshop/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-5-1.png" width="384" /></p>
+</div>
+<div id="boxplots" class="section level2">
+<h2>Boxplots</h2>
+<p>A boxplot of weight.</p>
+<pre class="r"><code>boxplot(cdc$weight, horizontal = TRUE, main=&quot;Distribution of respondants weight&quot;, xlab=&quot;Pounds&quot;)</code></pre>
+<p><img src="/workshop/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-6-1.png" width="576" /></p>
+</div>
+<div id="quantile-quantile-plots" class="section level2">
+<h2>Quantile-Quantile plots</h2>
+<p>Determine if height is normally distributed.</p>
+<p>qqnorm is a generic function the default method of which produces a normal QQ plot of the values in y. qqline adds a line to a “theoretical”, by default normal, quantile-quantile plot which passes through the probs quantiles, by default the first and third quartiles. qqplot produces a QQ plot of two datasets.</p>
+<pre class="r"><code>qqnorm(cdc$height)
+qqline(cdc$height, col=&quot;red&quot;)</code></pre>
+<p><img src="/workshop/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-7-1.png" width="576" /></p>
+<pre class="r"><code>#used by qqnorm to generate approximations to expected order statistics for a normal distribution.</code></pre>
+<p>Recall that the closer the points are to the red line, the more “normal” the shape of the distribution is. Height has some deviation away from that line but height seems pretty much normal.</p>
+</div>
+</div>
+<div id="two-categorical-variables" class="section level1">
+<h1>Two categorical variables</h1>
+<div id="grouped-barchart" class="section level2">
+<h2>Grouped barchart</h2>
+<p>of exercise frequency <em>within</em> smoking status.</p>
+<pre class="r"><code>ggplot(cdc, aes(x=smoke_char, fill=genhlth)) + geom_bar(position=&quot;dodge&quot;)</code></pre>
+<p><img src="/workshop/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-8-1.png" width="576" /></p>
+</div>
+<div id="mosaic-plots" class="section level2">
+<h2>Mosaic plots</h2>
+<p>But what if you want to know how two categorical variables are related and you don’t want to look at two different barplots? Mosaic plots are a way to visualize the proportions in a table. So here’s the two-way table we’ll be plotting.</p>
+<pre class="r"><code>table(cdc$smoke100, cdc$exerany)</code></pre>
+<pre><code>##    
+##     No Exercise Some Exercise
+##   0        2543          8016
+##   1        2543          6898</code></pre>
+<p>The syntax for a mosiac plot uses <em>model notation</em>, which is basically y ~ x where the ~ is read as “twiddle” or “tilde”. <code>color</code> applies shades of gray to one of the factor levels, and <code>shade</code> applies a color gradient scale to the cells in order of what is less than expected (red) to what is more than expected (blue) if these two factors were compltely independent.</p>
+<pre class="r"><code>par(mfrow=c(1,2)) # display the plots in 1 row and 2 columns
+mosaicplot(smoke100~exerany, data=cdc, color=TRUE)</code></pre>
+<p><img src="/workshop/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-10-1.png" width="960" /></p>
+<p>Mosaic chart, This becomes, more interesting and important when you have categorical variables that takes on more than two <code>values</code>.</p>
+<blockquote>
+<p>One would expect that smokers exercise less than non smokers. Using a mosiaicplot does there seem to be a relationship between smoking and exercise?</p>
+</blockquote>
+<pre class="r"><code>mosaicplot(genhlth~smoke100, data=cdc)</code></pre>
+<p><img src="/workshop/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-11-1.png" width="576" /></p>
+<pre class="r"><code>#For example, there are fewer nonsmokers who do not exercise. There are fewer smokers who do exercise. 
+#This becomes, more interesting and important when you have categorical variables that take on more than two `values`.</code></pre>
+</div>
+</div>
+<div id="two-numeric-variables" class="section level1">
+<h1>Two numeric variables</h1>
+<div id="scatterplots" class="section level2">
+<h2>Scatterplots</h2>
+<p>A scatterplot of the weight against desired weight</p>
+<pre class="r"><code>plot(weight~wtdesire, data=cdc)</code></pre>
+<p><img src="/workshop/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-12-1.png" width="576" /></p>
+<ol style="list-style-type: lower-alpha">
+<li>Add a best fit line in purple.</li>
+</ol>
+<pre class="r"><code>plot(weight~wtdesire, data=cdc)
+abline(lm(weight~wtdesire, data=cdc), col=&quot;purple&quot;)</code></pre>
+<p><img src="/workshop/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-13-1.png" width="576" /></p>
+</div>
+</div>
+<div id="one-numeric-and-one-categorical" class="section level1">
+<h1>One numeric and one categorical</h1>
+<div id="overlaid-density-plots." class="section level2">
+<h2>Overlaid density plots.</h2>
+<p>Overlaid density plots of height by gender. No fill, color only.</p>
+<pre class="r"><code>ggplot(cdc, aes(x=height, col=gender)) + geom_density()</code></pre>
+<p><img src="/workshop/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-14-1.png" width="576" /></p>
+</div>
+<div id="paneled-histograms" class="section level2">
+<h2>Paneled histograms</h2>
+<p>Histogram of weight paneled by gender</p>
+<ol style="list-style-type: lower-alpha">
+<li>where the panels are horizontal (1 row 2 columns)</li>
+</ol>
+<pre class="r"><code>ggplot(cdc, aes(x=weight, fill=gender)) + geom_histogram() + facet_wrap(~gender)</code></pre>
+<pre><code>## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
+<p><img src="/workshop/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-15-1.png" width="576" /></p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>where the panels are vertical (2 rows 1 column)</li>
+</ol>
+<pre class="r"><code>ggplot(cdc, aes(x=weight, fill=gender)) + geom_histogram() + facet_wrap(~gender, ncol=1)</code></pre>
+<pre><code>## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
+<p><img src="/workshop/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-16-1.png" width="576" /></p>
+</div>
+</div>
+<div id="two-numerical-and-one-categorical" class="section level1">
+<h1>Two numerical and one categorical</h1>
+<div id="scatterplots-with-color" class="section level2">
+<h2>Scatterplots with color</h2>
+<p>A scatterplot of height (y) against weight (x) grouped by gender (you can choose grouping by shape or color)</p>
+<pre class="r"><code>ggplot(cdc, aes(x=height, y=weight, color=gender)) + geom_point()</code></pre>
+<p><img src="/workshop/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-17-1.png" width="576" /></p>
+</div>
+<div id="stratified-scatterplots-with-paneling" class="section level2">
+<h2>Stratified scatterplots with paneling</h2>
+<p>A scatterplot of height against age paneled (faceted) by general health status.</p>
+<pre class="r"><code>ggplot(cdc, aes(x=age, y=height, color=genhlth)) + geom_point() + facet_grid(~genhlth)</code></pre>
+<p><img src="/workshop/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-18-1.png" width="576" /></p>
+</div>
+</div>
+<div id="one-numerical-and-two-categorical" class="section level1">
+<h1>One numerical and two categorical</h1>
+<div id="grouped-boxplots" class="section level2">
+<h2>Grouped boxplots</h2>
+<p>Desired weight by exercise &amp; gender. Put one categorical on the x, fill the box color by the other.</p>
+<pre class="r"><code>ggplot(cdc, aes(x=exerany, y=wtdesire, fill=gender)) + geom_boxplot()</code></pre>
+<p><img src="/workshop/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-19-1.png" width="576" /></p>
+</div>
+<div id="grouped-boxplots-with-paneling" class="section level2">
+<h2>Grouped boxplots with paneling</h2>
+<p>Same plot as above, but now panel by smoking status category.</p>
+<pre class="r"><code>ggplot(cdc, aes(x=exerany, y=wtdesire, fill=gender)) + geom_boxplot() +
+  facet_wrap(~smoke_char, ncol=2)</code></pre>
+<p><img src="/workshop/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-20-1.png" width="576" /></p>
+</div>
+</div>
