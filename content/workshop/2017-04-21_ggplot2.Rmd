@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = TRUE, fig.height=4, fig.width=6)
 In this workshop you will explore data through visual tools using `ggplot`. You will learn how to plot different graphs. The code that follows is what was walked through and discussed during the workshop. It is not a stand alone tutorial. 
 
 ## Grammer of Graphics 
-* [[PDF]](ggplot2_files/ggplot2_slides) by Rick Hubbard
+* [[PDF]](ggplot2_slides) by Rick Hubbard
 * Introduction section of Robin's Mega [[Data Viz Tutorial]](https://norcalbiostat.github.io/MATH130/materials/day56-data-viz.html) 
 
 ## Data
