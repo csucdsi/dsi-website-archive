@@ -1,5 +1,5 @@
 ---
-title: DSI Kick Off Meeting
+title: DSI Kick Off Meeting (& quick intro to R)
 author: Robin Donatello, Rick Hubbard, Essia Hamouda
 date: '2017-03-24'
 slug: kick_off
