@@ -13,7 +13,7 @@ description: ''
 
 # Materials
 
-* Program installation, setup, preferences [[HTML only]](/workshop/kickoff_files/getting_started/) 
+* [Program installation, setup, preferences](/workshop/kickoff_files/getting_started/) 
     - **NOT COVERED FULLY DURING WORKSHOP**
 * Hands on Introduction to R - Exploring the Data Science Community in Chico. 
     - [[Download R code]](/workshop/kickoff_files/IntroR_whois_DS.R) to download the source code for today. 
