@@ -1,21 +1,30 @@
 # Website for the Chico State Data Science Initative
 
-https://csucdsi.netlify.com
+https://datascience.csuchico.edu 
 
 # todo
-1. port over workshop materials
-2. redirect custom url
+2. redirect custom url - redirect works, but netlify domain still shows. 
 3. blog post about R class
 4. build workshop schedule 
     - eventually into google calendar
     - that has a link somewhere or is on a static page
 5. link to RUG and Google L-serv
-6. start advertising (prior to school starting?)
 
 
-# New post order
+# File org & post order
+```
 .
+|--index.Rmd (just used to call `serve.site()`)
+|--README.md (this file)
+|--dsi_website.Rproj (R project file)
+|--config.toml (site configuration file)
+| 
 |--content
+|  |--page (static pages)
+|     |--about.md
+|     |--contact.md
+|     |--courses.md
+|     |--people.md
 |  |--post
 |     |--YYYY-MM-DD_topic_announce.md (slug = topic_stuff)
 |  |--workshop  
@@ -23,6 +32,13 @@ https://csucdsi.netlify.com
 |     |--topic_stuff
 |        |--data.txt
 |        |--slides.pdf
+|
+|--static (static files and images to link to. Non posts/workshops [linkto](/filename))
+|  |--img
+|  |--materials
+
+
+```
 
 
 ## Random comments 

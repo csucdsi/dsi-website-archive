@@ -1,4 +1,12 @@
-# Installing R with Homebrew on Mac OS X
+---
+title: Installing R with Homebrew on Mac OS X
+author: 'Justin Bankes'
+date: '2017-03-24'
+slug: homebrew_r
+categories: [install]
+tags: [rmarkdown, homebrew, OSX]
+description: ''
+---
 
 This document explains how to install R and RStudio with Homebrew on Mac OS.
 

@@ -14,7 +14,6 @@ Undergraduate Certificate in Data Science
 # Introductory
 
 * [MATH 130](https://norcalbiostat.github.io/MATH130/syllabus.html): Introduction to R 
-* [MATH 315](https://norcalbiostat.github.io/MATH315/sylalbus_f17.html): Applied Statistical Methods I
 * [MATH 385 / CSCI 385](/IDS Syllabus.pdf): Introduction to Data Science
 * JOUR 310: Data Journalism
 * GEOG 211 Introduction to Geographic Information Systems
@@ -24,7 +23,6 @@ Undergraduate Certificate in Data Science
 
 # Advanced
 
-* MATH 456: Applied Statistical Methods II 
 * MATH 485 / CSCI 485: Advanced Data Science 
 * CSCI 446: Introduction to Computer Networks and Network Management
 * CSCI 582: Artificial Intelligence 
@@ -34,7 +32,6 @@ Undergraduate Certificate in Data Science
 
 # Graduate
 
-* MATH 615: Statistical Methods for Graduate Research 
 * BSIS 610: Business Analytics 
 
 ----

@@ -28,7 +28,7 @@ Double clicking on these will start the standard installation process.
 
 [Video walkthrough](http://www.youtube.com/watch?v=uxuuWXU-7UQ)
 
-Install via [Homebrew](../install_r_with_homebrew.html). Guide courtesy of Justin Bankes (2017).
+Install via [Homebrew](https://csucsi.netlify.com/2017/03/24/2017-03-24-install_R_homebrew.html). Guide courtesy of Justin Bankes (2017).
 
 
 # R Studio
