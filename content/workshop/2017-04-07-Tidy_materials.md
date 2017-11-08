@@ -5,7 +5,7 @@ date: '2017-04-07'
 slug: tidy_rick
 categories: [data_management]
 tags: [tidy]
-description: ''
+description: 'An introduction to tidy data'
 ---
 
 # Are Your Data Tidy? Or, untidy?

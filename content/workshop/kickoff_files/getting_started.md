@@ -2,6 +2,7 @@
 title: Getting started with R and R Studio
 author: Robin Donatello
 date: '2017-03-24'
+description: 'Download, install, and orient yourself to R and R Studio'
 ---
 
 

@@ -26,7 +26,7 @@ Undergraduate Certificate in Data Science
 * MATH 485 / CSCI 485: Advanced Data Science 
 * CSCI 446: Introduction to Computer Networks and Network Management
 * CSCI 582: Artificial Intelligence 
-* CSCI 580: Bioinformatics
+* CSCI 580 / BIOL 482: Bioinformatics
 * GEOG 411 Geospatial Analysis and Modeling in GIS
 * GEOG 413 Advanced Cartography and Geovisualization
 

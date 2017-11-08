@@ -29,13 +29,17 @@ https://datascience.csuchico.edu
 |     |--YYYY-MM-DD_topic_announce.md (slug = topic_stuff)
 |  |--workshop  
 |     |--YYYY-MM-DD_topic.Rmd (slug = topic_stuff)
-|     |--topic_stuff
+|     |--topic_stuff (--WARNING--: *MD files in here will be rendered and show as a new workshop post!)
 |        |--data.txt
 |        |--slides.pdf
 |
 |--static (static files and images to link to. Non posts/workshops [linkto](/filename))
 |  |--img
+|  |  |--rstudio (R studio screenshots)
 |  |--materials
+|  |  |--DS Certificate, syllabi, 
+|  |--workshop
+
 
 
 ```
