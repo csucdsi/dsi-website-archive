@@ -7,14 +7,16 @@ date = 2017-08-21T02:13:50Z
 # Degree / Certification Programs
 Undergraduate Certificate in Data Science  
 
-* DS at Chico State: A three course sequence [[PDF]](/DS at CSUC - A three course sequence.pdf)
-* Full Certificate Proposal [[PDF]](/DS Certificate Proposal 20170314.pdf)
+![courses](/cert/DS FlowChart.jpg)
+
+* Envisioning Data Science at Chico state: A three course sequence [[PDF]](/cert/DS_three_courses.pdf)
+* Full Certificate Proposal [[PDF]](/cert/DS Certificate Proposal 20170314_Approved.pdf)
 
 
 # Introductory
 
 * [MATH 130](https://norcalbiostat.github.io/MATH130/syllabus.html): Introduction to R 
-* [MATH 385 / CSCI 385](/IDS Syllabus.pdf): Introduction to Data Science
+* [MATH 385 / CSCI 385](/cert/Syllabus_385.pdf): Introduction to Data Science
 * JOUR 310: Data Journalism
 * GEOG 211 Introduction to Geographic Information Systems
 * GEOG 311 GIS Concepts and Techniques
@@ -36,4 +38,4 @@ Undergraduate Certificate in Data Science
 
 ----
 
-Missing something? Want me to add your class? Let us know!
+Please contact Robin Donatello for consideration of additional classes to this list. 
