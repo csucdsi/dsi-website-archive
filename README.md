@@ -33,7 +33,7 @@ https://datascience.csuchico.edu
 |        |--data.txt
 |        |--slides.pdf
 |
-|--static (static files and images to link to. Non posts/workshops [linkto](/filename))
+|--static (static files and images to link to. Non posts/workshops [linkto](/filename)) 
 |  |--img
 |  |  |--rstudio (R studio screenshots)
 |  |--materials

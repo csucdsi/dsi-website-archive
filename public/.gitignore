@@ -1,4 +1,4 @@
-# Ignore all files in this directory
+# Ignore all files in this directory (static)
 *
 # Except this file
 !.gitignore
