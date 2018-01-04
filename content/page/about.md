@@ -8,7 +8,7 @@ date = 2017-08-01T02:13:50Z
 The Data Science Initiative aims to help organize the Data Science community by:
 
 * Providing a centralized location for information sharing and networking
-* Provind a well-known nexus to obtain, maintain, share, and henance relevant skills, knowledge, and abilities
+* Proving a well-known nexus to obtain, maintain, share, and enhance relevant skills, knowledge, and abilities
 * Providing a comprehensive overview of data science related curriculum connecting researchers and students
 * Connecting community partners with campus resources
 
@@ -27,7 +27,7 @@ The Data Science Initiative aims to help organize the Data Science community by:
 * Drop in as interested
 * Variety of skill & knowledge levels
 * Community driven - all volunteers
-* Training by expers in the field
+* Training by experts in the field
 * Open source training materials
 
 
