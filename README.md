@@ -3,12 +3,10 @@
 https://datascience.csuchico.edu 
 
 # todo
-2. redirect custom url - redirect works, but netlify domain still shows. 
-3. blog post about R class
-4. build workshop schedule 
-    - eventually into google calendar
-    - that has a link somewhere or is on a static page
-5. link to RUG and Google L-serv
+* Update theme to fix post author bug
+* build workshop schedule 
+    - display as a calendar
+* link to RUG and Google L-serv
 
 
 # File org & post order

@@ -7,9 +7,10 @@ disqusShortname = "XXX"
 googleAnalytics = "XXX"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-[Author]
-    name = ""
-    profile = "www.datascience.csuchico.edu"
+
+#[Author]
+#    name = " default name"
+#    profile = "www.datascience.csuchico.edu"
 
 [Taxonomies]
     tag = "tags"
