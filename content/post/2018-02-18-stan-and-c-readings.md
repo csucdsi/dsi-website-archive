@@ -1,5 +1,5 @@
 ---
-title: STAN and C++ readings
+title: Stan and C++ readings
 author: Edward Roualdes
 date: '2018-02-18'
 slug: stan-and-cpp-readings
