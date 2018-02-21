@@ -1,6 +1,6 @@
 ---
 title: Fun Opportunities for Statistics Students
-author: ''
+author: 'Robin Donatello'
 date: '2017-10-12'
 slug: data-ops-for-stat-students
 categories: []
