@@ -10,8 +10,8 @@ Undergraduate Certificate in Data Science
 ![courses](/materials/DS FlowChart.jpg)
 
 * Envisioning Data Science at Chico state: A three course sequence [[PDF]](/materials/DS_three_courses.pdf)
-* Full Certificate Proposal [[PDF]](/materials/DS Certificate Proposal 20170314_Approved.pdf)
-
+* Approved Certificate Proposal [[PDF]](/materials/DS Certificate Proposal 20170314_Approved.pdf)
+* _Link to the Course Catalog forthcoming_
 
 # Introductory
 
