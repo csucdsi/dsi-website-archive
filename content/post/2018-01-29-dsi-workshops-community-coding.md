@@ -30,6 +30,8 @@ The Data Science Initative at Chico State and the Chico R Users Group are hostin
 * We invite you to bring your Data Science and coding questions, data, and projects. Just need a place to work on stats/CS homework? You're invited too!
 * On most days Robin Donatello (STAT) or Edward Roualdes (STAT) will be present. Other members of the DSI may drop in on occasion. 
 
+![logo](/img/CommunityCodingFlyer.png)
+
 
 
 
