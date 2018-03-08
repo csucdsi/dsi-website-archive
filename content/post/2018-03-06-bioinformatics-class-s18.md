@@ -8,7 +8,7 @@ tags:
 slug: bioinformatics-class-s18
 ---
 
-Interested in analying genomic expression data? Interested in the tools that Biologists use to analyze DNA data? 
+Interested in analyzing genomic expression data? Interested in the tools that Biologists use to analyze DNA data? 
 
 
 Join us on **Tuesday March 13 at 2pm in MLIB 442** to hear Dr. Gordon Wolfe and Dr. Dave Keller from Biology presenting an overview and update on BIOL 482: Bioinformatics. **[[RSVP here]](https://goo.gl/forms/b74yuOj72fRKKnsC3)**
