@@ -6,6 +6,7 @@ tags:
   - DSI
   - community
   - coding
+  - workshop
 slug: dsi-workshops-community-coding
 ---
 
