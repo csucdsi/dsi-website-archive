@@ -1,12 +1,8 @@
 ---
 title: Statistical analysis functions using R
 author: Robin Donatello
-date: '2017-04-28'
 slug: stat_models_brief
-categories:
-  - R
-tags: []
-description: ''
+description: '2017-04-28 DSI Workshop'
 ---
 
 
@@ -81,7 +77,7 @@ opts_chunk$set(warning=FALSE, message=FALSE,
 <pre class="r"><code>a &lt;- ggplot(cdc, aes(x=wtdiff)) + geom_histogram() + theme_bw()
 b &lt;- ggplot(cdc, aes(x=1, y=wtdiff)) + geom_boxplot() + theme_bw()
 grid.arrange(a, b, nrow=1)</code></pre>
-<p><img src="/workshop/2017-04-28_stat_models_brief_files/figure-html/unnamed-chunk-4-1.png" width="576" style="display: block; margin: auto;" /></p>
+<p><img src="/event/2017-04-28_stat_models_brief_files/figure-html/unnamed-chunk-4-1.png" width="576" style="display: block; margin: auto;" /></p>
 <p>There are some people who report wanting to gain 300 and 500 lbs. Let’s consider them outliers and remove them from our analyses by overwriting the <code>cdc</code> data set with a subset of rows, where <code>wtdiff</code> is less than 200.</p>
 <pre class="r"><code>cdc &lt;- subset(cdc, wtdiff &lt; 200)</code></pre>
 <ol start="2" style="list-style-type: decimal">
@@ -152,9 +148,9 @@ grid.arrange(a, b, nrow=1)</code></pre>
 <li>Look at the data by creating a boxplot and density plot of <code>wtdiff</code> for each level of <code>gender</code>.</li>
 </ol>
 <pre class="r"><code>ggplot(cdc, aes(x=wtdiff, col=gender)) + geom_density() + theme_bw()</code></pre>
-<p><img src="/workshop/2017-04-28_stat_models_brief_files/figure-html/unnamed-chunk-10-1.png" width="576" style="display: block; margin: auto;" /></p>
+<p><img src="/event/2017-04-28_stat_models_brief_files/figure-html/unnamed-chunk-10-1.png" width="576" style="display: block; margin: auto;" /></p>
 <pre class="r"><code>ggplot(cdc, aes(y=wtdiff, x=gender, fill=gender)) + geom_boxplot() + theme_bw()</code></pre>
-<p><img src="/workshop/2017-04-28_stat_models_brief_files/figure-html/unnamed-chunk-10-2.png" width="576" style="display: block; margin: auto;" /> Looks like pretty similar distributions.</p>
+<p><img src="/event/2017-04-28_stat_models_brief_files/figure-html/unnamed-chunk-10-2.png" width="576" style="display: block; margin: auto;" /> Looks like pretty similar distributions.</p>
 <ol start="2" style="list-style-type: decimal">
 <li>Use <code>t.test()</code> function with <strong>model notation: y ~ x</strong>.</li>
 </ol>
@@ -230,7 +226,7 @@ grid.arrange(a, b, nrow=1)</code></pre>
         theme_bw() + 
         stat_summary(fun.y = &quot;mean&quot;, pch=17, geom=&quot;point&quot;,  size = 2) + # adds the mean as a diamond
         scale_fill_discrete(guide=FALSE) # get rid of the legend created by the fill= argument</code></pre>
-<p><img src="/workshop/2017-04-28_stat_models_brief_files/figure-html/unnamed-chunk-15-1.png" width="576" style="display: block; margin: auto;" /></p>
+<p><img src="/event/2017-04-28_stat_models_brief_files/figure-html/unnamed-chunk-15-1.png" width="576" style="display: block; margin: auto;" /></p>
 <ol start="2" style="list-style-type: decimal">
 <li>Conduct an ANOVA</li>
 </ol>
@@ -289,7 +285,7 @@ summary(model) # prints it in an easy to ready fashion. </code></pre>
       geom_smooth(se=FALSE, col=&quot;red&quot;) + # adds a smoothing trend line
       geom_smooth(se=FALSE, method=&quot;lm&quot;, col=&quot;blue&quot;) + # adds a best fit line
       theme_bw()</code></pre>
-<p><img src="/workshop/2017-04-28_stat_models_brief_files/figure-html/unnamed-chunk-18-1.png" width="576" style="display: block; margin: auto;" /></p>
+<p><img src="/event/2017-04-28_stat_models_brief_files/figure-html/unnamed-chunk-18-1.png" width="576" style="display: block; margin: auto;" /></p>
 <p>A linear model may not be appropriate for those who weigh over 250-300 lbs.</p>
 <ol start="2" style="list-style-type: decimal">
 <li>Fit a linear regression line for those who weigh less than 250 lbs. The workhorse function here is <code>lm()</code>, but like <code>aov()</code> looks better after being wrapped in a <code>summary()</code>.</li>
@@ -333,7 +329,7 @@ summary(linear.model)</code></pre>
       geom_point(size=.5) + 
       geom_smooth(se=FALSE) + # adds a smoothing trend line - per group
       theme_bw()</code></pre>
-<p><img src="/workshop/2017-04-28_stat_models_brief_files/figure-html/unnamed-chunk-21-1.png" width="576" style="display: block; margin: auto;" /></p>
+<p><img src="/event/2017-04-28_stat_models_brief_files/figure-html/unnamed-chunk-21-1.png" width="576" style="display: block; margin: auto;" /></p>
 <ol start="2" style="list-style-type: decimal">
 <li>Fit the additive linear model of weight + gender</li>
 </ol>

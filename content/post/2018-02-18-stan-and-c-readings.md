@@ -3,12 +3,11 @@ title: Stan and C++ readings
 author: Edward Roualdes
 date: '2018-02-18'
 slug: stan-and-cpp-readings
-categories:
-  - reading
-  - programming
 tags:
   - cpp
   - stan
+  - reading
+  - programming
 description: ''
 ---
 

@@ -1,13 +1,8 @@
 ---
 title: Data Visualization using ggplot2
 author: DSI Team
-date: '2017-04-21'
 slug: ggplot2_intro1
 description: 'Learn the grammer of graphics'
-categories:
-  - R
-  - DataViz
-tags: []
 output: 
   blogdown::html_page:
     toc: true

@@ -1,10 +1,7 @@
 ---
 title: Preparing Data for Analysis using R
 author: Rick Hubbard
-date: '2017-04-07'
 slug: tidy_rick
-categories: [data_management]
-tags: [tidy]
 description: 'An introduction to tidy data'
 ---
 

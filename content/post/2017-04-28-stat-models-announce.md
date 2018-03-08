@@ -1,16 +1,14 @@
 ---
-title: Fitting introductory statistical models in R
-author: ''
+title: DSI Workshop - Fitting introductory statistical models in R
+author: 'Robin Donatello'
 date: '2017-04-28'
 slug: stat_models_brief
-categories:
-  - R
-  - statistics
 tags:
   - R
   - statistics
   - analysis
-description: 'Part of the Spring 17 R Workshop Series'
+  - workshop
+description: 'Spring 17 DSI Workshop Series on R'
 ---
 
 
@@ -20,6 +18,7 @@ description: 'Part of the Spring 17 R Workshop Series'
 * **Time:** 3-4:30 pm
 * **Location:** MLIB 442
 * **Presenter:** Robin Donatello: rdonatello@csuchico.edu 
+* [[Workshop Details & Materials]](/event/stat_models_brief/)
 
 ## Learning Objectives
 
@@ -35,7 +34,6 @@ In this workshop you will learn and practice the following:
 * `ggplot2` version 2.2.1 or higher installed. 
 * `gridExtra` version 2.2.1 or higher installed
 
-Need a refresher on how to make plots? See the [Data ViZ](https://csudsi.netlify.com/workshop/ggplot2_intro1/) DSI tutorial from April 21, 2017. 
+Need a refresher on how to make plots? See the [Data ViZ](https://csudsi.netlify.com/event/ggplot2_intro1/) DSI tutorial from April 21, 2017. 
 
 
-[Workshop Details & Materials](/workshop/stat_models_brief/)

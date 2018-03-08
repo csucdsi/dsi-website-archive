@@ -3,10 +3,9 @@ title: Intro to R (MATH 130)- New section added for spring
 author: 'Robin Donatello'
 date: '2017-12-05'
 slug: new-intro-to-r
-categories:
-  - R
 tags:
   - curriculum
+  - R
 description: ''
 ---
 

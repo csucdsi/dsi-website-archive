@@ -4,12 +4,9 @@ subtitle: stuff
 author: 'Robin Donatello'
 date: '2017-08-14'
 slug: math-130-F17
-categories:
-  - R
-  - learning
-  - workshops
 tags:
   - R
+  - curriculum
 description: ''
 ---
 

@@ -1,13 +1,13 @@
 ---
-title: Sp17 R Workshop Series - Exploring your data
-author: ''
+title: DSI Workshop - Exploring your data
+author: 'Robin Donatello'
 date: '2017-04-14'
 slug: r_import
-categories:
+tags:
   - R
-  - DataViz
-tags: []
-description: ''
+  - data_management
+  - workshop
+description: 'Spring 17 DSI Workshop Series on R'
 ---
 
 
@@ -25,5 +25,5 @@ In this workshop you will learn and practice the following:
 * How to start looking at your data using tables and simple plots
 * Identifying problems in the data such as missing data or numbers stored as characters
 
-[Workshop Details & Materials](/workshop/r_import/)
+[Workshop Details & Materials](/event/r_import/)
 

@@ -25,18 +25,18 @@ https://datascience.csuchico.edu
 |     |--people.md
 |  |--post
 |     |--YYYY-MM-DD_topic_announce.md (slug = topic_stuff)
-|  |--workshop  
+|  |--event[formerly known as workshops  
 |     |--YYYY-MM-DD_topic.Rmd (slug = topic_stuff)
 |     |--topic_stuff (--WARNING--: *MD files in here will be rendered and show as a new workshop post!)
 |        |--data.txt
 |        |--slides.pdf
 |
-|--static (static files and images to link to. Non posts/workshops [linkto](/filename)) 
+|--static (static files and images to link to. Non posts/events [linkto](/filename)) 
 |  |--img
 |  |  |--rstudio (R studio screenshots)
 |  |--materials
 |  |  |--DS Certificate, syllabi, 
-|  |--workshop
+|  |--event[formerly known as workshops]
 
 
 

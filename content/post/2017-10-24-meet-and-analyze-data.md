@@ -3,9 +3,9 @@ title: Meet and analyze data
 author: 'Robin Donatello'
 date: '2017-10-24'
 slug: meet-and-analyze-data
-categories:
-  - R
-tags: []
+tags: 
+  - community
+  - coding
 description: ''
 ---
 

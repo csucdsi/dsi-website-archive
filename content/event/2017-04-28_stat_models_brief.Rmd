@@ -1,12 +1,8 @@
 ---
 title: Statistical analysis functions using R
 author: Robin Donatello
-date: '2017-04-28'
 slug: stat_models_brief
-categories:
-  - R
-tags: []
-description: ''
+description: '2017-04-28 DSI Workshop'
 ---
 
 

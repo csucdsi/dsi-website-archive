@@ -3,11 +3,10 @@ title: 'Call for speakers and makers'
 author: Robin Donatello
 date: '2017-08-01'
 slug: speakers-needed
-categories:
+tags:
   - volunteer
-  - speakers
+  - seminar
   - workshops
-tags: []
 description: 'Are you working on an interesting project that you want to share?'
 draft: FALSE
 ---

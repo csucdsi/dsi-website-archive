@@ -8,12 +8,12 @@ tags: [R, Rstudio]
 description: ''
 ---
 
-## Introduction to the DSI [slide deck](/workshop/kickoff_files/2017-03-24_Slides.pdf).
+## Introduction to the DSI [slide deck](/event/kickoff_files/2017-03-24_Slides.pdf).
 
 
 # Materials
 
-* [Program installation, setup, preferences](/workshop/kickoff_files/getting_started/) 
+* [Program installation, setup, preferences](/event/kickoff_files/getting_started/) 
     - **NOT COVERED FULLY DURING WORKSHOP**
 * Hands on Introduction to R - Exploring the Data Science Community in Chico. 
     - [[Download R code]](/workshop/kickoff_files/IntroR_whois_DS.R) to download the source code for today. 

@@ -1,11 +1,7 @@
 ---
 title: Exploring your data with R
 author: Robin Donatello
-date: '2017-04-14'
 slug: r_import
-categories:
-  - R
-tags: []
 ---
 
 
@@ -233,22 +229,22 @@ read.csv(url(&quot;https://raw.githubusercontent.com/washingtonpost/data-police-
 <li>Histogram</li>
 </ul>
 <pre class="r"><code>hist(hsb2$write)</code></pre>
-<p><img src="/workshop/2017-04-14-r_import_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
+<p><img src="/event/2017-04-14-r_import_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
 <ul>
 <li>Boxplot</li>
 </ul>
 <pre class="r"><code>boxplot(hsb2$read)</code></pre>
-<p><img src="/workshop/2017-04-14-r_import_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
+<p><img src="/event/2017-04-14-r_import_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
 <ul>
 <li>Boxplot across groups</li>
 </ul>
 <pre class="r"><code>boxplot(read~gender, data=hsb2)</code></pre>
-<p><img src="/workshop/2017-04-14-r_import_files/figure-html/unnamed-chunk-15-1.png" width="672" /></p>
+<p><img src="/event/2017-04-14-r_import_files/figure-html/unnamed-chunk-15-1.png" width="672" /></p>
 <ul>
 <li>Scatterplot</li>
 </ul>
 <pre class="r"><code>plot(write~read, data=hsb2) </code></pre>
-<p><img src="/workshop/2017-04-14-r_import_files/figure-html/unnamed-chunk-16-1.png" width="672" /></p>
+<p><img src="/event/2017-04-14-r_import_files/figure-html/unnamed-chunk-16-1.png" width="672" /></p>
 </div>
 <div id="categorical-variables" class="section level4">
 <h4>Categorical variables</h4>
@@ -256,12 +252,12 @@ read.csv(url(&quot;https://raw.githubusercontent.com/washingtonpost/data-police-
 <li>Barchart of a single variable</li>
 </ul>
 <pre class="r"><code>barplot(table(washpost15$flee))</code></pre>
-<p><img src="/workshop/2017-04-14-r_import_files/figure-html/unnamed-chunk-17-1.png" width="672" /></p>
+<p><img src="/event/2017-04-14-r_import_files/figure-html/unnamed-chunk-17-1.png" width="672" /></p>
 <ul>
 <li>Side by side barchart for two categorical variables</li>
 </ul>
 <pre class="r"><code>barplot(table(washpost15$flee, washpost15$threat_level), beside=TRUE, legend=TRUE) </code></pre>
-<p><img src="/workshop/2017-04-14-r_import_files/figure-html/unnamed-chunk-18-1.png" width="672" /></p>
+<p><img src="/event/2017-04-14-r_import_files/figure-html/unnamed-chunk-18-1.png" width="672" /></p>
 <p>Want better plots? Come to the <a href="datascience.csuchico.edu">DSI workshop</a> on 5/5 to learn how to visualize your data using <code>ggplot2</code>.</p>
 </div>
 </div>
@@ -271,7 +267,7 @@ read.csv(url(&quot;https://raw.githubusercontent.com/washingtonpost/data-police-
 <pre class="r"><code>mean(washpost15$age)</code></pre>
 <pre><code>## [1] NA</code></pre>
 <pre class="r"><code>ggplot(washpost15, aes(x=flee)) + geom_bar()</code></pre>
-<p><img src="/workshop/2017-04-14-r_import_files/figure-html/unnamed-chunk-19-1.png" width="672" /></p>
+<p><img src="/event/2017-04-14-r_import_files/figure-html/unnamed-chunk-19-1.png" width="672" /></p>
 <p>Wait, where did that <code>NA</code> come from for the <code>flee</code> variable? We looked at a table earlier and didn’t see any.</p>
 <p>Using the <code>useNA</code> argument to the <code>table()</code> function shows us if there are any missing values.</p>
 <pre class="r"><code>table(washpost15$flee, useNA = &quot;always&quot;)</code></pre>
@@ -298,6 +294,6 @@ read.csv(url(&quot;https://raw.githubusercontent.com/washingtonpost/data-police-
 <pre class="r"><code>wp_nomiss &lt;- subset(washpost15, !is.na(washpost15$flee))
 
 ggplot(wp_nomiss, aes(x=flee)) + geom_bar()</code></pre>
-<p><img src="/workshop/2017-04-14-r_import_files/figure-html/unnamed-chunk-23-1.png" width="672" /></p>
+<p><img src="/event/2017-04-14-r_import_files/figure-html/unnamed-chunk-23-1.png" width="672" /></p>
 </div>
 </div>

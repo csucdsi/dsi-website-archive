@@ -1,16 +1,12 @@
 ---
 title: Spring hours set for DSI Workshops & Community Coding
-author: 'Robin Donatello'
+author: Robin Donatello
 date: '2018-01-29'
-slug: dsi-workshops-community-coding
-categories:
+tags:
   - DSI
-  - learning
-  - R
-  - speakers
-  - workshops
-tags: []
-description: ''
+  - community
+  - coding
+slug: dsi-workshops-community-coding
 ---
 
 The Data Science Initative at Chico State and the Chico R Users Group are hosting bi-weekly work sessions and tutorial sessions for the entire campus and Chico community. 

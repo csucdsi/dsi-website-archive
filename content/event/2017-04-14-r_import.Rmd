@@ -1,11 +1,7 @@
 ---
 title: Exploring your data with R
 author: Robin Donatello
-date: '2017-04-14'
 slug: r_import
-categories:
-  - R
-tags: []
 ---
 
 ```{r, echo=FALSE}

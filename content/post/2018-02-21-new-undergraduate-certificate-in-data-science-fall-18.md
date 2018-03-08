@@ -2,11 +2,10 @@
 title: New Undergraduate Certificate in Data Science - Fall 18
 author: Robin Donatello
 date: '2018-02-20'
-slug: certificate
-categories:
+tags:
+  - DSI
   - curriculum
-tags: []
-description: ''
+slug: certificate
 ---
 
 We are very proud to share with you that starting Fall 2018 Chico State will offer an Undergraduate Certificate in Data Science! 

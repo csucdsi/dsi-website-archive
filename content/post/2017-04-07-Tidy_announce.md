@@ -1,14 +1,14 @@
 ---
-title: Sp17 R Workshop Series - Preparing Data for Analysis using R
+title: DSI Workshop - Preparing Data for Analysis using R
 author: Rick Hubbard
 date: '2017-04-07'
-categories:
-  - data_management
-  - R
 tags:
   - R
   - tidy
+  - data_management
+  - workshop
 slug: R_prep
+description: 'Spring 17 DSI Workshop Series on R'
 ---
 
 # Logistics
@@ -41,6 +41,6 @@ In addition to a place in space and time where interesting people address and re
 * **Doing** (all the above plus mentoring and problem-resolution); and
 * **Cookies** (considered self-evident).
 
-[Workshop Details & Materials](/workshop/tidy_rick/)
+[Workshop Details & Materials](/event/tidy_rick/)
 
 

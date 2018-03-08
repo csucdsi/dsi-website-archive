@@ -1,11 +1,11 @@
 ---
 title: Fun Opportunities for Statistics Students
-author: 'Robin Donatello'
+author: Robin Donatello
 date: '2017-10-12'
+tags:
+  - fun
+  - event
 slug: data-ops-for-stat-students
-categories: []
-tags: []
-description: ''
 ---
 
 The following list of opportunities for students of Statisics was sent to us by [Mark Harbison](http://wserver.scc.losrios.edu/~harbism/) at [Sacramento City College](http://www.scc.losrios.edu/). 
