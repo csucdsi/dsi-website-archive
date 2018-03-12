@@ -2,7 +2,6 @@
 title: 'Seminar: Introduction to Bayesian Modeling'
 author: Robin Donatello
 date: '2018-03-15'
-draft: TRUE
 tags:
   - bayes
   - seminar
