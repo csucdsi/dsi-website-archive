@@ -1,5 +1,5 @@
 ---
-title: Data Science Certificate Info Session Th 3/29
+title: Data Science Certificate Info Session
 author: Robin Donatello
 date: '2018-03-23'
 slug: ds-info-session
@@ -11,7 +11,7 @@ tags: []
 description: ''
 ---
 
-Come learn about the new Undergraduate Certificate in Data Science. Motivation for the program, details about the enrollment process, course requirements and benefits for students. Enrollment in the Certificate program opens Fall 2018. 
+Come learn about the new Undergraduate Certificate in Data Science. Motivation for the program, details about the enrollment process, course requirements and benefits for students. Enrollment in the Certificate program opens Fall 2018.
 
 # Thursday 3-29, 2pm, MLIB 442
 

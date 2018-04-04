@@ -1,8 +1,8 @@
 ---
-title: Getting Started with Python & Jupyter Notebooks
+title: Workshop: Getting Started with Python & Jupyter Notebooks
 author: Robin Donatello
 date: '2018-04-01'
-slug: intro-python
+slug: setup-python
 categories:
   - learning
   - workshop
@@ -11,9 +11,15 @@ tags: []
 description: 'Part 1 of 2'
 ---
 
-## Logistics
-* Thu April 5th 3-4pm 
-* MLIB 442
+
+# Logistics / Setup
+
+* **Date:** Thursday April 5, 2018
+* **Time:** 3-3:50 pm
+* **Location:** MLIB 442
+* **Presenter:** Grant Esparza 
+* [[Workshop Details & Materials]] Forthcoming
+
 
 The DSI is hosting for our first workshop on Python! 
 
