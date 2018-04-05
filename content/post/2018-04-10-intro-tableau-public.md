@@ -1,5 +1,5 @@
 ---
-title: Workshop: A Brief Introduction to Tableau Public
+title: 'Workshop: A Brief Introduction to Tableau Public'
 author: Robin Donatello
 date: '2018-04-04'
 slug: intro-tableau-public
@@ -12,13 +12,15 @@ description: ''
 ---
 
 
+April is [Data Fest](https://csucdsi.github.io/datafest/) Prep month! Hone your skills in preparation for this exciting data hackathon event!
+
 # Logistics / Setup
 
 * **Date:** Tuesday April 17, 2018
 * **Time:** 2-2:50 pm
 * **Location:** MLIB 442
 * **Presenter:** Ben Juliano bjuliano@mail.csuchico.edu
-* [[Workshop Details & Materials]] Forthcoming
+* **Workshop Details & Materials** Forthcoming
 
 ## Description
 
