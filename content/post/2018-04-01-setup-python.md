@@ -20,8 +20,8 @@ April is [Data Fest](https://csucdsi.github.io/datafest/) Prep month! Hone your 
 * **Location:** MLIB 442
 * **Presenter:** Grant Esparza 
 * **Workshop Materials**
-    - [Slides](event/setup-python/python_presentation.pdf)
-    - [Python Notebook version of slides](event/setup-python/Python for Windows 10.ipynb)
+    - [Slides](../event/setup-python/python_presentation.pdf)
+    - [Python Notebook version of slides](../event/setup-python/Python for Windows 10.ipynb)
 
 
 
