@@ -20,7 +20,7 @@ Grant led us through how to install Python3 on Windows and OSX using CLI (Comman
 
 For windows users who don't have root permissions (i.e. a work computer) there is an alternative approach using the [Anaconda Platform](www.anaconda.com/what-is-anaconda/). 
 
-![/event/setup_python/anaconda_logo.png](https://www.anaconda.com/distribution)
+![https://www.anaconda.com/distribution](/event/setup_python/anaconda_logo.png)
 
 The Anaconda Distribution provides Data Scientists with a ready-to-use sandbox for you to play in that can be downloaded and installed in a few clicks. The programs and libraries that come with Anaconda distribution may be overkill for some users. It provides a "get all the things and use what you need" approach instead of a "customize your setup to get only what you need when you need it" approach to building your sandbox. And for some of us, that's perfectly fine. 
 
@@ -29,11 +29,11 @@ The Anaconda Distribution provides Data Scientists with a ready-to-use sandbox f
 1. Download Anaconda by clicking on the image above or going to https://www.anaconda.com/distribution. Install as typical. 
 2. Go to your Start menu and find Anaconda. You'll see several programs are available to you - click on **Jupyter Notebook**. 
 
-![/event/setup_python/start_menu.png]()
+![](/event/setup_python/start_menu.png)
 
 3. A terminal window will pop up. This is starting a _kernel_ or the core program that will start up a browser window from which you can interact with the Jupyter Notebook. This window needs to stay open in the background, it's running the server that is hosting the notebook you're going to use. It will look something like this (it may take a few seconds for the text to appear and for the browser window to pop up.)
 
-![/event/setup_python/kernel.png]()
+![](/event/setup_python/kernel.png)
 
 
 From here you can either 
