@@ -11,7 +11,8 @@ description: '04-05-18 Workshop materials'
 * [Workshop slides](/event/setup_python/python_presentation.pdf)
 * [Python Notebook version of slides](/event/setup_python/Python for Windows 10.ipynb)
 
-# Post workshop updates
+# Post workshop updates 
+_(by Robin Donatello)_
 
 Grant led us through how to install Python3 on Windows and OSX using CLI (Command Line Interface). This is a great approach for those who want to get more comfortable with using the command line. For Mac users, the entire process came down to installing 3 programs: homebrew, python3, and jupyter. That is because it's built on a Unix system. Windows however does not (yet?) natively have any way to interact with Unix. That is the focus of Grant's talk, is to walk Windows users through the process of getting Unix, setting permissions, then finally getting the programs. 
 
@@ -54,7 +55,9 @@ Next week (4/12/18) Edward Roualdes will walk us through [using Python for Explo
 * edX course from Microsoft: https://www.edx.org/course/introduction-to-python-absolute-beginner 
 * User documentation from `readthedocs` - looks to be quite heavy on configuration and security. May not be helpful for newbies.  https://jupyter-notebook.readthedocs.io/en/stable/index.html 
 
+### Error with `matplotlib`? 
+The jury is still out on this one. I  noticed that some people during the workshop couldn't run the sample code because `matplotlib` wasn't recognized. However if I open Anaconda Navigator (Windows) it shows that the package is installed. I haven't been able to replicate the problem yet, but I did find this Stack Overflow post that indicates it may be a dependency conflict: https://stackoverflow.com/questions/43680018/why-matplotlib-doesnt-update-in-anaconda-to-the-2-0-version
 
-
+Any tips, fixes or pointers on this please contact us!
 
 
