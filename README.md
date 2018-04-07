@@ -25,7 +25,7 @@ https://datascience.csuchico.edu
 |     |--people.md
 |  |--post
 |     |--YYYY-MM-DD_topic_announce.md (slug = topic_stuff)
-|  |--event[formerly known as workshops  
+|  |--event[formerly known as workshops]  
 |     |--YYYY-MM-DD_topic.Rmd (slug = topic_stuff)
 |     |--topic_stuff (--WARNING--: *MD files in here will be rendered and show as a new workshop post!)
 |        |--data.txt

@@ -15,7 +15,7 @@ In this workshop you will learn and practice the following:
 
 ## Pre-Requirements / Setup 
 * A laptop with R (v3.3.0+), and RStudio (v1.1.136) installed and operational. 
-* The (/workshop/stat_models_brief/cdc.txt) data downloaded and put into a DSI workshop folder. 
+* The (/event/stat_models_brief/cdc.txt) data downloaded and put into a DSI workshop folder. 
 * `ggplot2` version 2.2.1 or higher installed. 
 * `gridExtra` version 2.2.1 or higher installed
 
