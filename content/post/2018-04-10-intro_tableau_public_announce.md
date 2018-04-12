@@ -3,7 +3,6 @@ title: 'Workshop: A Brief Introduction to Tableau Public'
 author: Robin Donatello
 date: '2018-04-04'
 slug: intro-tableau-public
-draft: true
 categories:
   - workshop
   - tableau

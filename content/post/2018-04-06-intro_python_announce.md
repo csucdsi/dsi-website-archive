@@ -19,7 +19,7 @@ April is [Data Fest](https://csucdsi.github.io/datafest/) Prep month! Hone your 
 * **Time:** 3-3:50 pm
 * **Location:** MLIB 442
 * **Presenter:** Edward Roualdes 
-* [[Workshop Details & Materials]] Forthcoming
+* [[Workshop Details & Materials]] (/event/intro_python/)
 
 ## Description
 
