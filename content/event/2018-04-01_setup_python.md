@@ -1,6 +1,6 @@
 ---
 title: 'Getting Started with Python & Jupyter Notebooks'
-author: 'Grant Esparza'
+author: Grant Esparza
 slug: setup_python
 description: '04-05-18 Workshop materials'
 ---

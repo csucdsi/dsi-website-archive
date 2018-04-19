@@ -12,14 +12,45 @@ To get the most out of this workshop you should have the following installed on 
 
 * R Version 3.3+
     - with installed packages: `ggplot2`, `ggmap`, `MASS`
+    - optional packages: `waffle`, `scales`
 * R Studio version 1.1+
 
+---
+
+# Introduction
+Visualizing your data is hands down the most important thing you can learn to do. Seeing is critical to understanding. There are three audiences in mind when creating data visualizations: 
+
+1. For your eyes only: Made by the analyst, for the analyst, these plots are quick and easy to create, using the default options without any annotation or context. These graphs are meant to be looked at once or twice for exploratory analysis in order to better understand the data. 
+2. For an internal report: Some chosen plots are then cleaned up to be shared with others, for example in a weekly team meeting or to be sent to co-investigators participating in the study. These need to be capable of standing on their own, but can be slightly less than perfect. Axes labels, titles, colors, annotations and other captions are provided as needed to put the graph in context. 
+3. For publication or external report: These are meant to be shared with other stakeholders such as the public, your collaborator(s) or administration. Very few plots make it this far. These plots should have all the "bells and whistles" as they appear in formal reports, and are often saved to an external file of a specific size or file type, with high resolution. For publication in most printed journals and books figures typically need to be in black and white (possibly grayscale).
+  
+You will see, and slowly learn, how to add these annotations and how to clean up your graphics to make them sharable. Functions inside the `ggplot2` package automatically does a lot of this work for you. Remember this package has to be loaded prior to being able to access the functions within. 
+
+```{r}
+library(ggplot2)
+```
 
 ```{r, echo=FALSE}
-library(ggplot2)
 knitr::opts_chunk$set(eval=FALSE, echo = TRUE, fig.height=4, fig.width=6)
 ```
 
+
+## The syntax of `ggplot`
+The reason we use the functions in `ggplot2` is for consistency in the structure of it's arguments. Here is a bare bones generic plotting function: 
+
+```{r, eval=FALSE}
+ggplot(data, aes(x=x, y=y, col=col, fill=fill, group=group)) +  geom_THING() 
+```
+
+### Required arguments
+
+* `data`: What data set is this plot using? This is ALWAYS the first argument.
+* `aes()`: This is the _aestetics_ of the plot. What's varible is on the x, what is on 
+   the y? Do you want to color by another variable, perhaps fill some box by the value
+   of another variable, or group by a variable. 
+* `geom_THING()`: Every plot has to have a geometry. What is the shape of the thing you 
+   want to plot? Do you want to plot points - use `geom_points()`. Want to connect those
+   points with a line? Use `geom_lines()`. We will see many varieties in this lab. 
 
 Using the `survey` data set that is built into the `MASS` package, we will create several plots. 
 Let's load this into our working directory. 
@@ -27,33 +58,81 @@ Let's load this into our working directory.
 survey <- MASS::survey
 ```
 
+---
+
 # One categorical variable
 
 ## Barchart
 A barchart of how often the responders excercised in the past month. `geom_bar` makes the height of the bar proportional to the number of cases in each group. 
 
 ```{r}
-cdc$smoke_char <- factor(cdc$smoke100, labels=c("No", "Yes"))
-ggplot(cdc, aes(x=exerany, fill=smoke_char)) + geom_bar(position="dodge")
+ggplot(survey, aes(x=Exer)) + geom_bar()
 ```
 
+Want proportions? You can calculate it on the fly by doing a calculation on an internal value: `..count..`. 
+
+```{r}
+ggplot(survey, aes(Exer)) +
+  geom_bar(aes(y=..count../sum(..count..)))
+```
+
+Ugly y axis title and labels. Use the package `scales` to clean it up a little. 
+```{r}
+library(scales)
+ggplot(survey, aes(Exer)) +
+  geom_bar(aes(y=..count../sum(..count..))) + ylab("Percent") + 
+  scale_y_continuous(labels=percent_format())
+```
+
+
+## Pie chart
+If you must... ggplot isn't really the way to go here. Base graphics can suffice. 
+
+```{r}
+pie(table(survey$Exer))
+```
+
+## Waffle chart
+Kinda fun. 
+
+```{r}
+library(waffle)
+waffle(table(survey$Exer)/5, rows=4, xlab="1 square = 5 people")
+```
+
+---
 
 # One numeric variable
 
 ## Histograms and densities
-of age, with an overlaid density plot in a different color.
-
-```{r, fig.height=4, fig.width=4}
-ggplot(cdc, aes(x=age)) + geom_density(col="blue") + 
-  geom_histogram(aes(y=..density..), colour="black", fill=NA)
-```
-    
-## Boxplots
-A boxplot of weight.
+Of age, with an overlaid density plot in a different color.
 
 ```{r}
-boxplot(cdc$weight, horizontal = TRUE, main="Distribution of respondants weight", xlab="Pounds")
+ggplot(survey, aes(x=Age)) + geom_histogram()
 ```
+
+* change `geom_histogram()` to `geom_density()`
+* add both layers. What happens? 
+* Add `aes(y=..density..)` to map the density to the y axis of the histogram. 
+
+
+```{r}
+ggplot(survey, aes(x=Age)) + geom_density(col="blue") + 
+  geom_histogram(aes(y=..density..), colour="black", fill=NA)
+```
+
+    
+## Boxplots
+A boxplot of weight. -- For only one group base graphics is the way to go. 
+
+```{r}
+boxplot(survey$Height)
+```
+
+## YOU TRY  --- add argument horizontal=TRUE
+
+
+---
 
 # Two categorical variables 
 
@@ -61,83 +140,121 @@ boxplot(cdc$weight, horizontal = TRUE, main="Distribution of respondants weight"
 of exercise frequency _within_ smoking status. 
 
 ```{r}
-ggplot(cdc, aes(x=smoke_char, fill=genhlth)) + geom_bar(position="dodge")
+ggplot(survey, aes(x=Smoke, fill=Exer)) + geom_bar()
 ```
+
+## YOU TRY  --- use position=dodge in the geom_bar layer to move the bars side by side
 
 
 # Two numeric variables
 ## Scatterplots
-A scatterplot of the weight against desired weight
+A scatterplot of height against age
 
 ```{r}
-plot(weight~wtdesire, data=cdc)
+ggplot(survey, aes(y=Height, x=Age)) + geom_point()
 ```
 
-a. Add a best fit line in purple.
+## YOU TRY --- Add smooth trend line in red. 
+## YOU TRY --- Add a linear best fit line (method="lm") in purple, 
 
 ```{r}
-plot(weight~wtdesire, data=cdc)
-abline(lm(weight~wtdesire, data=cdc), col="purple")
+ggplot(survey, aes(y=Height, x=Age)) + geom_point() +
+    geom_smooth(col="___")
 ```
 
+---
 
-# One numeric and one categorical
+# Multivariate
 
-## Overlaid density plots. 
+## One numeric and one categorical
 
-Overlaid density plots of height by gender. No fill, color only.
+### Overlaid density plots. 
+
+Overlaid density plots of pulse by exercis frequency. No fill, color only.
 
 ```{r}
-ggplot(cdc, aes(x=height, col=gender)) + geom_density()
+ggplot(survey, aes(x=Pulse, col=Exer)) + geom_density() 
 ```
 
-## Paneled histograms
-Histogram of weight paneled by gender
+## YOU TRY --- Change col= to fill=. What happens? 
 
-a. where the panels are horizontal (1 row 2 columns)
+### Grouped boxplots  
+Categorical variable on the x-axis, continuous on the y. 
+
+```{r}
+ggplot(survey, aes(x=Exer, y=Pulse, fill=Exer)) + geom_boxplot()
+```
+
+## YOU TRY --- What happens if you try to do y=categorical and x=continuous? 
+## YOU TRY --- Take off the fill aestetic. What else do you loose? 
+## YOU TRY --- Add a layer for `coord_flip()`. What does this do? 
+## YOU TRY --- Add `geom_violin()` to the above plot. 
+
+Lets control the `width` of the boxes, the transparency (alpha), and add the group means as points using `stat_summary`. 
+```{r}
+ggplot(survey, aes(x=Exer, y=Pulse, fill=Exer)) + 
+        geom_boxplot(width=.2, alpha=.5) + 
+        geom_violin(alpha=.1) + 
+        stat_summary(fun.y=mean, geom="point", size=3)
+```   
+
+### Paneled histograms
+
+By default the panels are horizontal. 
    
 ```{r}
-ggplot(cdc, aes(x=weight, fill=gender)) + geom_histogram() + facet_wrap(~gender)
-```
-   
-b. where the panels are vertical (2 rows 1 column)
-
-```{r}
-ggplot(cdc, aes(x=weight, fill=gender)) + geom_histogram() + facet_wrap(~gender, ncol=1)
+ggplot(survey, aes(x=Pulse, fill=Exer)) + geom_histogram() + facet_wrap(~Exer)
 ```
 
+## YOU TRY ---  Add `ncol=1` to the `facet_wrap`. What changes? 
 
-# Two numerical and one categorical
+### Scatterplots with color
 
-## Scatterplots with color
-
-A scatterplot of height (y) against weight (x) grouped by gender (you can choose grouping by shape or color)
+A scatterplot of Pulse (y) against Age (x) grouped by Exercise status using color=
     
 ```{r}
-ggplot(cdc, aes(x=height, y=weight, color=gender)) + geom_point()
+ggplot(survey, aes(x=Age, y=Pulse, color=___)) + geom_point()
 ```
 
-## Stratified scatterplots with paneling
-A scatterplot of height against age paneled (faceted) by general health status.
-    
-```{r}
-ggplot(cdc, aes(x=age, y=height, color=genhlth)) + geom_point() + facet_grid(~genhlth)
-```
-
+## YOU TRY --- Change `color` to `shape`. 
+## YOU TRY --- Add a geom_smooth()  layer
+## YOU TRY --- Add a fourth dimension by paneling (`facet_wrap`) by `Smoke`
 
 # One numerical and two categorical
 
-## Grouped boxplots 
-Desired weight by exercise & gender. Put one categorical on the x, fill the box color by the other. 
-  
-```{r}
-ggplot(cdc, aes(x=exerany, y=wtdesire, fill=gender)) + geom_boxplot()
-```    
+## Grouped boxplots  - Distribution of pulse across exercise & gender. 
 
+## YOU TRY --- Put one categorical on the x, fill the box color by the other. 
+## YOU TRY --- Then swap x and fill
+```{r}
+ggplot(_____, aes(x=_____, y=Pulse, fill=____)) + geom________()
+```
+ 
+
+ 
 ## Grouped boxplots with paneling
 Same plot as above, but now panel by smoking status category. 
 
+
+---
+
+# mapping: Reproduce Ben's earthquake plot but for Fiji
+The data set give the locations of 1000 seismic events of MB > 4.0. The events occurred in a cube near Fiji since 1964.
+
 ```{r}
-ggplot(cdc, aes(x=exerany, y=wtdesire, fill=gender)) + geom_boxplot() +
-  facet_wrap(~smoke_char, ncol=2)
-```    
+head(quakes)
+```
+
+```{r}
+library(ggmap)
+fiji_map  <- get_map(location="Fiji", zoom=5)
+```
+
+Create the base map, then add a layer of points. 
+```{r}
+ggmap(fiji_map) + 
+    geom_point(data=quakes, aes(x=long, y=lat, col=mag)) + 
+    scale_color_gradient(low="white", high="darkred")
+```
+
+

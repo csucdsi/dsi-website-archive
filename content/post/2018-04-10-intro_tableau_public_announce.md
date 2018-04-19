@@ -19,7 +19,7 @@ April is [Data Fest](https://csucdsi.github.io/datafest/) Prep month! Hone your 
 * **Time:** 2-2:50 pm
 * **Location:** MLIB 442
 * **Presenter:** Ben Juliano bjuliano@mail.csuchico.edu
-* **Materials:** [[Slides]](event/materials/2018-04-17-Intro_Tableau_Public.pdf)
+* **Materials:** [[Slides]](/event/materials/2018-04-17-Intro_Tableau_Public.pdf)
 
 ## Description
 

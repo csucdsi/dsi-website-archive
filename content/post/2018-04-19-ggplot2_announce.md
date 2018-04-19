@@ -18,7 +18,7 @@ April is [Data Fest](https://csucdsi.github.io/datafest/) Prep month! Hone your 
 * **Time:** 3-3:45 pm
 * **Location:** MLIB 442
 * **Presenter:** Robin Donatello: rdonatello@csuchico.edu 
-* **Materials:** _Forthcoming_
+* **Materials:** [R code](/event/ggplot2_intro2/ggplot2_april18.R)
 
 <!--- * [[Workshop Details & Materials]](/event/ggplot2_intro2/) --->
 
