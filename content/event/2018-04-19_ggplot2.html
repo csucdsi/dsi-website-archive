@@ -1,0 +1,217 @@
+---
+title: 'Data Visualization using ggplot2'
+author: 'Robin Donatello'
+slug: ggplot2_intro2
+draft: true
+description: '04-19-18 Workshop materials'
+---
+
+
+
+<div id="preparation" class="section level1">
+<h1>Preparation</h1>
+<p>To get the most out of this workshop you should have the following installed on your laptop:</p>
+<ul>
+<li>R Version 3.3+
+<ul>
+<li>with installed packages: <code>ggplot2</code>, <code>ggmap</code>, <code>MASS</code></li>
+<li>optional packages: <code>waffle</code>, <code>scales</code></li>
+</ul></li>
+<li>R Studio version 1.1+</li>
+</ul>
+<hr />
+</div>
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>Visualizing your data is hands down the most important thing you can learn to do. Seeing is critical to understanding. There are three audiences in mind when creating data visualizations:</p>
+<ol style="list-style-type: decimal">
+<li>For your eyes only: Made by the analyst, for the analyst, these plots are quick and easy to create, using the default options without any annotation or context. These graphs are meant to be looked at once or twice for exploratory analysis in order to better understand the data.</li>
+<li>For an internal report: Some chosen plots are then cleaned up to be shared with others, for example in a weekly team meeting or to be sent to co-investigators participating in the study. These need to be capable of standing on their own, but can be slightly less than perfect. Axes labels, titles, colors, annotations and other captions are provided as needed to put the graph in context.</li>
+<li>For publication or external report: These are meant to be shared with other stakeholders such as the public, your collaborator(s) or administration. Very few plots make it this far. These plots should have all the “bells and whistles” as they appear in formal reports, and are often saved to an external file of a specific size or file type, with high resolution. For publication in most printed journals and books figures typically need to be in black and white (possibly grayscale).</li>
+</ol>
+<p>You will see, and slowly learn, how to add these annotations and how to clean up your graphics to make them sharable. Functions inside the <code>ggplot2</code> package automatically does a lot of this work for you. Remember this package has to be loaded prior to being able to access the functions within.</p>
+<pre class="r"><code>library(ggplot2)</code></pre>
+<div id="the-syntax-of-ggplot" class="section level2">
+<h2>The syntax of <code>ggplot</code></h2>
+<p>The reason we use the functions in <code>ggplot2</code> is for consistency in the structure of it’s arguments. Here is a bare bones generic plotting function:</p>
+<pre class="r"><code>ggplot(data, aes(x=x, y=y, col=col, fill=fill, group=group)) +  geom_THING() </code></pre>
+<div id="required-arguments" class="section level3">
+<h3>Required arguments</h3>
+<ul>
+<li><code>data</code>: What data set is this plot using? This is ALWAYS the first argument.</li>
+<li><code>aes()</code>: This is the <em>aestetics</em> of the plot. What’s varible is on the x, what is on the y? Do you want to color by another variable, perhaps fill some box by the value of another variable, or group by a variable.</li>
+<li><code>geom_THING()</code>: Every plot has to have a geometry. What is the shape of the thing you want to plot? Do you want to plot points - use <code>geom_points()</code>. Want to connect those points with a line? Use <code>geom_lines()</code>. We will see many varieties in this lab.</li>
+</ul>
+<p>Using the <code>survey</code> data set that is built into the <code>MASS</code> package, we will create several plots. Let’s load this into our working directory.</p>
+<pre class="r"><code>survey &lt;- MASS::survey</code></pre>
+<hr />
+</div>
+</div>
+</div>
+<div id="one-categorical-variable" class="section level1">
+<h1>One categorical variable</h1>
+<div id="barchart" class="section level2">
+<h2>Barchart</h2>
+<p>A barchart of how often the responders excercised in the past month. <code>geom_bar</code> makes the height of the bar proportional to the number of cases in each group.</p>
+<pre class="r"><code>ggplot(survey, aes(x=Exer)) + geom_bar()</code></pre>
+<p>Want proportions? You can calculate it on the fly by doing a calculation on an internal value: <code>..count..</code>.</p>
+<pre class="r"><code>ggplot(survey, aes(Exer)) +
+  geom_bar(aes(y=..count../sum(..count..)))</code></pre>
+<p>Ugly y axis title and labels. Use the package <code>scales</code> to clean it up a little.</p>
+<pre class="r"><code>library(scales)
+ggplot(survey, aes(Exer)) +
+  geom_bar(aes(y=..count../sum(..count..))) + ylab(&quot;Percent&quot;) + 
+  scale_y_continuous(labels=percent_format())</code></pre>
+</div>
+<div id="pie-chart" class="section level2">
+<h2>Pie chart</h2>
+<p>If you must… ggplot isn’t really the way to go here. Base graphics can suffice.</p>
+<pre class="r"><code>pie(table(survey$Exer))</code></pre>
+</div>
+<div id="waffle-chart" class="section level2">
+<h2>Waffle chart</h2>
+<p>Kinda fun.</p>
+<pre class="r"><code>library(waffle)
+waffle(table(survey$Exer)/5, rows=4, xlab=&quot;1 square = 5 people&quot;)</code></pre>
+<hr />
+</div>
+</div>
+<div id="one-numeric-variable" class="section level1">
+<h1>One numeric variable</h1>
+<div id="histograms-and-densities" class="section level2">
+<h2>Histograms and densities</h2>
+<p>Of age, with an overlaid density plot in a different color.</p>
+<pre class="r"><code>ggplot(survey, aes(x=Age)) + geom_histogram()</code></pre>
+<ul>
+<li>change <code>geom_histogram()</code> to <code>geom_density()</code></li>
+<li>add both layers. What happens?</li>
+<li>Add <code>aes(y=..density..)</code> to map the density to the y axis of the histogram.</li>
+</ul>
+<pre class="r"><code>ggplot(survey, aes(x=Age)) + geom_density(col=&quot;blue&quot;) + 
+  geom_histogram(aes(y=..density..), colour=&quot;black&quot;, fill=NA)</code></pre>
+</div>
+<div id="boxplots" class="section level2">
+<h2>Boxplots</h2>
+<p>A boxplot of weight. – For only one group base graphics is the way to go.</p>
+<pre class="r"><code>boxplot(survey$Height)</code></pre>
+</div>
+<div id="you-try-add-argument-horizontaltrue" class="section level2">
+<h2>YOU TRY — add argument horizontal=TRUE</h2>
+<hr />
+</div>
+</div>
+<div id="two-categorical-variables" class="section level1">
+<h1>Two categorical variables</h1>
+<div id="grouped-barchart" class="section level2">
+<h2>Grouped barchart</h2>
+<p>of exercise frequency <em>within</em> smoking status.</p>
+<pre class="r"><code>ggplot(survey, aes(x=Smoke, fill=Exer)) + geom_bar()</code></pre>
+</div>
+<div id="you-try-use-positiondodge-in-the-geom_bar-layer-to-move-the-bars-side-by-side" class="section level2">
+<h2>YOU TRY — use position=dodge in the geom_bar layer to move the bars side by side</h2>
+</div>
+</div>
+<div id="two-numeric-variables" class="section level1">
+<h1>Two numeric variables</h1>
+<div id="scatterplots" class="section level2">
+<h2>Scatterplots</h2>
+<p>A scatterplot of height against age</p>
+<pre class="r"><code>ggplot(survey, aes(y=Height, x=Age)) + geom_point()</code></pre>
+</div>
+<div id="you-try-add-smooth-trend-line-in-red." class="section level2">
+<h2>YOU TRY — Add smooth trend line in red.</h2>
+</div>
+<div id="you-try-add-a-linear-best-fit-line-methodlm-in-purple" class="section level2">
+<h2>YOU TRY — Add a linear best fit line (method=“lm”) in purple,</h2>
+<pre class="r"><code>ggplot(survey, aes(y=Height, x=Age)) + geom_point() +
+    geom_smooth(col=&quot;___&quot;)</code></pre>
+<hr />
+</div>
+</div>
+<div id="multivariate" class="section level1">
+<h1>Multivariate</h1>
+<div id="one-numeric-and-one-categorical" class="section level2">
+<h2>One numeric and one categorical</h2>
+<div id="overlaid-density-plots." class="section level3">
+<h3>Overlaid density plots.</h3>
+<p>Overlaid density plots of pulse by exercis frequency. No fill, color only.</p>
+<pre class="r"><code>ggplot(survey, aes(x=Pulse, col=Exer)) + geom_density() </code></pre>
+</div>
+</div>
+<div id="you-try-change-col-to-fill.-what-happens" class="section level2">
+<h2>YOU TRY — Change col= to fill=. What happens?</h2>
+<div id="grouped-boxplots" class="section level3">
+<h3>Grouped boxplots</h3>
+<p>Categorical variable on the x-axis, continuous on the y.</p>
+<pre class="r"><code>ggplot(survey, aes(x=Exer, y=Pulse, fill=Exer)) + geom_boxplot()</code></pre>
+</div>
+</div>
+<div id="you-try-what-happens-if-you-try-to-do-ycategorical-and-xcontinuous" class="section level2">
+<h2>YOU TRY — What happens if you try to do y=categorical and x=continuous?</h2>
+</div>
+<div id="you-try-take-off-the-fill-aestetic.-what-else-do-you-loose" class="section level2">
+<h2>YOU TRY — Take off the fill aestetic. What else do you loose?</h2>
+</div>
+<div id="you-try-add-a-layer-for-coord_flip.-what-does-this-do" class="section level2">
+<h2>YOU TRY — Add a layer for <code>coord_flip()</code>. What does this do?</h2>
+</div>
+<div id="you-try-add-geom_violin-to-the-above-plot." class="section level2">
+<h2>YOU TRY — Add <code>geom_violin()</code> to the above plot.</h2>
+<p>Lets control the <code>width</code> of the boxes, the transparency (alpha), and add the group means as points using <code>stat_summary</code>.</p>
+<pre class="r"><code>ggplot(survey, aes(x=Exer, y=Pulse, fill=Exer)) + 
+        geom_boxplot(width=.2, alpha=.5) + 
+        geom_violin(alpha=.1) + 
+        stat_summary(fun.y=mean, geom=&quot;point&quot;, size=3)</code></pre>
+<div id="paneled-histograms" class="section level3">
+<h3>Paneled histograms</h3>
+<p>By default the panels are horizontal.</p>
+<pre class="r"><code>ggplot(survey, aes(x=Pulse, fill=Exer)) + geom_histogram() + facet_wrap(~Exer)</code></pre>
+</div>
+</div>
+<div id="you-try-add-ncol1-to-the-facet_wrap.-what-changes" class="section level2">
+<h2>YOU TRY — Add <code>ncol=1</code> to the <code>facet_wrap</code>. What changes?</h2>
+<div id="scatterplots-with-color" class="section level3">
+<h3>Scatterplots with color</h3>
+<p>A scatterplot of Pulse (y) against Age (x) grouped by Exercise status using color=</p>
+<pre class="r"><code>ggplot(survey, aes(x=Age, y=Pulse, color=___)) + geom_point()</code></pre>
+</div>
+</div>
+<div id="you-try-change-color-to-shape." class="section level2">
+<h2>YOU TRY — Change <code>color</code> to <code>shape</code>.</h2>
+</div>
+<div id="you-try-add-a-geom_smooth-layer" class="section level2">
+<h2>YOU TRY — Add a geom_smooth() layer</h2>
+</div>
+<div id="you-try-add-a-fourth-dimension-by-paneling-facet_wrap-by-smoke" class="section level2">
+<h2>YOU TRY — Add a fourth dimension by paneling (<code>facet_wrap</code>) by <code>Smoke</code></h2>
+</div>
+</div>
+<div id="one-numerical-and-two-categorical" class="section level1">
+<h1>One numerical and two categorical</h1>
+<div id="grouped-boxplots---distribution-of-pulse-across-exercise-gender." class="section level2">
+<h2>Grouped boxplots - Distribution of pulse across exercise &amp; gender.</h2>
+</div>
+<div id="you-try-put-one-categorical-on-the-x-fill-the-box-color-by-the-other." class="section level2">
+<h2>YOU TRY — Put one categorical on the x, fill the box color by the other.</h2>
+</div>
+<div id="you-try-then-swap-x-and-fill" class="section level2">
+<h2>YOU TRY — Then swap x and fill</h2>
+<pre class="r"><code>ggplot(_____, aes(x=_____, y=Pulse, fill=____)) + geom________()</code></pre>
+</div>
+<div id="grouped-boxplots-with-paneling" class="section level2">
+<h2>Grouped boxplots with paneling</h2>
+<p>Same plot as above, but now panel by smoking status category.</p>
+<hr />
+</div>
+</div>
+<div id="mapping-reproduce-bens-earthquake-plot-but-for-fiji" class="section level1">
+<h1>mapping: Reproduce Ben’s earthquake plot but for Fiji</h1>
+<p>The data set give the locations of 1000 seismic events of MB &gt; 4.0. The events occurred in a cube near Fiji since 1964.</p>
+<pre class="r"><code>head(quakes)</code></pre>
+<pre class="r"><code>library(ggmap)
+fiji_map  &lt;- get_map(location=&quot;Fiji&quot;, zoom=5)</code></pre>
+<p>Create the base map, then add a layer of points.</p>
+<pre class="r"><code>ggmap(fiji_map) + 
+    geom_point(data=quakes, aes(x=long, y=lat, col=mag)) + 
+    scale_color_gradient(low=&quot;white&quot;, high=&quot;darkred&quot;)</code></pre>
+</div>
