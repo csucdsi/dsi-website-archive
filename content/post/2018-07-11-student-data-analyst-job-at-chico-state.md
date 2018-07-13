@@ -1,5 +1,5 @@
 ---
-title: Current jobs and projects at Chico State
+title: Current job and research project openings at Chico State
 author: Robin Donatello
 date: '2018-07-11'
 slug: student-data-analyst-job-at-chico-state
@@ -10,8 +10,8 @@ tags:
   - StudentJob
   - datacleaning
 description: ''
-draft: true
 ---
+
 
 # Strategic Planning Student Assistant
 
@@ -31,7 +31,7 @@ In addition to helping with the scans, the student (if they chose to remain with
 
 # Carpentry Workshop Helper
 
-* **Project Details:** The DSI will be hosting a [Software Carpentry](https://software-carpentry.org/) workshop on Reproducible Scientific Analysis using R. This two-day hands-on workshop will serve approximately 20-30 learners by 2-3 instructors so technical assistance (TA/helpers) are incredibly needed! TA's will generally wander around the room, responding to red stickies (flags that help is needed) and providing assistance as needed. No coffee runs, straight up helping the participants troubleshoot. 
+* **Project Details:** The DSI will be hosting a [Software Carpentry](https://software-carpentry.org/) workshop on Reproducible Scientific Analysis using R. This two-day hands-on workshop will serve approximately 20-30 learners by 2-3 instructors so technical assistance (TA/helpers) are incredibly needed! TA's will generally wander around the room, responding to red stickies (flags that help is needed) and providing assistance as needed. We would like to have at least 2 helpers at all times. 
 
 * **Time commitment:** Any portion of 8:30am - 5pm Monday August 13th & Tuesday August 14th. Full day volunteers get a free lunch!
 
@@ -66,6 +66,8 @@ In addition to helping with the scans, the student (if they chose to remain with
 * **Skills Requirements**: Requires moderate to strong skills with R, knowledge of LaTeX (can be taught on demand). Ability to create and use user-driven functions, conduct simulations and visualize results. Serious work involved, requesting approx 5 hrs/week. Publication involved.  
 * **Contact:** Email Robin Donatello directly if you are interested. 
 
+<!---
+
 ----
 
 # Data Science Research Assistant
@@ -79,6 +81,7 @@ In addition to helping with the scans, the student (if they chose to remain with
 * **Requirements**: Basic R/RStudio and Markdown. Entry level data manipulation and visualization (MATH 105 OK, One of MATH 314/315/385/615 preferred). Enthusiasm to learn new techniques and perfect old ones. Ability to communicate and provide computer/coding technical assistance to others necessary.  Interest in the areas of Public Health, Nutrition, Food Insecurity and Student Success preferred. 
 
 * **Contact:** Email Robin Donatello directly if you are interested. 
+--->
 
 ----
 
