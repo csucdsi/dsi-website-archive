@@ -11,7 +11,6 @@ tags:
   - spreadsheets
   - swcarpentry
 description: 'A Software Carpentry Workshop'
-draft: true
 ---
 
 ### General Information
