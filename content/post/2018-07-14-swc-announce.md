@@ -41,7 +41,8 @@ Meriam Library Room 226, 400 W 1st St, Chico, CA 95929.
 ### RSVP: 
 There is a $20 workshop fee for this event. This directly provides refreshments for participants throughout the two days, and has been shown to greatly reduce the no-show rate. If you cannot afford this fee contact Robin Donatello (rdonatello@csuchico.edu) to disucss options. 
 
-**See the [workshop webste](https://csucdsi.github.io/2018-08-13-chicostate/) for specific details on the topics, schedule and RSVP instructions.**
+**See the [workshop website](https://csucdsi.github.io/2018-08-13-chicostate/) for specific details on the topics, schedule and RSVP instructions.**
+
 
 
 
