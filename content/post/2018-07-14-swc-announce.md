@@ -1,5 +1,5 @@
 ---
-title: Reproducible Scientific Research with R
+title: Workshop - Reproducible Scientific Research with R
 author: Robin Donatello
 date: '2018-07-14'
 slug: swc-announce
