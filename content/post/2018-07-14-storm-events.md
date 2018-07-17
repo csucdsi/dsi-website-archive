@@ -10,7 +10,6 @@ tags:
   - python
   - variance
 description: ''
-draft: true
 ---
 
 <!---
@@ -201,7 +200,7 @@ plt.tight_layout()
 ```
 
 
-![png](img/stormevents_files/stormevents_13_0.png)
+![png](stormevents_files/stormevents_13_0.png)
 
 
 Or we can sum, within each month, the number storms that formed in the Atlantic Ocean.  September appears to be the most common month for a storm.
@@ -439,22 +438,22 @@ To build upon this simple regression model, we will allow possible autocorrelati
 
 ### State Space Model
 
-A more sophisticated model for these data, such that we do not strictly rule out a correlation of the storm seasons across time, is the following Bayesian structural time series model.  The semilocal linear trend model describes the time series of interest $y_t$ as
+A more sophisticated model for these data, such that we do not strictly rule out a correlation of the storm seasons across time, is the following Bayesian structural time series model.  The semilocal linear trend model describes the time series of interest $y_{t}$ as
 
 $$
-\begin{align}
+\begin{aligned}
 y_t & = \mu_t + \epsilon_t \\
 \mu_{t+1} & = \mu_t + \nu_t + \gamma_t \\
 \nu_{t+1} & = \eta + \phi(\nu_t - \eta) + \zeta_t \\ 
 \epsilon_t & \sim \mathbb{N}(0, \sigma_y^2) \\
 \gamma_t & \sim \mathbb{N}(0, \sigma_{\mu}^2) \\
 \zeta_t & \sim \mathbb{N}(0, \sigma_{\nu}^2) \\
-\end{align}
+\end{aligned}
 $$
 
 where $\epsilon_t, \gamma_t$, and $\zeta_t$ are independent.  The notation $\mathbb{N}(0, \sigma^2)$ stands for a normal random variable with mean $0$ and variance $\sigma^2$.
 
-The variable $\eta$, the long run slope in the time series, is of most interest.  Specifically, we allow deviations from the slope, $\nu_t$, so long asthe deviations $\nu_{t}$ tend to revert back to the long run slope.  For more details on this model, consult [Time Series Analysis by State Space Methods](https://www.amazon.com/Time-Analysis-State-Space-Methods/dp/019964117X/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=BXZQ1XM11ZFFZDP4QVSP) and the [R](https://cran.r-project.org/)  package [bsts](https://cran.r-project.org/web/packages/bsts/index.html)'s help page on their semilocal linear trend model or their blog post about the [semilocal linear trend model](http://www.unofficialgoogledatascience.com/2017/07/fitting-bayesian-structural-time-series.html).
+The variable $\eta$, the long run slope in the time series, is of most interest.  Specifically, we allow deviations from the slope, $\nu_{t}$, so long as the deviations $\nu_{t}$ tend to revert back to the long run slope.  For more details on this model, consult [Time Series Analysis by State Space Methods](https://www.amazon.com/Time-Analysis-State-Space-Methods/dp/019964117X/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=BXZQ1XM11ZFFZDP4QVSP) and the [R](https://cran.r-project.org/)  package [bsts](https://cran.r-project.org/web/packages/bsts/index.html)'s help page on their semilocal linear trend model or their blog post about the [semilocal linear trend model](http://www.unofficialgoogledatascience.com/2017/07/fitting-bayesian-structural-time-series.html).
 
 Here, the time series of interest $y_t$ is the yearly MAD estimates of variation of the empirical storm season. Since this model will better handle possible correlations across time in the MAD estimates of variation, we will have an appropriate estimate of the variation in the long run slope.
 
@@ -530,17 +529,16 @@ stmod = pystan.StanModel(model_code=local_linear)
 
 The semilocal linear trend model above is fit as a Bayesian model, hence there are priors are on all parameters.  An effort has been made such that all priors are weakly informative.  We tried to follow a combination of the [guidelines established by the Stan community](https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations) and the default [priors for rstanarm](https://cran.r-project.org/web/packages/rstanarm/vignettes/priors.html) [Stan-Development-Team:2016].
 
-Specifically, the parameters $\sigma_y, \sigma_{\gamma}, \sigma_{\zeta}, \eta$, and $\phi$ have priors.  Let $y = (y_1, \
-\ldots, y_T)'$ denote the observations of interest and $x$ be the x-axis values along which the observations $y$ are observed.
+Specifically, the parameters $\sigma_y, \sigma_{\gamma}, \sigma_{\zeta}, \eta$, and $\phi$ have priors.  Let $y = (y_1, \ldots, y_T)'$ denote the observations of interest and $x$ be the x-axis values along which the observations $y$ are observed.
 
 $$
-\begin{align}
+\begin{aligned}
 \sigma_y & \sim \text{Exponential}(1 / \text{sd}(y) ) \\
 \sigma_{\gamma} & \sim \Gamma(2, 1 / \text{sd}(y) ) \\
 \sigma_{\zeta} & \sim \Gamma(2, 1 / \text{sd}(y) ) \\
 \eta & \sim \mathbb{t}_3(0, \text{sd}(y) / \text{sd}(x) ) \\
 \phi & \sim \mathbb{N}(0, 0.5) \\
-\end{align}
+\end{aligned}
 $$
 
 The prior on $\sigma_y$ attempts to match the scale of the standard deviation of the observations $y$ by scaling an $\text{Exponential(1)}$ distribution appropriately.  The scale parameters of $\gamma$ and $\zeta$ are given boundary avoiding priors and are scaled the same as $\sigma_y$. The prior on $\eta$ is treated as a regression coefficient in a multiple regression model and thus has a t-distribution on it with degrees of freedom that allow for as wide a distribution as possible with a finite variance.  Since $\eta$ is a slope parameter it is given the ratio of standard deviations of $y$ and $x$ to match the scale of a simple linear regression slope of $y$ on $x$.  The prior on $\phi$ attempts to weakly inform $\phi$ towards 0 with a standard deviation of 0.5.  This leaves room for the data to insist upon a posterior distribution on $\phi$ to be near the extremes $-1$ or $1$.  

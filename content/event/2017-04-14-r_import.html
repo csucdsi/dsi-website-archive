@@ -131,8 +131,10 @@ str(NCbirths)</code></pre>
 <blockquote>
 <p>Note the use of the underscore <code>_</code> instead of a period <code>.</code> between read and the file type.</p>
 </blockquote>
-<pre class="r"><code>washpost15  &lt;- read_excel(&quot;r_import/WashPost Police Shootings 2015.xlsx&quot;, sheet=1, col_names=TRUE)
-str(washpost15)</code></pre>
+<pre class="r"><code>washpost15  &lt;- read_excel(&quot;r_import/WashPost Police Shootings 2015.xlsx&quot;, sheet=1, col_names=TRUE)</code></pre>
+<pre><code>## Warning in strptime(x, format, tz = tz): unknown timezone &#39;zone/tz/2018c.
+## 1.0/zoneinfo/America/Los_Angeles&#39;</code></pre>
+<pre class="r"><code>str(washpost15)</code></pre>
 <pre><code>## Classes &#39;tbl_df&#39;, &#39;tbl&#39; and &#39;data.frame&#39;:    990 obs. of  14 variables:
 ##  $ id                     : num  3 4 5 8 9 11 13 15 16 17 ...
 ##  $ name                   : chr  &quot;Tim Elliot&quot; &quot;Lewis Lee Lembke&quot; &quot;John Paul Quintero&quot; &quot;Matthew Hoffman&quot; ...
