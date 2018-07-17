@@ -25,13 +25,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     gplus = ""
     twitter = ""
     stackoverflow = ""
-    email = "datascience@csuchico.onmicrosoft.com"
+    email = "datascience@csuchico.edu"
     opengraph = false
     shareTwitter = true
     shareFacebook = true
     shareGooglePlus = true
     shareLinkedIn = false
     dateFormat = "Mon, Jan 2, 2006"
+    math = true
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
