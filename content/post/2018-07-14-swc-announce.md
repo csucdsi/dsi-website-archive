@@ -13,11 +13,11 @@ tags:
 description: 'A Software Carpentry Workshop'
 ---
 
-### General Information
+On August 13 - 15th, the DSI is hosting a Software Carpentry workshop for graduate students, faculty, and any other researcher that wants to learn how to conduct reproducible research. **You don't need to have any previous knowledge of the tools that will be presented at the workshop.**
 
-Software Carpentry aims to help researchers get their work done in less time and with less pain by teaching them basic research computing skills. This hands-on workshop will cover basic concepts and tools, including organizing data in spreadsheets, program design, data management and visualization using R, creating reproducible documents with markdown, and task automation. Participants will be encouraged to help one another and to apply what they have learned to their own research problems.
+The Carpentries are a fiscally sponsored project of Community Initiatives. They teach skills that are immediately useful for researchers, using lessons and datasets that allow researchers to quickly apply what they’ve learned to their own work. I’m really excited about using the Software Carpentry curriculum here to help our researchers become more efficient in their research.
 
-### When:
+This workshop is focused on Reproducible Scientific research using R. The curriculum will include:
 
 * Day 1: Monday August 13, 9am - 4:30 pm
     - Organizing data in spreadsheets
@@ -25,24 +25,24 @@ Software Carpentry aims to help researchers get their work done in less time and
 * Day 2: Tuesday August 14, 9am - 4:30 pm
     - Command line power: using the shell
     - Data visualization and manipulation
-* Day 3: (optional half-day) Wednesday August 13, 9am - 12 noon
+* Day 3: (optional) Wednesday August 13, 9am - 12 noon
+    - Version control in R Studio using Projects
     - Building websites in R with Markdown
-    - Open work session / Help session
     
 
-### Who: 
-The course is aimed at graduate students, faculty, and any other researcher that wants to learn how to conduct reproducible research. **You don't need to have any previous knowledge of the tools that will be presented at the workshop.**
+The target audience is learners who have little to no prior computational experience, and the instructors put a priority on creating a friendly environment to empower researchers and enable data-driven discovery. Even those with some experience will benefit, as the goal is to teach not only how to do analyses, but how to manage the process to make it as automated and reproducible as possible. For instance, after attending this workshop you will be able to:
 
+* Use the unix shell to manage files without a graphical user interface.
+* Import, process and visualize data sets in R Studio
+* Create reproducible scientific documents that are human readable.
+* (Optional) Build a website where you can share research, post course materials, or start an e-portfolio to demonstrate your work. 
 
-### Where: 
-Meriam Library Room 226, 400 W 1st St, Chico, CA 95929. 
+Space is limited and it will likely fill quickly. There is a small fee for this event to provide refreshments for participants throughout the two days. If you cannot afford this fee contact us to disucss options. 
 
-
-### RSVP: 
-There is a $20 workshop fee for this event. This directly provides refreshments for participants throughout the two days, and has been shown to greatly reduce the no-show rate. If you cannot afford this fee contact Robin Donatello (rdonatello@csuchico.edu) to disucss options. 
 
 **See the [workshop website](https://csucdsi.github.io/2018-08-13-chicostate/) for specific details on the topics, schedule and RSVP instructions.**
 
 
 
+Questions? Send an email to Robin Donatello: rdonatello@csuchico.edu
 
