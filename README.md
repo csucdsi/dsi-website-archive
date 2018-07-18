@@ -37,6 +37,9 @@ https://datascience.csuchico.edu
 |  |--materials
 |  |  |--DS Certificate, syllabi, 
 |  |--event[formerly known as workshops]
+|  |--post
+|  |  |--folders containing files (like images) that may be associated with a post
+
 
 
 
