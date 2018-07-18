@@ -254,7 +254,7 @@ plt.tight_layout()
 ```
 
 
-![](/img/stormevents_files/stormevents_17_0.png)
+![](/stormevents_files/stormevents_17_0.png)
 
 
 Averaged across all years, there is about 10% of storms that fall outside of the official storm season.  Below is the calculation of the percentage of storms within the official storm season. 
