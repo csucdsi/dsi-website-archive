@@ -201,7 +201,7 @@ plt.tight_layout()
 ```
 
 
-![](stormevents_files/stormevents_13_0.png)
+![](/post/stormevents_files/stormevents_13_0.png)
 
 
 Or we can sum, within each month, the number storms that formed in the Atlantic Ocean.  September appears to be the most common month for a storm.
@@ -305,7 +305,7 @@ plt.tight_layout()
 ```
 
 
-![](/posts/stormevents_files/stormevents_25_0.png)
+![](/post/stormevents_files/stormevents_25_0.png)
 
 
 By this definition, across all the years, the median storm dates generaly fall in August or September.  The following table depicts the counts of the median storm date within each numbered month, over all the years for which we have data.
@@ -360,7 +360,7 @@ plt.tight_layout()
 ```
 
 
-![](/posts/stormevents_files/stormevents_31_0.png)
+![](/post/stormevents_files/stormevents_31_0.png)
 
 
 The plot above looks reasonable and the slope point estimate is reasonable given the uncertainty seen in that point estimate.  We should not focus on the p-value, rather we should focus on the standard error in the estimated coefficient year.
