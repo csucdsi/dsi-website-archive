@@ -1,7 +1,7 @@
 ---
 title: Measuring Variation in the Empirical Storm Season Over Time
 author: Edward Roualdes
-date: '2018-07-14'
+date: '2018-07-18'
 slug: storm-events
 categories:
   - analysis
