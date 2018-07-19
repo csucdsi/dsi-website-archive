@@ -1,15 +1,12 @@
 ---
-title: Measuring Variation in the Empirical Storm Season Over Time
-author: Edward Roualdes
-date: '2018-07-14'
-slug: storm-events
-categories:
-  - analysis
+title: "Storms"
+author: "Edward Roualdes"
+date: '2018-07-18'
+slug: storms
 tags:
-  - storms
-  - python
-  - variance
-description: ''
+- STAN
+- python
+categories: analysis
 ---
 
 <!---
@@ -87,9 +84,6 @@ df['num_dates'] = mdates.date2num([datetime.datetime(d.year, d.month, d.day)
 df = df.loc[df['name'].str.contains('^AL')].copy() # Atlantic
 df.head()
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -252,7 +246,7 @@ plt.tight_layout()
 ```
 
 
-![](/post/stormevents_files/stormevents_17_0.png)
+![](stormevents_files/stormevents_17_0.png)
 
 
 Averaged across all years, there is about 10% of storms that fall outside of the official storm season.  Below is the calculation of the percentage of storms within the official storm season. 
@@ -305,7 +299,7 @@ plt.tight_layout()
 ```
 
 
-![](/posts/stormevents_files/stormevents_25_0.png)
+![](stormevents_files/stormevents_25_0.png)
 
 
 By this definition, across all the years, the median storm dates generaly fall in August or September.  The following table depicts the counts of the median storm date within each numbered month, over all the years for which we have data.
@@ -360,7 +354,7 @@ plt.tight_layout()
 ```
 
 
-![](/posts/stormevents_files/stormevents_31_0.png)
+![](stormevents_files/stormevents_31_0.png)
 
 
 The plot above looks reasonable and the slope point estimate is reasonable given the uncertainty seen in that point estimate.  We should not focus on the p-value, rather we should focus on the standard error in the estimated coefficient year.
@@ -443,18 +437,18 @@ A more sophisticated model for these data, such that we do not strictly rule out
 
 $$
 \begin{aligned}
-y\_t & = \mu\_t + \epsilon\_t \newline
-\mu\_{t+1} & = \mu\_t + \nu\_t + \gamma\_t \newline
-\nu\_{t+1} & = \eta + \phi(\nu\_t - \eta) + \zeta\_t \newline
-\epsilon\_t & \sim \mathbb{N}(0, \sigma\_y^2) \newline
-\gamma\_t & \sim \mathbb{N}(0, \sigma\_{\mu}^2) \newline
-\zeta\_t & \sim \mathbb{N}(0, \sigma\_{\nu}^2) 
+y_t & = \mu_t + \epsilon_t \\
+\mu_{t+1} & = \mu_t + \nu_t + \gamma_t \\
+\nu_{t+1} & = \eta + \phi(\nu_t - \eta) + \zeta_t \\ 
+\epsilon_t & \sim \mathbb{N}(0, \sigma_y^2) \\
+\gamma_t & \sim \mathbb{N}(0, \sigma_{\mu}^2) \\
+\zeta_t & \sim \mathbb{N}(0, \sigma_{\nu}^2) \\
 \end{aligned}
 $$
 
 where $\epsilon_t, \gamma_t$, and $\zeta_t$ are independent.  The notation $\mathbb{N}(0, \sigma^2)$ stands for a normal random variable with mean $0$ and variance $\sigma^2$.
 
-The variable $\eta$, the long run slope in the time series, is of most interest.  Specifically, we allow deviations from the slope, $\nu\_{t}$, so long as the deviations $\nu_{t}$ tend to revert back to the long run slope.  For more details on this model, consult [Time Series Analysis by State Space Methods](https://www.amazon.com/Time-Analysis-State-Space-Methods/dp/019964117X/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=BXZQ1XM11ZFFZDP4QVSP) and the [R](https://cran.r-project.org/)  package [bsts](https://cran.r-project.org/web/packages/bsts/index.html)'s help page on their semilocal linear trend model or their blog post about the [semilocal linear trend model](http://www.unofficialgoogledatascience.com/2017/07/fitting-bayesian-structural-time-series.html).
+The variable $\eta$, the long run slope in the time series, is of most interest.  Specifically, we allow deviations from the slope, $\nu_{t}$, so long as the deviations $\nu_{t}$ tend to revert back to the long run slope.  For more details on this model, consult [Time Series Analysis by State Space Methods](https://www.amazon.com/Time-Analysis-State-Space-Methods/dp/019964117X/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=BXZQ1XM11ZFFZDP4QVSP) and the [R](https://cran.r-project.org/)  package [bsts](https://cran.r-project.org/web/packages/bsts/index.html)'s help page on their semilocal linear trend model or their blog post about the [semilocal linear trend model](http://www.unofficialgoogledatascience.com/2017/07/fitting-bayesian-structural-time-series.html).
 
 Here, the time series of interest $y_t$ is the yearly MAD estimates of variation of the empirical storm season. Since this model will better handle possible correlations across time in the MAD estimates of variation, we will have an appropriate estimate of the variation in the long run slope.
 
@@ -530,17 +524,16 @@ stmod = pystan.StanModel(model_code=local_linear)
 
 The semilocal linear trend model above is fit as a Bayesian model, hence there are priors are on all parameters.  An effort has been made such that all priors are weakly informative.  We tried to follow a combination of the [guidelines established by the Stan community](https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations) and the default [priors for rstanarm](https://cran.r-project.org/web/packages/rstanarm/vignettes/priors.html) [Stan-Development-Team:2016].
 
-Specifically, the parameters $\sigma\_y, \sigma\_{\gamma}, \sigma\_{\zeta}, \eta$, and $\phi$ have priors.  Let $y = (y_1, \ldots, y_T)'$ denote the observations of interest and $x$ be the x-axis values along which the observations $y$ are observed.
+Specifically, the parameters $\sigma_y, \sigma_{\gamma}, \sigma_{\zeta}, \eta$, and $\phi$ have priors.  Let $y = (y_1, \ldots, y_T)'$ denote the observations of interest and $x$ be the x-axis values along which the observations $y$ are observed.
 
-
-$$ 
-\begin{align}
-\sigma\_y & \sim \text{Exponential}(1 / \text{sd}(y) ) \newline
-\sigma\_{\gamma} & \sim \Gamma(2, 1 / \text{sd}(y) ) \newline
-\sigma\_{\zeta} & \sim \Gamma(2, 1 / \text{sd}(y) ) \newline
-\eta & \sim \mathbb{t}\_3(0, \text{sd}(y) / \text{sd}(x) ) \newline
-\phi & \sim \mathbb{N}(0, 0.5) 
-\end{align} 
+$$
+\begin{aligned}
+\sigma_y & \sim \text{Exponential}(1 / \text{sd}(y) ) \\
+\sigma_{\gamma} & \sim \Gamma(2, 1 / \text{sd}(y) ) \\
+\sigma_{\zeta} & \sim \Gamma(2, 1 / \text{sd}(y) ) \\
+\eta & \sim \mathbb{t}_3(0, \text{sd}(y) / \text{sd}(x) ) \\
+\phi & \sim \mathbb{N}(0, 0.5) \\
+\end{aligned}
 $$
 
 The prior on $\sigma_y$ attempts to match the scale of the standard deviation of the observations $y$ by scaling an $\text{Exponential(1)}$ distribution appropriately.  The scale parameters of $\gamma$ and $\zeta$ are given boundary avoiding priors and are scaled the same as $\sigma_y$. The prior on $\eta$ is treated as a regression coefficient in a multiple regression model and thus has a t-distribution on it with degrees of freedom that allow for as wide a distribution as possible with a finite variance.  Since $\eta$ is a slope parameter it is given the ratio of standard deviations of $y$ and $x$ to match the scale of a simple linear regression slope of $y$ on $x$.  The prior on $\phi$ attempts to weakly inform $\phi$ towards 0 with a standard deviation of 0.5.  This leaves room for the data to insist upon a posterior distribution on $\phi$ to be near the extremes $-1$ or $1$.  
@@ -597,7 +590,7 @@ plt.tight_layout()
 ```
 
 
-![](/post/stormevents_files/stormevents_47_0.png)
+![](stormevents_files/stormevents_47_0.png)
 
 
 The variable $\eta$ defines the long run slope of the variation of the MAD estimates.  The point estimate of this model is similar to the point estimate from simple linear regression.  Here, however, we have an accurate estimate of the variation of the long run slope.
@@ -627,7 +620,7 @@ plt.tight_layout()
 
 
 
-![](/post/stormevents_files/stormevents_49_1.png)
+![](stormevents_files/stormevents_49_1.png)
 
 
 In short, we have some evidence that the variation of the empirical storm season is not changing in time.  
@@ -668,7 +661,7 @@ plt.tight_layout()
 ```
 
 
-![](/post/stormevents_files/stormevents_55_0.png)
+![](stormevents_files/stormevents_55_0.png)
 
 
 We analyze these percentages using the same semilocal linear trend model as above.    If the slope parameter $\eta$ is significantly non-zero, we'll have found some evidence in a changing proportion of storms occuring outside of the official storm season.
@@ -720,7 +713,7 @@ plt.tight_layout()
 ```
 
 
-![](/post/stormevents_files/stormevents_60_0.png)
+![](stormevents_files/stormevents_60_0.png)
 
 
 The posterior distribution of $\eta$ appears below, alongside multiple percentiles.  While the median of $\eta$ is positive, even the $80$% credible interval includes 0.  While I certainly don't want to make a binary conclusion here, it appears that there is much noise in the estimate of the long term slope parameter $\eta$.
@@ -746,7 +739,7 @@ plt.tight_layout()
 
 
 
-![](/post/stormevents_files/stormevents_62_1.png)
+![](stormevents_files/stormevents_62_1.png)
 
 
 It doesn't appear that the percentage of storms occuring outside of the official storm season is changing over time.
@@ -799,7 +792,7 @@ plt.tight_layout()
 ```
 
 
-![](/post/stormevents_files/stormevents_70_0.png)
+![](stormevents_files/stormevents_70_0.png)
 
 
 
@@ -851,7 +844,7 @@ plt.tight_layout()
 ```
 
 
-![](/post/stormevents_files/stormevents_74_0.png)
+![](stormevents_files/stormevents_74_0.png)
 
 
 The posterior distribution of $\eta$ is noisy, despite the negative median value.
@@ -877,7 +870,7 @@ plt.tight_layout()
 
 
 
-![](/post/stormevents_files/stormevents_76_1.png)
+![](stormevents_files/stormevents_76_1.png)
 
 
 We find little evidence that the empirical storm season is non-stationary, since the posterior distribution of $\eta$ is so noisy about $0$.
