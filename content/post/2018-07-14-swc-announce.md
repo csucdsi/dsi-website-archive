@@ -40,7 +40,7 @@ The target audience is learners who have little to no prior computational experi
 Space is limited and it will likely fill quickly. There is a small fee for this event to provide refreshments for participants throughout the two days. If you cannot afford this fee contact us to disucss options. 
 
 
-**See the [workshop website](https://csucdsi.github.io/2018-08-13-chicostate/) for specific details on the topics, schedule and RSVP instructions.**
+**See the [workshop website](http://bit.ly/2mzF9FD) for specific details on the topics, schedule and RSVP instructions.**
 
 
 
