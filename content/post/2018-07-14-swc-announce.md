@@ -15,7 +15,7 @@ description: 'A Software Carpentry Workshop'
 
 On August 13 - 15th, the DSI is hosting a Software Carpentry workshop for graduate students, faculty, and any other researcher that wants to learn how to conduct reproducible research. **You don't need to have any previous knowledge of the tools that will be presented at the workshop.**
 
-The Carpentries are a fiscally sponsored project of Community Initiatives. They teach skills that are immediately useful for researchers, using lessons and datasets that allow researchers to quickly apply what they’ve learned to their own work. I’m really excited about using the Software Carpentry curriculum here to help our researchers become more efficient in their research.
+The Carpentries are a fiscally sponsored project of Community Initiatives. They teach skills that are immediately useful for researchers, using lessons and datasets that allow researchers to quickly apply what they’ve learned to their own work. We're really excited about using the Software Carpentry curriculum here to help our researchers become more efficient in their research.
 
 This workshop is focused on Reproducible Scientific research using R. The curriculum will include:
 
