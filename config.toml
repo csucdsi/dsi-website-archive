@@ -38,28 +38,28 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     post = "/:year/:month/:day/:filename/"
 
 [[menu.main]]
-    name = "Current News"
+    name = "News"
     url = "/"
     weight = 1
 
 [[menu.main]]
-    name = "About the DSI"
+    name = "About"
     url = "/page/about/"
     weight = 2
     
 
 [[menu.main]]
-    name = "Related Curriculum"
+    name = "Training"
     url = "/page/courses/"
     weight = 3
 
 [[menu.main]]
-    name = "Event Calendar"
+    name = "Calendar"
     url = "/page/events/"
     weight = 4
     
 [[menu.main]]
-    name = "Contact Us"
+    name = "Contact"
     url = "/page/contact/"
     weight = 5
 
