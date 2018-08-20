@@ -39,9 +39,11 @@ Then in the afternoon I got to demonstrate how awesome markdown is, and how comb
 
 **Day 2** Reid introduced the learners to the Bash Shell. We discussed file hierarchy, benefits to using a command line interface as opposed to a GUI, how to navigate your file system (great setup for learning relative vs. absolute paths), and how to edit files in Nano. 
 
-![](/img/swc_aug13.jpg)
+![](/img/swc_aug13_ro.jpg)
 
 The second afternoon returned us to R, this time specifically I gave a very short introduction to Data visualization using `ggplot`. Only having an hour I really didn't have time to get into many of the statistical graphic examples I would have liked to. The other main topic that afternoon was using `dplyr` for data manipulation and aggregation. 
+
+![](/img/swc_aug13_rad.jpg)
 
 **Day 3**
 I have been toying around with writing a lesson for contribution to the Carpentries on how to build a website using RMarkdown. I wrote it originally to test out at a Carpentry workshop at UC Davis in January 17, but got food poisoning the night before so I didn't get to test it out. Reid was interested so we invited everyone to attend an optional 3rd morning on using git and [GitHub](https://github.com/) for version control, and building simple websites. 
