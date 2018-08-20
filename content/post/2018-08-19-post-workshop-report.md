@@ -15,7 +15,6 @@ tags:
   - spreadsheets
   - swcarpentry
 description: ''
-draft: true
 ---
 
 Last week Chico State hosted it's first [Software Carpentry](https://software-carpentry.org/) workshop and it was a great success. We were thrilled to have [Reid Otsuji ](https://www2.archivists.org/prof-education/faculty/reid-otsuji) from UC San Diego and a [Library Carpentry](https://librarycarpentry.org/) instructor come up to help teach the material. 
