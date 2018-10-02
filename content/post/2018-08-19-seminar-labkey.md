@@ -13,7 +13,7 @@ description: 'Secure collaboration for research labs'
 
 The DSI is excited for our first speaker for Fall 2018. Jim Piper has been a regular at our DSI talks and events and is going to share with us his work on **LabKey Server**, a team collaboration software program specialized for the sciences. A hands demo of this program will be included. 
 
-* When: Thursday October 4th, 2- 2:50pm
+* When: Tuesday October 9th, 2- 2:50pm
 * Where: MLIB 442
 
 Light refreshments will be provided by the DSI. 
