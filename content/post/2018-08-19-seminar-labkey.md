@@ -1,21 +1,27 @@
 ---
-title: Seminar - LabKey Server. Secure collaboration for research labs
+title: 'Seminar: LabKey Server'
 author: Robin Donatello
-date: '2018-08-19'
+date: '2018-10-01'
 slug: seminar-labkey
 categories:
   - event
 tags:
   - community
   - collaboration
-description: ''
-draft: TRUE
+description: 'Secure collaboration for research labs'
 ---
 
+The DSI is excited for our first speaker for Fall 2018. Jim Piper has been a regular at our DSI talks and events and is going to share with us his work on **LabKey Server**, a team collaboration software program specialized for the sciences. A hands demo of this program will be included. 
 
-# LabKey Server
+* When: Thursday October 4th, 2- 2:50pm
+* Where: MLIB 442
 
-## What Is LabKey Server (about 10 minutes talk/discussion)
+Light refreshments will be provided by the DSI. 
+
+----
+
+
+## What Is LabKey Server 
 
 ### Secure Collaboration
 - Password protected web site for your team to share and coordinate work on multiple projects hosted on your own hardware or in the cloud
@@ -38,10 +44,10 @@ draft: TRUE
 ### Mostly Open Source
 - Source code is made available for most all base features of LabKey server. LabKey Server can be compiled from source if needed to run on most any environment. A modulalrized architecture makes new features and source code customizations straight forward.
 
-## Demo (about 15 minutes demo/talk/discussion)
+## Demo 
 - Demonstrate uploading an example csv dataset and using it to creating interactive visualizations as done [here](https://www.labkey.org/home/Demos/10minutetour/project-begin.view?pageId=Start%20Here)
 
-## How To Get Started With LabKey Server (about 5 minutes talk/discussion)
+## How To Get Started With LabKey Server 
 - Get a free Hosted 30 day trial and [have your own free LabKey website in 5 mintues with just a few clicks](https://www.labkey.com/trial-sign-up/)
 - Make your own permanent free website on your own hardware or in the cloud. You will need a dedicated computer, Java, Postgres or MSSQL Server, network connectivity and probably a few hours of setup time. Setup requires a strong familiarity with networking, Tomcat based web applications, Java, and Relational Databases. [Follow the directions here for a permanent free LabKey website.](https://www.labkey.org/Documentation/wiki-page.view?name=devMachine)
 
