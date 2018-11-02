@@ -38,6 +38,8 @@ Come hear about the new Data Science curriculum and programs and learn how you c
 
 _Light refreshments will be provided_
 
+RSVP at: http://bit.ly/dsi_info_session
+
 ![](/img/DS_info_F18.png)
 
 
