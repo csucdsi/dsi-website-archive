@@ -1,5 +1,5 @@
 ---
-title: 'Data Science info session this Friday'
+title: 'Data Science info session'
 author: 'Robin Donatello'
 date: '2018-10-29'
 slug: ds-info-session-f18
@@ -15,9 +15,10 @@ tags:
 description: ''
 ---
 
+> Missed this event? Watch the Video Recording here: [TBD]
+
 ## When: Friday, Nov 2nd, noon 
 ## Where: Butte 101
-
 
 Do you want to increase your ability to read, understand, create and communicate data as information? To tell a better data story? 
 
@@ -37,8 +38,6 @@ Chico State offers an Undergraduate Certificate in Data Science, a multitude of 
 Come hear about the new Data Science curriculum and programs and learn how you can get involved. 
 
 _Light refreshments will be provided_
-
-RSVP at: http://bit.ly/dsi_info_session
 
 ![](/img/DS_info_F18.png)
 
