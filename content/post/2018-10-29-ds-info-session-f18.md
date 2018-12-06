@@ -15,7 +15,7 @@ tags:
 description: ''
 ---
 
-> Missed this event? Watch the Video Recording here: [TBD]
+> Missed this event? Watch the Video Recording here: [https://media.csuchico.edu/media/0_kkfl6yt8]
 
 ## When: Friday, Nov 2nd, noon 
 ## Where: Butte 101
