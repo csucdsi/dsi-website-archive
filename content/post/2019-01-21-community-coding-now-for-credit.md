@@ -18,7 +18,7 @@ description: ''
 
 Spring 19 semester is upon us and we're exicted to start up Community Coding again. 
 
-* **Dates & Times **: Tuesday & Thursday - 2-4pm
+* **Dates & Times**: Tuesday & Thursday - 2-4pm
 * **Location** : Tehama (THMA) 116
 
 
@@ -32,4 +32,4 @@ Commit to studying 1 hr. per week for your (not necessarily CS) programming cour
 
 The DSI Spring seminar series of talks and workshops will overlap with these hours. Approximately once per week we will have a guest speaker talk about some interesting Data Science topic or provide a hands-on workshop experience to learn a new tip or trick in R, Python, Tableau or some other program. 
 
-![](..img/cc_flyer_s19.png)
+![](/img/cc_flyer_s19.png)
