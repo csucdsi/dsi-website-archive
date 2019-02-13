@@ -1,5 +1,5 @@
 ---
-title: 'DSI seminar: Spatial is Special!'
+title: 'DSI seminar 2/14: Spatial is Special!'
 author: ''
 date: '2019-02-02'
 slug: spatial-is-special
@@ -15,9 +15,9 @@ description: ''
 
 * **Presenter:** Peter Hansen, Chico State GIS Specialist
 * **Date:** Thursday February 14th, 2019
-* **Time:** 2-3:50 pm
+* **Time:** 2-2:50 pm
 * **Location:** Tehama 116
-* **RSVP:** https://goo.gl/forms/BnjV0y5zoz09tUU83
+* **RSVP:** http://goo.gl/forms/BnjV0y5zoz09tUU83
 
 
 ## Description
