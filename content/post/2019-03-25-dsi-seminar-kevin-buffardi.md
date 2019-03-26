@@ -3,7 +3,7 @@ title: 'DSI Seminar 3/28: InfoVis: Communicating Data Visually'
 author: Robin Donatello
 date: '2019-03-28'
 slug: info-viz
-categories: []
+categories: [viz]
 tags: []
 description: ''
 ---
