@@ -11,6 +11,7 @@ tags: []
 description: ''
 ---
 
+The Chico State Data Science Initiative is proud to welcome Chico State Alumni Martin Frigaard, App Developer with Intricity and Peter Spangler, Data Scientist at Lyft back for two das to give their invited talk for the Predictive World Analytics 2019 Conference. 
 
 # Logistics / Setup
 
