@@ -1,6 +1,5 @@
 ---
-title: 'DSI Seminar 4/23 & 4/25: Growing a Scientific Mindset to Develop Analytics
-  Teams'
+title: 'DSI Seminar 4/23 & 4/25: Growing a Scientific Mindset to Develop Analytics Teams'
 author: DSI
 date: '2019-04-09'
 slug: case_study_lyft
