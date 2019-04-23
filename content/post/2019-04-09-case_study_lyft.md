@@ -20,6 +20,9 @@ The Chico State Data Science Initiative is proud to welcome Chico State Alumni M
 * **Location:** Tehama 116
 * **RSVP:** http://goo.gl/forms/BnjV0y5zoz09tUU83
 
+## Link to Slides & Handon materials
+
+http://bit.ly/csuc-data-talk
 
 ## Description
 
@@ -31,3 +34,6 @@ Gain speed and agility in modeling solutions to the questions in your organizati
 
 ## A hands on live coding demonstration will follow the talk. 
 Bring your laptop. The coding environment will be provided for you at the start of the talk.
+
+Day 1 - 
+![](/img/spangler_frigaard.jpg)
