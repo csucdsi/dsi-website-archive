@@ -7,7 +7,7 @@ date = 2017-08-01T02:13:50Z
 <iframe src="https://outlook.office365.com/owa/calendar/39dd299543804eed90cf06869866fc76@csuchico.edu/311a6bd5e6c04edabb14d218c48a5a7f12565647235556191009/calendar.html" style="border: 0" width="950" height="600" frameborder="0" scrolling="no"></iframe>
 
 
-## Fall 2020 Hours
+## Spring 2020 Hours
 
 * MW 10-12, Tehama 116
 * T 2-4, Butte 518
