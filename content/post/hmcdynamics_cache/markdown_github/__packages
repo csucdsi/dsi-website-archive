@@ -1,0 +1,12 @@
+base
+jsonlite
+Matrix
+glue
+ggplot2
+dplyr
+gridExtra
+tidyr
+cmdstanr
+posterior
+readr
+stringr
