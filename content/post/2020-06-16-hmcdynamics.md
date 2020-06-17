@@ -259,13 +259,13 @@ The plot below shows various effective sample size calculations per
 second of total run time across 7 different dimensions. Note that the
 y-axis is log base 10 transformed.
 
-<img src="hmcdynamics_files/figure-markdown_github/unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
+<img src="/post/hmcdynamics_files/figure-markdown_github/unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
 
 The plot below shows various effective sample size calculations per
 leapfrog evaluation across 7 different dimensions. Note that the y-axis
 is log base 10 transformed.
 
-<img src="hmcdynamics_files/figure-markdown_github/unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
+<img src="/post/hmcdynamics_files/figure-markdown_github/unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
 
 These plots make it apparent that despite reducing the number of
 calculations during sampling, the proposed dynamics have not
@@ -317,13 +317,13 @@ The plot below shows various effective sample size calculations per
 second of total run time across 7 different dimensions. Note that the
 y-axis is log base 10 transformed.
 
-<img src="hmcdynamics_files/figure-markdown_github/unnamed-chunk-7-1.png" style="display: block; margin: auto;" />
+<img src="/post/hmcdynamics_files/figure-markdown_github/unnamed-chunk-7-1.png" style="display: block; margin: auto;" />
 
 The plot below shows various effective sample size calculations per
 leapfrog evaluation across 7 different dimensions. Note that the y-axis
 is log base 10 transformed.
 
-<img src="hmcdynamics_files/figure-markdown_github/unnamed-chunk-8-1.png" style="display: block; margin: auto;" />
+<img src="/post/hmcdynamics_files/figure-markdown_github/unnamed-chunk-8-1.png" style="display: block; margin: auto;" />
 
 These plots make it apparent that despite reducing the number of
 calculations during sampling, the proposed dynamics have not
@@ -380,9 +380,9 @@ proposed dynamics have significantly altered the overall effectiveness
 of Stan’s HMC algorithm for this sparse logistic regression target
 distribution.
 
-<img src="hmcdynamics_files/figure-markdown_github/unnamed-chunk-12-1.png" style="display: block; margin: auto;" />
+<img src="/post/hmcdynamics_files/figure-markdown_github/unnamed-chunk-12-1.png" style="display: block; margin: auto;" />
 
-<img src="hmcdynamics_files/figure-markdown_github/unnamed-chunk-13-1.png" style="display: block; margin: auto;" />
+<img src="/post/hmcdynamics_files/figure-markdown_github/unnamed-chunk-13-1.png" style="display: block; margin: auto;" />
 
 ### Stan Model for German Credit Dataset Target
 
