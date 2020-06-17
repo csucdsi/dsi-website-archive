@@ -1,5 +1,5 @@
 ---
-title: A Rewriting of Stan’s Hamiltonian Dynamics: a failed attempt to increase sampling efficiency
+title: A Rewriting of Stan's Hamiltonian Dynamics- a failed attempt to increase sampling efficiency
 author: 'Edward A. Roualdes'
 date: '2020-06-16'
 slug: cc-spring20
