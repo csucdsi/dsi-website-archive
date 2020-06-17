@@ -63,8 +63,10 @@ output:
 <p>We will focus on a random sample of 20,000 people from the BRFSS survey conducted in 2000. While there are over 200 variables in this data set, we will work with a small subset that has been downloaded.</p>
 <ul>
 <li>Create a directory and name it.</li>
-<li>Knit after each completed code chunk, it will help you ensure your final product works as intended. That way if it breaks, you know exactly where the error lies.</li>
-<li>Assign the <code>BRFSS</code> data to the object <code>cdc</code> so you can actually see that it’s ready for your use.</li>
+<li>Knit after each completed code chunk, it will help you ensure your
+final product works as intended. That way if it breaks, you know exactly where the error lies.</li>
+<li>Assign the <code>BRFSS</code> data to the object <code>cdc</code> so you can actually see
+that it’s ready for your use.</li>
 </ul>
 <pre class="r"><code>cdc &lt;- read.table(&quot;ggplot2_intro1/cdc.txt&quot;, header=TRUE, sep=&quot;\t&quot;)
 cdc$exerany &lt;- factor(cdc$exerany, labels=c(&quot;No Exercise&quot;, &quot;Some Exercise&quot;))</code></pre>
@@ -107,7 +109,9 @@ barplot(dc, main=&quot;Barchart using base graphics&quot;)</code></pre>
 <div id="quantile-quantile-plots" class="section level2">
 <h2>Quantile-Quantile plots</h2>
 <p>Determine if height is normally distributed.</p>
-<p>qqnorm is a generic function the default method of which produces a normal QQ plot of the values in y. qqline adds a line to a “theoretical”, by default normal, quantile-quantile plot which passes through the probs quantiles, by default the first and third quartiles. qqplot produces a QQ plot of two datasets.</p>
+<p>qqnorm is a generic function the default method of which produces a normal QQ plot of the values in y.
+qqline adds a line to a “theoretical”, by default normal, quantile-quantile plot which passes through the probs quantiles, by default the first and third quartiles.
+qqplot produces a QQ plot of two datasets.</p>
 <pre class="r"><code>qqnorm(cdc$height)
 qqline(cdc$height, col=&quot;red&quot;)</code></pre>
 <p><img src="/event/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-7-1.png" width="576" /></p>
@@ -125,19 +129,24 @@ qqline(cdc$height, col=&quot;red&quot;)</code></pre>
 </div>
 <div id="mosaic-plots" class="section level2">
 <h2>Mosaic plots</h2>
-<p>But what if you want to know how two categorical variables are related and you don’t want to look at two different barplots? Mosaic plots are a way to visualize the proportions in a table. So here’s the two-way table we’ll be plotting.</p>
+<p>But what if you want to know how two categorical variables are related and you don’t want
+to look at two different barplots? Mosaic plots are a way to visualize the proportions in
+a table. So here’s the two-way table we’ll be plotting.</p>
 <pre class="r"><code>table(cdc$smoke100, cdc$exerany)</code></pre>
 <pre><code>##    
 ##     No Exercise Some Exercise
 ##   0        2543          8016
 ##   1        2543          6898</code></pre>
-<p>The syntax for a mosiac plot uses <em>model notation</em>, which is basically y ~ x where the ~ is read as “twiddle” or “tilde”. <code>color</code> applies shades of gray to one of the factor levels, and <code>shade</code> applies a color gradient scale to the cells in order of what is less than expected (red) to what is more than expected (blue) if these two factors were compltely independent.</p>
+<p>The syntax for a mosiac plot uses <em>model notation</em>, which is basically y ~ x where the ~ is read as “twiddle” or “tilde”. <code>color</code> applies shades of gray to one of the factor levels, and <code>shade</code> applies a color gradient scale to the cells in order of what is less than expected (red) to what is more than expected
+(blue) if these two factors were compltely independent.</p>
 <pre class="r"><code>par(mfrow=c(1,2)) # display the plots in 1 row and 2 columns
 mosaicplot(smoke100~exerany, data=cdc, color=TRUE)</code></pre>
 <p><img src="/event/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-10-1.png" width="960" /></p>
 <p>Mosaic chart, This becomes, more interesting and important when you have categorical variables that takes on more than two <code>values</code>.</p>
 <blockquote>
-<p>One would expect that smokers exercise less than non smokers. Using a mosiaicplot does there seem to be a relationship between smoking and exercise?</p>
+<p>One would expect that smokers exercise less than non smokers.
+Using a mosiaicplot does there seem to be a relationship
+between smoking and exercise?</p>
 </blockquote>
 <pre class="r"><code>mosaicplot(genhlth~smoke100, data=cdc)</code></pre>
 <p><img src="/event/2017-04-21_ggplot2_files/figure-html/unnamed-chunk-11-1.png" width="576" /></p>

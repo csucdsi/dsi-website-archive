@@ -52,7 +52,8 @@ description: '2017-04-28 DSI Workshop'
 <div id="data-management-cleaning" class="section level2">
 <h2>Data Management / cleaning</h2>
 <p>Let’s create some variables that we’ll analyze throughout this tutorial.</p>
-<p>The BEFSS asks participants how much they weigh, and how much they want to weigh. Let’s create a difference between the two to measure whether the participants feel the are under, or overweight. <strong>Create the variable <code>wtdiff</code> as <code>wtdesire</code> - <code>weight</code>, so a positive value means they want to gain weight.</strong></p>
+<p>The BEFSS asks participants how much they weigh, and how much they want to weigh. Let’s create a difference between the two to measure whether the participants feel the are under, or overweight.
+<strong>Create the variable <code>wtdiff</code> as <code>wtdesire</code> - <code>weight</code>, so a positive value means they want to gain weight.</strong></p>
 <pre class="r"><code>cdc$wtdiff &lt;- cdc$wtdesire - cdc$weight</code></pre>
 </div>
 </div>
@@ -150,7 +151,8 @@ grid.arrange(a, b, nrow=1)</code></pre>
 <pre class="r"><code>ggplot(cdc, aes(x=wtdiff, col=gender)) + geom_density() + theme_bw()</code></pre>
 <p><img src="/event/2017-04-28_stat_models_brief_files/figure-html/unnamed-chunk-10-1.png" width="576" style="display: block; margin: auto;" /></p>
 <pre class="r"><code>ggplot(cdc, aes(y=wtdiff, x=gender, fill=gender)) + geom_boxplot() + theme_bw()</code></pre>
-<p><img src="/event/2017-04-28_stat_models_brief_files/figure-html/unnamed-chunk-10-2.png" width="576" style="display: block; margin: auto;" /> Looks like pretty similar distributions.</p>
+<p><img src="/event/2017-04-28_stat_models_brief_files/figure-html/unnamed-chunk-10-2.png" width="576" style="display: block; margin: auto;" />
+Looks like pretty similar distributions.</p>
 <ol start="2" style="list-style-type: decimal">
 <li>Use <code>t.test()</code> function with <strong>model notation: y ~ x</strong>.</li>
 </ol>
@@ -204,8 +206,7 @@ grid.arrange(a, b, nrow=1)</code></pre>
 <p>We could also use <code>prop.test()</code> with the frequency table numbers above.</p>
 <pre class="r"><code>prop.test(x=c(4419, 5021), n=c(10431, 9567))</code></pre>
 <pre><code>## 
-##  2-sample test for equality of proportions with continuity
-##  correction
+##  2-sample test for equality of proportions with continuity correction
 ## 
 ## data:  c(4419, 5021) out of c(10431, 9567)
 ## X-squared = 204.6, df = 1, p-value &lt; 2.2e-16
@@ -288,7 +289,8 @@ summary(model) # prints it in an easy to ready fashion. </code></pre>
 <p><img src="/event/2017-04-28_stat_models_brief_files/figure-html/unnamed-chunk-18-1.png" width="576" style="display: block; margin: auto;" /></p>
 <p>A linear model may not be appropriate for those who weigh over 250-300 lbs.</p>
 <ol start="2" style="list-style-type: decimal">
-<li>Fit a linear regression line for those who weigh less than 250 lbs. The workhorse function here is <code>lm()</code>, but like <code>aov()</code> looks better after being wrapped in a <code>summary()</code>.</li>
+<li>Fit a linear regression line for those who weigh less than 250 lbs.
+The workhorse function here is <code>lm()</code>, but like <code>aov()</code> looks better after being wrapped in a <code>summary()</code>.</li>
 </ol>
 <pre class="r"><code>lt250 &lt;- subset(cdc, weight&lt;=250)
 
