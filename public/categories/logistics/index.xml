@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>logistics on Chico State DSI Blog</title>
+    <link>/categories/logistics/</link>
+    <description>Recent content in logistics on Chico State DSI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Mar 2018 00:00:00 +0000</lastBuildDate><atom:link href="/categories/logistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DataFest Registration now open!</title>
+      <link>/blog/2018/03/26/2018-03-26-datafest/</link>
+      <pubDate>Mon, 26 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/03/26/2018-03-26-datafest/</guid>
+      <description>Click here to Register  Tackle a substantial real-world problem Hone your computational and statistical skills Free food Network with local industry partners Friendly competition - win swag and bragging rights! Prep workshops leading up to the event - up your coding skills in our pre-event workshops  Registration closes on April 14th. (Two weeks prior to the event) This is so we can ensure there will be enough food and prizes for everyone!</description>
+    </item>
+    
+    <item>
+      <title>New Site</title>
+      <link>/blog/2017/08/01/2017-08-01-new_site/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/08/01/2017-08-01-new_site/</guid>
+      <description>We have a new site! One of Robin Donatello&amp;rsquo;s summer projects was to revamp the DSI website to have more flexibility in the content. Thanks to blogdown package by Yihui Xie, creating a custom professional website can be done relatively easily from the comfort of R Studio. He has a great tutorial/book on how to create websites with R Markdown.
+Over the course of the next few weeks [edit: Months] all content from the previous site will be migrated over.</description>
+    </item>
+    
+  </channel>
+</rss>

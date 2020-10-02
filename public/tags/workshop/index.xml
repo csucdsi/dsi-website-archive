@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>workshop on Chico State DSI Blog</title>
+    <link>/tags/workshop/</link>
+    <description>Recent content in workshop on Chico State DSI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fall hours set for DSI Workshops &amp; Community Coding</title>
+      <link>/blog/2018/10/08/2018-10-01-dsi-workshops-community-coding/</link>
+      <pubDate>Mon, 08 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/10/08/2018-10-01-dsi-workshops-community-coding/</guid>
+      <description>The Data Science Initative workshops and Community Coding sessions are in full swing for Fall! We secured the same time and place as last semester.
+ Tuesday &amp;amp; Thursday 2-3:50 Meriam Library (MLIB) 442 (4th floor, directly left out of elevators).
+ Workshops &amp;amp; Seminars
+ We will be reviewing suggestions from Spring and planning talks and workshops at all levels. Do you have a request for a specialized workshop topic, or want to share your research or project?</description>
+    </item>
+    
+    <item>
+      <title>Workshop: Data Visualization with ggplot2</title>
+      <link>/blog/2018/04/18/2018-04-19-ggplot2_announce/</link>
+      <pubDate>Wed, 18 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/04/18/2018-04-19-ggplot2_announce/</guid>
+      <description>April is Data Fest Prep month! Hone your skills in preparation for this exciting data hackathon event!
+Logistics / Setup  Date: Thursday April 18, 2018 Time: 3-3:45 pm Location: MLIB 442 Presenter: Robin Donatello: rdonatello@csuchico.edu Materials: R code (solutions will be posted after the workshop!)  Details  Are you new to R and want to learn how to make data visualization? Are you new to ggplot and want to understand more how the syntax works?</description>
+    </item>
+    
+    <item>
+      <title>Spring hours set for DSI Workshops &amp; Community Coding</title>
+      <link>/blog/2018/01/29/2018-01-29-dsi-workshops-community-coding/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/01/29/2018-01-29-dsi-workshops-community-coding/</guid>
+      <description>The Data Science Initative at Chico State and the Chico R Users Group are hosting bi-weekly work sessions and tutorial sessions for the entire campus and Chico community.
+ Spring 18: Tuesday &amp;amp; Thursday 2-3:50 Meriam Library (MLIB) 442 (4th floor, directly left out of elevators).
+ Workshops
+ We will be planning a few introductory workshops on topics such as R, Python, Git And a few advanced workshops on creating academic webpages with R Markdown, and an introduction to Bayesian Methods for statistical analysis.</description>
+    </item>
+    
+    <item>
+      <title>DSI Workshop - Fitting introductory statistical models in R</title>
+      <link>/blog/2017/04/28/2017-04-28-stat-models-announce/</link>
+      <pubDate>Fri, 28 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/04/28/2017-04-28-stat-models-announce/</guid>
+      <description>Logistics / Setup  Date: Friday April 28, 2017 Time: 3-4:30 pm Location: MLIB 442 Presenter: Robin Donatello: rdonatello@csuchico.edu [Workshop Details &amp;amp; Materials]  Learning Objectives In this workshop you will learn and practice the following:
+ How to conduct a handful of statistical analysis techniques using R  Note: This workshop does not cover the Statistical Methodology or theory behind these statistical procedures. This workshop assumes that you have checked model assumptions and have chosen the most appropriate model for the research question being analyzed.</description>
+    </item>
+    
+    <item>
+      <title>DSI Workshop - Data Visualization with ggplot2</title>
+      <link>/blog/2017/04/21/2017-04-21-ggplot2_announce/</link>
+      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/04/21/2017-04-21-ggplot2_announce/</guid>
+      <description>Logistics / Setup  Date: Friday April 21, 2017 Time: 3-4:30 pm Location: MLIB 442 Presenter: Robin Donatello: rdonatello@csuchico.edu [Workshop Details &amp;amp; Materials]  Learning Objectives In this workshop you will explore data through visual tools using ggplot. You will learn how to plot different graphs.</description>
+    </item>
+    
+    <item>
+      <title>DSI Workshop - Exploring your data</title>
+      <link>/blog/2017/04/14/2017-04-14-import_data_announce/</link>
+      <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/04/14/2017-04-14-import_data_announce/</guid>
+      <description>Logistics / Setup  Date: Friday April 14, 2017 Time: 3-4:30 pm Location: MLIB 442 Presenter: Robin Donatello: rdonatello@csuchico.edu  Learning Objectives In this workshop you will learn and practice the following:
+ How to get data into R from a variety of places including the web, from excel, from a CSV file and from a simple text file. How to start looking at your data using tables and simple plots Identifying problems in the data such as missing data or numbers stored as characters  Workshop Details &amp;amp; Materials</description>
+    </item>
+    
+    <item>
+      <title>DSI Workshop - Preparing Data for Analysis using R</title>
+      <link>/blog/2017/04/07/2017-04-07-tidy_announce/</link>
+      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/04/07/2017-04-07-tidy_announce/</guid>
+      <description>Logistics  MLIB 442 3PM - 4:30M(+) Friday April 7, 2017 Dr. Rick Hubbard  Are Your Data Tidy? Or, untidy? Before data can be modeled, analyzed or interpreted&amp;hellip;
+&amp;hellip;data must be accessible in meaning-laden forms.
+Annually, many Analysts around the globe report expending up to 80% of the effort and duration of an investigation in &amp;ldquo;wrangling&amp;rdquo; and &amp;ldquo;tidying&amp;rdquo; data into a &amp;ldquo;shape&amp;rdquo; that enables thoughtful, economical analysis. Does this sound like one of your projects?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>StudentSuccess on Chico State DSI Blog</title>
+    <link>/tags/studentsuccess/</link>
+    <description>Recent content in StudentSuccess on Chico State DSI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Jul 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/studentsuccess/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Current job and research project openings at Chico State</title>
+      <link>/blog/2018/07/11/2018-07-11-student-data-analyst-job-at-chico-state/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/07/11/2018-07-11-student-data-analyst-job-at-chico-state/</guid>
+      <description>Strategic Planning Student Assistant   Department: Office of the President, CSU, Chico
+  Project Details: As one of the first steps in the strategic planning process, we are conducting both internal and external scans. The internal scan will review internal data (President’s Listening Tour, Campus Climate Survey, Alumni Attitude Survey, Spring Graduate Survey, etc.) to identify institutional strengths, weaknesses, opportunities, and threats. The external (environmental) scan will examine patterns of change in the surrounding environment that will impact Chico State as an institution in the future.</description>
+    </item>
+    
+  </channel>
+</rss>

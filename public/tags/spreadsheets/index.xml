@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spreadsheets on Chico State DSI Blog</title>
+    <link>/tags/spreadsheets/</link>
+    <description>Recent content in spreadsheets on Chico State DSI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/spreadsheets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Carpentry- Post workshop report</title>
+      <link>/blog/2018/08/19/2018-08-19-post-workshop-report/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/08/19/2018-08-19-post-workshop-report/</guid>
+      <description>Last week Chico State hosted it&amp;rsquo;s first Software Carpentry workshop and it was a great success. We were thrilled to have Reid Otsuji  from UC San Diego and a Library Carpentry instructor come up to help teach the material.
+We had three undergraduate students help out as technical assistant roaming helpers throughout the workshop: Grant Esparza (Computer Science), Jerry Tucay (Applied Mathematics &amp;amp; Statistics), and Eisley Adoremos (Statistics). Their assistance with answer questions and helping add to the collaborate class notes was invaluable!</description>
+    </item>
+    
+    <item>
+      <title>August Workshop - Reproducible Scientific Research with R</title>
+      <link>/blog/2018/07/14/2018-07-14-swc-announce/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/07/14/2018-07-14-swc-announce/</guid>
+      <description>On August 13 - 15th, the DSI is hosting a Software Carpentry workshop for graduate students, faculty, and any other researcher that wants to learn how to conduct reproducible research. You don&amp;rsquo;t need to have any previous knowledge of the tools that will be presented at the workshop.
+The Carpentries are a fiscally sponsored project of Community Initiatives. They teach skills that are immediately useful for researchers, using lessons and datasets that allow researchers to quickly apply what they’ve learned to their own work.</description>
+    </item>
+    
+  </channel>
+</rss>

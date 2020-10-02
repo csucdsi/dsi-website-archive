@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on Chico State DSI Blog</title>
+    <link>/event/</link>
+    <description>Recent content in Events on Chico State DSI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Mar 2017 00:00:00 +0000</lastBuildDate><atom:link href="/event/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DSI Kick Off Meeting &amp; Intro to R files</title>
+      <link>/event/kickoff_files/</link>
+      <pubDate>Fri, 24 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/event/kickoff_files/</guid>
+      <description>Introduction to the DSI slide deck. Materials  Program installation, setup, preferences  NOT COVERED FULLY DURING WORKSHOP   Hands on Introduction to R - Exploring the Data Science Community in Chico.  [Download R code] to download the source code for today.  Opened in a browser window? Right click &amp;amp; &amp;ldquo;save as&amp;rdquo; or &amp;ldquo;save link as&amp;rdquo;   Save this file to an easy to find place. Desktops are nice.</description>
+    </item>
+    
+    <item>
+      <title>Data Visualization using ggplot2</title>
+      <link>/event/ggplot2_intro1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/event/ggplot2_intro1/</guid>
+      <description>ObjectiveGrammer of GraphicsDataOne categorical variableBarchartOne numeric variableHistograms and densitiesBoxplotsQuantile-Quantile plotsTwo categorical variablesGrouped barchartMosaic plotsTwo numeric variablesScatterplotsOne numeric and one categoricalOverlaid density plots.Paneled histogramsTwo numerical and one categoricalScatterplots with colorStratified scatterplots with panelingOne numerical and two categoricalGrouped boxplotsGrouped boxplots with panelingObjectiveIn this workshop you will explore data through visual tools using ggplot.</description>
+    </item>
+    
+    <item>
+      <title>Data Visualization using ggplot2</title>
+      <link>/event/ggplot2_intro2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/event/ggplot2_intro2/</guid>
+      <description>PreparationTo get the most out of this workshop you should have the following installed on your laptop:
+R Version 3.3+with installed packages: ggplot2, ggmap, MASSoptional packages: waffle, scalesR Studio version 1.1+IntroductionVisualizing your data is hands down the most important thing you can learn to do. Seeing is critical to understanding. There are three audiences in mind when creating data visualizations:</description>
+    </item>
+    
+    <item>
+      <title>Exploring your data with R</title>
+      <link>/event/r_import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/event/r_import/</guid>
+      <description>Learning ObjectivesIn this workshop you will learn and practice the following:
+How to get data into R from a variety of places including the web, from excel, from a CSV file and from a simple text file.How to start looking at your data using tables and simple plotsIdentifying problems in the data such as missing data or numbers stored as charactersPre-Requirements / SetupA laptop with R (v3.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Python &amp; Jupyter Notebooks</title>
+      <link>/event/setup_python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/event/setup_python/</guid>
+      <description>Materials  Workshop slides [Python Notebook version of slides](/event/setup_python/Python for Windows 10.ipynb)  Post workshop updates (by Robin Donatello)
+Grant led us through how to install Python3 on Windows and OSX using CLI (Command Line Interface). This is a great approach for those who want to get more comfortable with using the command line. For Mac users, the entire process came down to installing 3 programs: homebrew, python3, and jupyter. That is because it&amp;rsquo;s built on a Unix system.</description>
+    </item>
+    
+    <item>
+      <title>Preparing Data for Analysis using R</title>
+      <link>/event/tidy_rick/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/event/tidy_rick/</guid>
+      <description>Are Your Data Tidy? Or, untidy? Before data can be modeled, analyzed or interpreted&amp;hellip;
+&amp;hellip;data must be accessible in meaning-laden forms.
+Annually, many Analysts around the globe report expending up to 80% of the effort and duration of an investigation in &amp;ldquo;wrangling&amp;rdquo; and &amp;ldquo;tidying&amp;rdquo; data into a &amp;ldquo;shape&amp;rdquo; that enables thoughtful, economical analysis. Does this sound like one of your projects?
+In this fast-paced Preparing Data for Analysis Workshop, you&amp;rsquo;ll learn techniques to succeed with—as well as avoid-or remedy—important considerations affecting many datasets; such as:</description>
+    </item>
+    
+    <item>
+      <title>Statistical analysis functions using R</title>
+      <link>/event/stat_models_brief/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/event/stat_models_brief/</guid>
+      <description>Learning ObjectivesIn this workshop you will learn and practice the following:
+How to conduct a handful of statistical analysis techniques using RNote: This workshop does not cover the Statistical Methodology or theory behind these statistical procedures. This workshop assumes that you have checked model assumptions and have chosen the most appropriate model for the research question being analyzed. 
+Pre-Requirements / SetupA laptop with R (v3.</description>
+    </item>
+    
+    <item>
+      <title>Using Python for Exploratory Data Analysis</title>
+      <link>/event/intro_python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/event/intro_python/</guid>
+      <description>Materials  HTML version of the notebook Python Notebook  </description>
+    </item>
+    
+  </channel>
+</rss>
