@@ -169,5 +169,5 @@ paginate = 6
 
 [params.recent_posts]
     enable = true
-    title = "Featured Posts"
+    title = "Recent Posts"
     subtitle = ""
