@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tidy on Chico State DSI Blog</title>
+    <link>/tags/tidy/</link>
+    <description>Recent content in tidy on Chico State DSI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Apr 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/tidy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DSI Workshop - Preparing Data for Analysis using R</title>
+      <link>/blog/2017/04/07/2017-04-07-tidy_announce/</link>
+      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/04/07/2017-04-07-tidy_announce/</guid>
+      <description>Logistics  MLIB 442 3PM - 4:30M(+) Friday April 7, 2017 Dr. Rick Hubbard  Are Your Data Tidy? Or, untidy? Before data can be modeled, analyzed or interpreted&amp;hellip;
+&amp;hellip;data must be accessible in meaning-laden forms.
+Annually, many Analysts around the globe report expending up to 80% of the effort and duration of an investigation in &amp;ldquo;wrangling&amp;rdquo; and &amp;ldquo;tidying&amp;rdquo; data into a &amp;ldquo;shape&amp;rdquo; that enables thoughtful, economical analysis. Does this sound like one of your projects?</description>
+    </item>
+    
+  </channel>
+</rss>

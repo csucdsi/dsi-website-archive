@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data_management on Chico State DSI Blog</title>
+    <link>/tags/data_management/</link>
+    <description>Recent content in data_management on Chico State DSI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/data_management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DSI seminar 2/19: Managing data from multiple tables using SQL </title>
+      <link>/blog/2019/02/13/2019-02-13-intro-sql/</link>
+      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/02/13/2019-02-13-intro-sql/</guid>
+      <description>Logistics / Setup  Presenter: Robin Donatello, Assistant Professor of Statistics Date: Tuesday February 19th, 2019 Time: 3-3:50 pm Location: Tehama 116 RSVP: http://goo.gl/forms/BnjV0y5zoz09tUU83  Description You’ve got person level data (like country of origin) in one data set, annual data (like income) for each person across multiple years in another data set, but each person is on a team and team characteristics are on yet a THIRD data set. How do you link all this information together to gain any kind of insights?</description>
+    </item>
+    
+    <item>
+      <title>DSI Workshop - Exploring your data</title>
+      <link>/blog/2017/04/14/2017-04-14-import_data_announce/</link>
+      <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/04/14/2017-04-14-import_data_announce/</guid>
+      <description>Logistics / Setup  Date: Friday April 14, 2017 Time: 3-4:30 pm Location: MLIB 442 Presenter: Robin Donatello: rdonatello@csuchico.edu  Learning Objectives In this workshop you will learn and practice the following:
+ How to get data into R from a variety of places including the web, from excel, from a CSV file and from a simple text file. How to start looking at your data using tables and simple plots Identifying problems in the data such as missing data or numbers stored as characters  Workshop Details &amp;amp; Materials</description>
+    </item>
+    
+    <item>
+      <title>DSI Workshop - Preparing Data for Analysis using R</title>
+      <link>/blog/2017/04/07/2017-04-07-tidy_announce/</link>
+      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/04/07/2017-04-07-tidy_announce/</guid>
+      <description>Logistics  MLIB 442 3PM - 4:30M(+) Friday April 7, 2017 Dr. Rick Hubbard  Are Your Data Tidy? Or, untidy? Before data can be modeled, analyzed or interpreted&amp;hellip;
+&amp;hellip;data must be accessible in meaning-laden forms.
+Annually, many Analysts around the globe report expending up to 80% of the effort and duration of an investigation in &amp;ldquo;wrangling&amp;rdquo; and &amp;ldquo;tidying&amp;rdquo; data into a &amp;ldquo;shape&amp;rdquo; that enables thoughtful, economical analysis. Does this sound like one of your projects?</description>
+    </item>
+    
+  </channel>
+</rss>

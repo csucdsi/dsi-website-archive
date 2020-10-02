@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Chico State DSI Blog</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on Chico State DSI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extended hours for Community coding! Spring 20</title>
+      <link>/blog/2020/01/22/2020-01-22-spring20-cc/</link>
+      <pubDate>Wed, 22 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2020/01/22/2020-01-22-spring20-cc/</guid>
+      <description>Hours &amp;amp; Location  MW 10-12, Tehama 116 T 2-4, Butte 518 W 5:30-7pm Butte 518 R 4-6pm Butte 518 F 1-2pm, 3-4pm, Butte 518  Flyer with hours: bit.ly/cc_hours
+What is community coding? Taking a programming class this semester? Or a class doing statistical data analysis? Have a pet programming/data science project you’re working on? Students, staff, faculty, and the public are invited to join our Community Coding sessions. Bring your computer, coding projects, and your questions to this open working environment.</description>
+    </item>
+    
+    <item>
+      <title>Data Science and Analytics Research Fellowship</title>
+      <link>/blog/2019/12/03/2019-12-03-fellowship-announcement/</link>
+      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/12/03/2019-12-03-fellowship-announcement/</guid>
+      <description>APPLICATION DEADLINE: December 17, 2019 3:00PM ET Apply at https://www.zintellect.com/Opportunity/Details/NIH-NIAID-2020-0002
+Applications will be reviewed on a rolling-basis. As a Research Participant in the NIAID Data Analytics and Research Branch (DARB), the participant will receive training and hands-on-experience in applying and managing data and portfolio analysis strategies and learning about NIH and bibliometric databases and tool development to manage programs in infectious, immunological, and allergic diseases. Appointments will be for one year, with a second-year option.</description>
+    </item>
+    
+    <item>
+      <title>ASA DataFest 2020 @ Chico State - April 17-19</title>
+      <link>/blog/2019/11/07/2019-11-07-asa-datafest-2020/</link>
+      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/11/07/2019-11-07-asa-datafest-2020/</guid>
+      <description>Save the Date - April 17-19, 2020! In 2019 Chico State&amp;rsquo;s ASA DataFest tripled the participation from our first year. DataFest 2020 is set to break (our) records! DataFest 2019 hosted 36 undergraduate students in 6 teams, a ton of food and a lot of fun.
+This event is open to ALL undergraduates in the North State!
+Registration opens January 2020. What is the ASA DataFest?
+ASA DataFest is a data hackathon for undergraduate students, sponsored by the American Statistical Association and founded at UCLA, in 2011.</description>
+    </item>
+    
+    <item>
+      <title>We&#39;re Hiring!</title>
+      <link>/blog/2019/11/05/2019-11-05-were-hiring/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/11/05/2019-11-05-were-hiring/</guid>
+      <description>The Department of Mathematics and Statistics at Chico State is hiring TWO Tenure-track Assisstant Professor positions in Statistics. We are looking for individuls from diverse backgrounds to join our team as we build the most amazing Statistics and Data Science programs in the North State.</description>
+    </item>
+    
+    <item>
+      <title>At DataFest 2019, I Learned...</title>
+      <link>/blog/2019/04/09/2019-04-11-learnings/</link>
+      <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/04/09/2019-04-11-learnings/</guid>
+      <description>Introduction During CSU, Chico&amp;rsquo;s DataFest 2019, two questions from different teams provided me (Edward, not Dr. Donatello) an excellent learning experience. This blog post attempts to describe the problems these teams faced and then offer up some solutions. This post is about my own learnings during DataFest and does not even pretend to claim that these are the only, nor the best, solutions to these problems.
+Team Re(sps) The physics team asked me about transforming multiple, specific columns within a Python $\texttt{pandas.</description>
+    </item>
+    
+    <item>
+      <title>DSI Seminar 4/23 &amp; 4/25: Growing a Scientific Mindset to Develop Analytics Teams</title>
+      <link>/blog/2019/04/09/2019-04-09-case_study_lyft/</link>
+      <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/04/09/2019-04-09-case_study_lyft/</guid>
+      <description>The Chico State Data Science Initiative is proud to welcome Chico State Alumni Martin Frigaard, App Developer with Intricity and Peter Spangler, Data Scientist at Lyft back for two das to give their invited talk for the Predictive World Analytics 2019 Conference.
+Logistics / Setup  Presenters: Martin Frigaard, App Developer with Intricity &amp;amp; Peter Spangler, Data Scientist at Lyft Date/Time (1): Tuesday April 23rd, 2019 - 3:00 pm Date/Time (2): Tuesday April 25rd, 2019 - 2:00 pm Location: Tehama 116 RSVP: http://goo.</description>
+    </item>
+    
+    <item>
+      <title>Norcon - Hacker Conference April 13th</title>
+      <link>/blog/2019/04/08/2019-04-08-norcon/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/04/08/2019-04-08-norcon/</guid>
+      <description>Chico&amp;rsquo;s one and only hacker con. By hackers, for hackers. The Norcon Security Conference is a one-day event created by and intended for the community. This is the place where security professionals, hobbyists, and anyone interested in security can come to hang out. Norcon features lectures and interactive training aimed at varying skill levels. Everyone at Norcon is encouraged to participate and learn. We embrace those from diverse backgrounds, ages, and skill levels.</description>
+    </item>
+    
+    <item>
+      <title>DSI Seminar 3/29: An Introduction to SAP Predictive Analytics Workshop</title>
+      <link>/blog/2019/03/29/2019-03-29-dsi-seminar-arash-negahban/</link>
+      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/03/29/2019-03-29-dsi-seminar-arash-negahban/</guid>
+      <description>Logistics / Setup  Presenter: Dr. Arash Negahban, Assistant Professor of Business Information Systems Date: Thursday March 29th, 2019 Time: 1-3:00 pm Location: Glenn 304 NOTE DIFFERENT ROOM RSVP: http://goo.gl/forms/BnjV0y5zoz09tUU83  Description SAP Predictive Analytics is the visualization tool for SAP, the world’s largest business software company founded in 1972 and headquartered in Germany. SAP University Competence Center (UCC) under BIS department in College of Business is one of only six UCCs in the world that provides hosting services and technical support to universities that participate in SAP University Alliance, a global program that has more than 3,200 educational institutions in over 111 countries.</description>
+    </item>
+    
+    <item>
+      <title>DSI Seminar 3/28: InfoVis: Communicating Data Visually</title>
+      <link>/blog/2019/03/28/2019-03-25-dsi-seminar-kevin-buffardi/</link>
+      <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/03/28/2019-03-25-dsi-seminar-kevin-buffardi/</guid>
+      <description>Logistics / Setup  Presenter: Kevin Buffardi, Associate Professor of Computer Science Date: Thursday March 28th, 2019 Time: 2-2:50 pm Location: Tehama 116 RSVP: http://goo.gl/forms/BnjV0y5zoz09tUU83  Description Information is plentiful, but making sense of it is not always so easy. Graphical representation of data can help us discover new insights and communicate hidden meaning in complex data. In this talk, Dr. Kevin Buffardi (computer science) will introduce principles and challenges in visualizing information for better human understanding.</description>
+    </item>
+    
+    <item>
+      <title>DSI Seminar 3/5: Strategies to manage Big Data</title>
+      <link>/blog/2019/03/03/2019-03-03-dsi-seminar-strategies-to-manage-big-data/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/03/03/2019-03-03-dsi-seminar-strategies-to-manage-big-data/</guid>
+      <description>Logistics / Setup  Presenter: Edward Roualdes, Associate Professor of Statistics Date: Tuesday March 5th, 2019 Time: 2-2:50 pm Location: Tehama 116 RSVP: http://goo.gl/forms/BnjV0y5zoz09tUU83  Description This talk is about managing big data in a short amount of time, since there are certainly better solutions to managing big data with more time and/or money available. We’ll briefly cover the constraints of the problem, limited memory and computing power. These constraints will be explored from within R, but the same ideas carry over to any programming language.</description>
+    </item>
+    
+    <item>
+      <title>Women in Data Science technical conference! Mon Mar 4th, Sylvesters 100</title>
+      <link>/blog/2019/02/23/2019-02-23-wids/</link>
+      <pubDate>Sat, 23 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/02/23/2019-02-23-wids/</guid>
+      <description>One day technical conference The Global Women in Data Science (WiDS) Conference aims to inspire and educate data scientists worldwide, regardless of gender, and support women in the field. This annual one-day technical conference provides an opportunity to hear about the latest data science related research and applications in a broad set of domains, All genders are invited to participate in the conference, which features outstanding women doing outstanding work.</description>
+    </item>
+    
+    <item>
+      <title>ASA DataFest 2019 @ Chico State - April 5-7</title>
+      <link>/blog/2019/02/17/2019-02-17-asa-datafest-2019/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/02/17/2019-02-17-asa-datafest-2019/</guid>
+      <description>We&amp;rsquo;re doing it again! Last year the ASA DataFest at Chico State featured 12 undergraduate students in 3 teams of 4 people, a ton of food and a lot of fun. This year we&amp;rsquo;re expanding this event, registration is open to ALL undergraduates in the North State! As of 2-17-19 we we already have 22 students (about 5 teams) already registered!
+More students means more funding is needed to keep everyone fed, caffinated and to provide excellent prizes to the winners.</description>
+    </item>
+    
+    <item>
+      <title>DSI seminar 2/19: Managing data from multiple tables using SQL </title>
+      <link>/blog/2019/02/13/2019-02-13-intro-sql/</link>
+      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/02/13/2019-02-13-intro-sql/</guid>
+      <description>Logistics / Setup  Presenter: Robin Donatello, Assistant Professor of Statistics Date: Tuesday February 19th, 2019 Time: 3-3:50 pm Location: Tehama 116 RSVP: http://goo.gl/forms/BnjV0y5zoz09tUU83  Description You’ve got person level data (like country of origin) in one data set, annual data (like income) for each person across multiple years in another data set, but each person is on a team and team characteristics are on yet a THIRD data set. How do you link all this information together to gain any kind of insights?</description>
+    </item>
+    
+    <item>
+      <title>DSI seminar 2/14: Spatial is Special!</title>
+      <link>/blog/2019/02/02/2019-02-02-dsi-seminar-spatial-is-special/</link>
+      <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/02/02/2019-02-02-dsi-seminar-spatial-is-special/</guid>
+      <description>Logistics / Setup  Presenter: Peter Hansen, Chico State GIS Specialist Date: Thursday February 14th, 2019 Time: 2-2:50 pm Location: Tehama 116 RSVP: http://goo.gl/forms/BnjV0y5zoz09tUU83  Description Are you curious about how to work with or create spatial data? Are you interested in beginning to explore how geographic data can be used in your research and other data inquiries? Data with a spatial component can be analyzed with software called GIS (Geographic Information Systems).</description>
+    </item>
+    
+    <item>
+      <title>January Updates</title>
+      <link>/blog/2019/01/22/2019-01-22-january-updates/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/01/22/2019-01-22-january-updates/</guid>
+      <description>DSI Workshop Spring Seminar and Workshop series starts 2/5/19 In addition to doing some good DataFest prep training workshops our topics for this spring include dealing with dates &amp;amp; times, joining tables using SQL, simple strategies to manage large data sets, Intro to version control with git, more fun with Bayesian statistics, and building a professional website in R using Markdown.
+Stay tuned for an official calendar of events and announcements.</description>
+    </item>
+    
+    <item>
+      <title>Community Coding - Now for credit!</title>
+      <link>/blog/2019/01/21/2019-01-21-community-coding-now-for-credit/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/01/21/2019-01-21-community-coding-now-for-credit/</guid>
+      <description>Spring 19 semester is upon us and we&amp;rsquo;re exicted to start up Community Coding again.
+ Dates &amp;amp; Times: Tuesday &amp;amp; Thursday - 2-4pm Location : Tehama (THMA) 116  What is community coding? Students, staff, faculty, and the public are invited to join our Community Coding sessions. Bring your computer, coding projects, and your questions to this open working environment.
+What is this for credit option? Commit to studying 1 hr.</description>
+    </item>
+    
+    <item>
+      <title>Data Science info session</title>
+      <link>/blog/2018/10/29/2018-10-29-ds-info-session-f18/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/10/29/2018-10-29-ds-info-session-f18/</guid>
+      <description>Missed this event? Watch the Video Recording here: [https://media.csuchico.edu/media/0_kkfl6yt8]
+ When: Friday, Nov 2nd, noon Where: Butte 101 Do you want to increase your ability to read, understand, create and communicate data as information? To tell a better data story?
+Do you want to be a better consumer and curator of news, improving your ability to identify bull-oney stories that are only aimed to spread false information?
+Are you concerned about ethics and fairness in algorithms that are used for decisions such as whether or not you get that home mortgage, or that your resume is not tossed out without being seen due to a bias in the screening algorithm.</description>
+    </item>
+    
+    <item>
+      <title>Biomedical Optical Imaging and Machine Learning for Cancer and Disease Detection</title>
+      <link>/blog/2018/10/25/2018-10-25-seminar-biol-salehi/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/10/25/2018-10-25-seminar-biol-salehi/</guid>
+      <description>Who: Dr. Hassan S. Salehi, Assistant Professor, Department of Electrical &amp;amp; Computer Engineering, CSU, Chico
+When: Friday, Oct 26, 2018; 4pm
+Where: Holt Hall 170
+Abstract
+Ovarian cancer ranks fifth as the cause of cancer death in women. Due to nonspecific associated symptoms as well as lack of efficacious screening techniques at the disposal of patients, the survival rate for ovarian cancer has not significantly improved over the last two decades.</description>
+    </item>
+    
+    <item>
+      <title>Cloud Computing at Chevron</title>
+      <link>/blog/2018/10/25/2018-10-25-seminar-csci-hayes/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/10/25/2018-10-25-seminar-csci-hayes/</guid>
+      <description>Who: Travis Hayes, Solution Architect forChevron Information Technology Company
+When: Friday, Oct 26, 2018; 2pm
+Where: O&amp;rsquo;Connell 254
+Abstract
+Lean about Chevron&amp;rsquo;s cloud journey through infrastructure automation, CI/CD, and application modernization at scale.</description>
+    </item>
+    
+    <item>
+      <title>Fall hours set for DSI Workshops &amp; Community Coding</title>
+      <link>/blog/2018/10/08/2018-10-01-dsi-workshops-community-coding/</link>
+      <pubDate>Mon, 08 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/10/08/2018-10-01-dsi-workshops-community-coding/</guid>
+      <description>The Data Science Initative workshops and Community Coding sessions are in full swing for Fall! We secured the same time and place as last semester.
+ Tuesday &amp;amp; Thursday 2-3:50 Meriam Library (MLIB) 442 (4th floor, directly left out of elevators).
+ Workshops &amp;amp; Seminars
+ We will be reviewing suggestions from Spring and planning talks and workshops at all levels. Do you have a request for a specialized workshop topic, or want to share your research or project?</description>
+    </item>
+    
+    <item>
+      <title>Seminar: LabKey Server</title>
+      <link>/blog/2018/10/01/2018-08-19-seminar-labkey/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/10/01/2018-08-19-seminar-labkey/</guid>
+      <description>The DSI is excited for our first speaker for Fall 2018. Jim Piper has been a regular at our DSI talks and events and is going to share with us his work on LabKey Server, a team collaboration software program specialized for the sciences. A hands demo of this program will be included.
+ When: Tuesday October 9th, 2- 2:50pm Where: MLIB 442  Light refreshments will be provided by the DSI.</description>
+    </item>
+    
+    <item>
+      <title>Software Carpentry- Post workshop report</title>
+      <link>/blog/2018/08/19/2018-08-19-post-workshop-report/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/08/19/2018-08-19-post-workshop-report/</guid>
+      <description>Last week Chico State hosted it&amp;rsquo;s first Software Carpentry workshop and it was a great success. We were thrilled to have Reid Otsuji  from UC San Diego and a Library Carpentry instructor come up to help teach the material.
+We had three undergraduate students help out as technical assistant roaming helpers throughout the workshop: Grant Esparza (Computer Science), Jerry Tucay (Applied Mathematics &amp;amp; Statistics), and Eisley Adoremos (Statistics). Their assistance with answer questions and helping add to the collaborate class notes was invaluable!</description>
+    </item>
+    
+    <item>
+      <title>Measuring Variation in the Empirical Storm Season Over Time</title>
+      <link>/blog/2018/07/18/2018-07-18-storm-events/</link>
+      <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/07/18/2018-07-18-storm-events/</guid>
+      <description>Introduction This blog post attempts an analysis of the annual variability of dates on which storms formed during the years 1950 to 2016. Throughout, the word storm will refer to named tropical or subtropical cyclones in the Atlantic Ocean. The inspiration of this analysis came from a CSU, Chico campus seminar.
+During the Fall semester of 2017, CSU, Chico&amp;rsquo;s Dr. Ann Bykerk-Kauffman gave one of three talks at the Department of Geological and Environmental Sciences seminar titled 2017 Hurricane Talk.</description>
+    </item>
+    
+    <item>
+      <title>August Workshop - Reproducible Scientific Research with R</title>
+      <link>/blog/2018/07/14/2018-07-14-swc-announce/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/07/14/2018-07-14-swc-announce/</guid>
+      <description>On August 13 - 15th, the DSI is hosting a Software Carpentry workshop for graduate students, faculty, and any other researcher that wants to learn how to conduct reproducible research. You don&amp;rsquo;t need to have any previous knowledge of the tools that will be presented at the workshop.
+The Carpentries are a fiscally sponsored project of Community Initiatives. They teach skills that are immediately useful for researchers, using lessons and datasets that allow researchers to quickly apply what they’ve learned to their own work.</description>
+    </item>
+    
+    <item>
+      <title>Current job and research project openings at Chico State</title>
+      <link>/blog/2018/07/11/2018-07-11-student-data-analyst-job-at-chico-state/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/07/11/2018-07-11-student-data-analyst-job-at-chico-state/</guid>
+      <description>Strategic Planning Student Assistant   Department: Office of the President, CSU, Chico
+  Project Details: As one of the first steps in the strategic planning process, we are conducting both internal and external scans. The internal scan will review internal data (President’s Listening Tour, Campus Climate Survey, Alumni Attitude Survey, Spring Graduate Survey, etc.) to identify institutional strengths, weaknesses, opportunities, and threats. The external (environmental) scan will examine patterns of change in the surrounding environment that will impact Chico State as an institution in the future.</description>
+    </item>
+    
+    <item>
+      <title>Data Fest Prep</title>
+      <link>/blog/2018/04/23/2018-04-23-data-fest-prep/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/04/23/2018-04-23-data-fest-prep/</guid>
+      <description>Logistics / Setup  Date: Tuesday April 24, 2018 Time: 2-3:50 pm Location: MLIB 442  Description Planning on participating in Data Fest 2018? Want to practice your data wrangling skills?
+On Tuesday we will be doing a &amp;ldquo;dry run&amp;rdquo; of DataFest by using 2017 data. Basically here&amp;rsquo;s the data and the overall analysis goal.
+GO! </description>
+    </item>
+    
+    <item>
+      <title>Workshop: An Introduction to SAP Predictive Analytics</title>
+      <link>/blog/2018/04/23/2018-04-23-intro-sap/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/04/23/2018-04-23-intro-sap/</guid>
+      <description>Logistics / Setup  Date: Thursday April 26, 2018 Time: 2-2:50 pm Location: MLIB 442 Presenter: Dr. Arash Negahban, CSUC College of Business  Description Join us for a peek into the predictive analytics arena from a Business perspective – using the SAP software.This is also a great opportunity to learn about the SAP resources we have available on campus.
+SAP Predictive Analytics is the visualization tool for SAP, the world’s largest business software company founded in 1972 and headquartered in Germany.</description>
+    </item>
+    
+    <item>
+      <title>Workshop: Data Visualization with ggplot2</title>
+      <link>/blog/2018/04/18/2018-04-19-ggplot2_announce/</link>
+      <pubDate>Wed, 18 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/04/18/2018-04-19-ggplot2_announce/</guid>
+      <description>April is Data Fest Prep month! Hone your skills in preparation for this exciting data hackathon event!
+Logistics / Setup  Date: Thursday April 18, 2018 Time: 3-3:45 pm Location: MLIB 442 Presenter: Robin Donatello: rdonatello@csuchico.edu Materials: R code (solutions will be posted after the workshop!)  Details  Are you new to R and want to learn how to make data visualization? Are you new to ggplot and want to understand more how the syntax works?</description>
+    </item>
+    
+    <item>
+      <title>Workshop: Using Python for Exploratory Data Analysis</title>
+      <link>/blog/2018/04/05/2018-04-06-intro_python_announce/</link>
+      <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/04/05/2018-04-06-intro_python_announce/</guid>
+      <description>April is Data Fest Prep month! Hone your skills in preparation for this exciting data hackathon event!
+Logistics / Setup  Date: Thursday April 12, 2018 Time: 3-3:50 pm Location: MLIB 442 Presenter: Edward Roualdes Workshop Materials  Python Notebook HTML version of the notebook    Description In this workshop, we&amp;rsquo;ll explore Python and Jupyter notebooks as data analysis tools. The basics of statistical analysis will be focused on Python&amp;rsquo;s library Pandas.</description>
+    </item>
+    
+    <item>
+      <title>Workshop: A Brief Introduction to Tableau Public</title>
+      <link>/blog/2018/04/04/2018-04-10-intro_tableau_public_announce/</link>
+      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/04/04/2018-04-10-intro_tableau_public_announce/</guid>
+      <description>April is Data Fest Prep month! Hone your skills in preparation for this exciting data hackathon event!
+Logistics / Setup  Date: Tuesday April 17, 2018 Time: 2-2:50 pm Location: MLIB 442 Presenter: Ben Juliano bjuliano@mail.csuchico.edu Materials: [Slides]  Description This is a hands-on mini-workshop, so bring your laptop if you want to &amp;ldquo;play&amp;rdquo; &amp;hellip; The why, what, and how of getting into Tableau is presented, including an overview of the Tableau product line.</description>
+    </item>
+    
+    <item>
+      <title>Workshop: Getting Started with Python &amp; Jupyter Notebooks</title>
+      <link>/blog/2018/04/01/2018-04-01-setup_python_announce/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/04/01/2018-04-01-setup_python_announce/</guid>
+      <description>April is Data Fest Prep month! Hone your skills in preparation for this exciting data hackathon event!
+Logistics / Setup  Date: Thursday April 5, 2018 Time: 3-3:50 pm Location: MLIB 442 Presenter: Grant Esparza [Workshop Details &amp;amp; Materials]  The DSI is hosting for our first workshop on Python!
+Grant Esparza from Computer Science will help us install Python 3 and the Jupyter Notebook, and get us started using Python.</description>
+    </item>
+    
+    <item>
+      <title>DataFest Registration now open!</title>
+      <link>/blog/2018/03/26/2018-03-26-datafest/</link>
+      <pubDate>Mon, 26 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/03/26/2018-03-26-datafest/</guid>
+      <description>Click here to Register  Tackle a substantial real-world problem Hone your computational and statistical skills Free food Network with local industry partners Friendly competition - win swag and bragging rights! Prep workshops leading up to the event - up your coding skills in our pre-event workshops  Registration closes on April 14th. (Two weeks prior to the event) This is so we can ensure there will be enough food and prizes for everyone!</description>
+    </item>
+    
+    <item>
+      <title>Data Science Certificate Info Session</title>
+      <link>/blog/2018/03/23/2018-03-23-ds-info-session/</link>
+      <pubDate>Fri, 23 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/03/23/2018-03-23-ds-info-session/</guid>
+      <description>Come learn about the new Undergraduate Certificate in Data Science. Motivation for the program, details about the enrollment process, course requirements and benefits for students. Enrollment in the Certificate program opens Fall 2018.
+Thursday 3-29, 2pm, MLIB 442 Community Coding session will follow at 3pm.</description>
+    </item>
+    
+    <item>
+      <title>Seminar: Introduction to Bayesian Modeling</title>
+      <link>/blog/2018/03/15/2018-03-15-bayesian-seminar-roualdes/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/03/15/2018-03-15-bayesian-seminar-roualdes/</guid>
+      <description>Join us on Thursday March 15 at 3pm in MLIB 442 to hear Dr. Edward Roualdes from Statistics present the benefits of Bayesian Modeling. [RSVP here]
+Abstract:  Much of the statistics taught today is more accurately known as frequentist statistics &amp;ndash; a distinction that gets little attention. However, an alternative exists and the alternative bridges what some see as a gap between statisticians and computer scientists who apply mathematical models to data.</description>
+    </item>
+    
+    <item>
+      <title>Hour of Code: Beyond the Hour</title>
+      <link>/blog/2018/03/12/2018-03-12-gsm-hour-of-code/</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/03/12/2018-03-12-gsm-hour-of-code/</guid>
+      <description>This is a great way to introduce kids to the joys and power of computing! Note the girls only section as well!
+Join us for a workshop that will demystify computer programming and coding through a series of FUN and CREATIVE challenges on WEDNESDAY, MARCH 21. Participants will learn how logic and sequence can be applied to real-world science applications. This workshop is independently paced and picks up at your skill level.</description>
+    </item>
+    
+    <item>
+      <title>Seminar: Teaching Bioinformatics</title>
+      <link>/blog/2018/03/06/2018-03-06-bioinformatics-class-s18/</link>
+      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/03/06/2018-03-06-bioinformatics-class-s18/</guid>
+      <description>Interested in analyzing genomic expression data? Interested in the tools that Biologists use to analyze DNA data?
+Join us on Tuesday March 13 at 2pm in MLIB 442 to hear Dr. Gordon Wolfe and Dr. Dave Keller from Biology presenting an overview and update on BIOL 482: Bioinformatics. [RSVP here]
+Abstract:  We will present an overview of our BIOL 482 bioinformatics class: how it was developed, and how we see it fulfilling the needs of our curriculum.</description>
+    </item>
+    
+    <item>
+      <title>Save the Date! April 27-29 ASA DataFest 2018 @ CSUC</title>
+      <link>/blog/2018/02/21/2018-02-21-asa-datafest-2018/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/02/21/2018-02-21-asa-datafest-2018/</guid>
+      <description>This year the CSU Chico Data Science Initiative will be hosting an ASA DataFest. This will be the first year Chico State has participated.
+ASA DataFest is a data hackathon for undergraduate students, sponsored by the American Statistical Association and founded at UCLA, in 2011. A data analysis problem is presented in the form of a dataset and an associated challenge. Teams of students get a dataset on Friday afternoon and work on the problem until Sunday afternoon where they present their findings.</description>
+    </item>
+    
+    <item>
+      <title>New Undergraduate Certificate in Data Science - Fall 18</title>
+      <link>/blog/2018/02/20/2018-02-21-new-undergraduate-certificate-in-data-science-fall-18/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/02/20/2018-02-21-new-undergraduate-certificate-in-data-science-fall-18/</guid>
+      <description>We are very proud to share with you that starting Fall 2018 Chico State will offer an Undergraduate Certificate in Data Science!
+This certificate program jointly sponsored by the Department of Mathematics and Statistics and the Department of Computer Science introduces students to data science by requiring a set of interdisciplinary classes: applied statistics classes, quantitative classes and computer science (programming and database) classes.
+The certificate is designed so that students will gain experience with skills such as inspecting, cleaning, transforming, and modeling data, unstructured data and; computational statistics; pattern recognition; data mining /predictive analytics; machine learning; data visualization; and programming.</description>
+    </item>
+    
+    <item>
+      <title>Stan and C&#43;&#43; readings</title>
+      <link>/blog/2018/02/18/2018-02-18-stan-and-c-readings/</link>
+      <pubDate>Sun, 18 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/02/18/2018-02-18-stan-and-c-readings/</guid>
+      <description>Contributed Post by Edward Roualdes
+Lately, I&amp;rsquo;ve been reading everything I can get my hands on surrounding Stan, the probabilistic programming language. A particularly awesome paper, written by Bob Carpenter et. al., discusses their efforts at automatic differentiation. The paper mentions quite a few tricks of the trade surrounding the wide world of C++. In the last week, I dove head first into these various C++ ideas. I found them interesting, and I hope someone else will too.</description>
+    </item>
+    
+    <item>
+      <title>Spring hours set for DSI Workshops &amp; Community Coding</title>
+      <link>/blog/2018/01/29/2018-01-29-dsi-workshops-community-coding/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/01/29/2018-01-29-dsi-workshops-community-coding/</guid>
+      <description>The Data Science Initative at Chico State and the Chico R Users Group are hosting bi-weekly work sessions and tutorial sessions for the entire campus and Chico community.
+ Spring 18: Tuesday &amp;amp; Thursday 2-3:50 Meriam Library (MLIB) 442 (4th floor, directly left out of elevators).
+ Workshops
+ We will be planning a few introductory workshops on topics such as R, Python, Git And a few advanced workshops on creating academic webpages with R Markdown, and an introduction to Bayesian Methods for statistical analysis.</description>
+    </item>
+    
+    <item>
+      <title>Intro to R (MATH 130)- New section added for spring</title>
+      <link>/blog/2017/12/05/2017-12-05-new-intro-to-r/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/12/05/2017-12-05-new-intro-to-r/</guid>
+      <description>A second section of MATH 130 - Introduction to R has been added to the Spring 18 schedule.
+ MW 3-4:45 Holt 155 Week 1-5 only Instructor: Robin Donatello or Edward Roualdes (TBD)  Until open enrollment starts back up in January, contact Robin Donatello to enroll.</description>
+    </item>
+    
+    <item>
+      <title>Meet and analyze data</title>
+      <link>/blog/2017/10/24/2017-10-24-meet-and-analyze-data/</link>
+      <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/10/24/2017-10-24-meet-and-analyze-data/</guid>
+      <description>The Data Science Initative and the Statistics Faculty are hosting &amp;ldquo;meet and analyze data&amp;rdquo;. This is simply a reserved space held in central locations for people working on code, data analysis, or some other form of Data Science to come, hang out, and code in proximity with other coders. Got a question? We&amp;rsquo;re right there. We may not be able to help directly, but we&amp;rsquo;ll try. At least we&amp;rsquo;ll help you get a good Google search going.</description>
+    </item>
+    
+    <item>
+      <title>Fun Opportunities for Statistics Students</title>
+      <link>/blog/2017/10/12/2017-10-12-data-opportunities-for-stat-data-science-students/</link>
+      <pubDate>Thu, 12 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/10/12/2017-10-12-data-opportunities-for-stat-data-science-students/</guid>
+      <description>The following list of opportunities for students of Statisics was sent to us by Mark Harbison at Sacramento City College.
+Police Data Challenge: The American Statistical Association (ASA)&amp;rsquo;s public education campaign, This Is Statistics, in collaboration with the Police Data Initiative, has launched the Police Data Challenge - a national contest for high school and undergraduate students to put their statistical and data visualization skills to work creating safer communities. Data sets from metropolitan police departments in Baltimore, Cincinnati, and Seattle are available for participants to peruse in formulating analyses and recommending innovative solutions to enhance public safety.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to R Short Course</title>
+      <link>/blog/2017/08/14/2017-08-14-introduction-to-r-short-course/</link>
+      <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/08/14/2017-08-14-introduction-to-r-short-course/</guid>
+      <description>Learn R Now!  Will you be taking Math 315 (Statistics)? Do you want to have better control over your own data analysis? Have you always wanted to learn R but never got around to it? Do you want to learn how to visualize your data? Are you interested in Data Science, Data Analytics, Business Analytics, Forecasting, Bioinformatics, or Health Informatics? Do you want to learn how to make your research reproducible?</description>
+    </item>
+    
+    <item>
+      <title>Call for speakers and makers</title>
+      <link>/blog/2017/08/01/2017-08-01-speakers-needed/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/08/01/2017-08-01-speakers-needed/</guid>
+      <description>Looking for speakers for F17 DSI workshops &amp;amp; lightning talks  Is your company or department doing something fun and interesting with Data Science? Do you know a coding tip/trick that you would like to share with the community? Do you have some interesting insights that you would like to share?  Come share your ideas/thoughts/project/insights with the Data Science community
+Contact us for more info &amp;amp; to schedule your session.</description>
+    </item>
+    
+    <item>
+      <title>New Site</title>
+      <link>/blog/2017/08/01/2017-08-01-new_site/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/08/01/2017-08-01-new_site/</guid>
+      <description>We have a new site! One of Robin Donatello&amp;rsquo;s summer projects was to revamp the DSI website to have more flexibility in the content. Thanks to blogdown package by Yihui Xie, creating a custom professional website can be done relatively easily from the comfort of R Studio. He has a great tutorial/book on how to create websites with R Markdown.
+Over the course of the next few weeks [edit: Months] all content from the previous site will be migrated over.</description>
+    </item>
+    
+    <item>
+      <title>DSI Workshop - Fitting introductory statistical models in R</title>
+      <link>/blog/2017/04/28/2017-04-28-stat-models-announce/</link>
+      <pubDate>Fri, 28 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/04/28/2017-04-28-stat-models-announce/</guid>
+      <description>Logistics / Setup  Date: Friday April 28, 2017 Time: 3-4:30 pm Location: MLIB 442 Presenter: Robin Donatello: rdonatello@csuchico.edu [Workshop Details &amp;amp; Materials]  Learning Objectives In this workshop you will learn and practice the following:
+ How to conduct a handful of statistical analysis techniques using R  Note: This workshop does not cover the Statistical Methodology or theory behind these statistical procedures. This workshop assumes that you have checked model assumptions and have chosen the most appropriate model for the research question being analyzed.</description>
+    </item>
+    
+    <item>
+      <title>DSI Workshop - Data Visualization with ggplot2</title>
+      <link>/blog/2017/04/21/2017-04-21-ggplot2_announce/</link>
+      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/04/21/2017-04-21-ggplot2_announce/</guid>
+      <description>Logistics / Setup  Date: Friday April 21, 2017 Time: 3-4:30 pm Location: MLIB 442 Presenter: Robin Donatello: rdonatello@csuchico.edu [Workshop Details &amp;amp; Materials]  Learning Objectives In this workshop you will explore data through visual tools using ggplot. You will learn how to plot different graphs.</description>
+    </item>
+    
+    <item>
+      <title>DSI Workshop - Exploring your data</title>
+      <link>/blog/2017/04/14/2017-04-14-import_data_announce/</link>
+      <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/04/14/2017-04-14-import_data_announce/</guid>
+      <description>Logistics / Setup  Date: Friday April 14, 2017 Time: 3-4:30 pm Location: MLIB 442 Presenter: Robin Donatello: rdonatello@csuchico.edu  Learning Objectives In this workshop you will learn and practice the following:
+ How to get data into R from a variety of places including the web, from excel, from a CSV file and from a simple text file. How to start looking at your data using tables and simple plots Identifying problems in the data such as missing data or numbers stored as characters  Workshop Details &amp;amp; Materials</description>
+    </item>
+    
+    <item>
+      <title>DSI Workshop - Preparing Data for Analysis using R</title>
+      <link>/blog/2017/04/07/2017-04-07-tidy_announce/</link>
+      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/04/07/2017-04-07-tidy_announce/</guid>
+      <description>Logistics  MLIB 442 3PM - 4:30M(+) Friday April 7, 2017 Dr. Rick Hubbard  Are Your Data Tidy? Or, untidy? Before data can be modeled, analyzed or interpreted&amp;hellip;
+&amp;hellip;data must be accessible in meaning-laden forms.
+Annually, many Analysts around the globe report expending up to 80% of the effort and duration of an investigation in &amp;ldquo;wrangling&amp;rdquo; and &amp;ldquo;tidying&amp;rdquo; data into a &amp;ldquo;shape&amp;rdquo; that enables thoughtful, economical analysis. Does this sound like one of your projects?</description>
+    </item>
+    
+    <item>
+      <title>DSI Kick Off Meeting (&amp; quick intro to R)</title>
+      <link>/blog/2017/03/24/2017-03-24-dsi-kickoff/</link>
+      <pubDate>Fri, 24 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/03/24/2017-03-24-dsi-kickoff/</guid>
+      <description>Logistics  Date: Friday March 24, 2017 Time: 3-4:30 pm Location: MLIB 045  In this kick off session we&amp;rsquo;ll discuss what Data Science is, how the Data Science Initiative at Chico State is rising to meet the challenge of preparing and training a much needed computational science workforce, and how you can be a part of it. Then we&amp;rsquo;ll explore who our Data Science community is using R.
+Workshop Details &amp;amp; Materials</description>
+    </item>
+    
+    <item>
+      <title>Installing R with Homebrew on Mac OS X</title>
+      <link>/blog/2017/03/24/2017-03-24-install_r_homebrew/</link>
+      <pubDate>Fri, 24 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/03/24/2017-03-24-install_r_homebrew/</guid>
+      <description>This document explains how to install R and RStudio with Homebrew on Mac OS.
+Main Instructions The steps below will install Homebrew, R, and RStudio. Open a terminal and run the following commands.
+ Install Homebrew.  usr/bin/ruby -e &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;#34; This command will download, install, and set up Homebrew. The first time a brew command runs it will ask for a password.
+Install R with the following commands:  brew tap homebrew/science # adds another source for applications.</description>
+    </item>
+    
+    <item>
+      <title>Creating a new theme</title>
+      <link>/blog/2015/06/24/creating-a-new-theme/</link>
+      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
+      
+      <guid>/blog/2015/06/24/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+  </channel>
+</rss>

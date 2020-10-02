@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>seminar on Chico State DSI Blog</title>
+    <link>/tags/seminar/</link>
+    <description>Recent content in seminar on Chico State DSI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Mar 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Seminar: Introduction to Bayesian Modeling</title>
+      <link>/blog/2018/03/15/2018-03-15-bayesian-seminar-roualdes/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/03/15/2018-03-15-bayesian-seminar-roualdes/</guid>
+      <description>Join us on Thursday March 15 at 3pm in MLIB 442 to hear Dr. Edward Roualdes from Statistics present the benefits of Bayesian Modeling. [RSVP here]
+Abstract:  Much of the statistics taught today is more accurately known as frequentist statistics &amp;ndash; a distinction that gets little attention. However, an alternative exists and the alternative bridges what some see as a gap between statisticians and computer scientists who apply mathematical models to data.</description>
+    </item>
+    
+    <item>
+      <title>Seminar: Teaching Bioinformatics</title>
+      <link>/blog/2018/03/06/2018-03-06-bioinformatics-class-s18/</link>
+      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/03/06/2018-03-06-bioinformatics-class-s18/</guid>
+      <description>Interested in analyzing genomic expression data? Interested in the tools that Biologists use to analyze DNA data?
+Join us on Tuesday March 13 at 2pm in MLIB 442 to hear Dr. Gordon Wolfe and Dr. Dave Keller from Biology presenting an overview and update on BIOL 482: Bioinformatics. [RSVP here]
+Abstract:  We will present an overview of our BIOL 482 bioinformatics class: how it was developed, and how we see it fulfilling the needs of our curriculum.</description>
+    </item>
+    
+    <item>
+      <title>Call for speakers and makers</title>
+      <link>/blog/2017/08/01/2017-08-01-speakers-needed/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/08/01/2017-08-01-speakers-needed/</guid>
+      <description>Looking for speakers for F17 DSI workshops &amp;amp; lightning talks  Is your company or department doing something fun and interesting with Data Science? Do you know a coding tip/trick that you would like to share with the community? Do you have some interesting insights that you would like to share?  Come share your ideas/thoughts/project/insights with the Data Science community
+Contact us for more info &amp;amp; to schedule your session.</description>
+    </item>
+    
+  </channel>
+</rss>

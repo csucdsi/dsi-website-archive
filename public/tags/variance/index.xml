@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>variance on Chico State DSI Blog</title>
+    <link>/tags/variance/</link>
+    <description>Recent content in variance on Chico State DSI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Jul 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/variance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Measuring Variation in the Empirical Storm Season Over Time</title>
+      <link>/blog/2018/07/18/2018-07-18-storm-events/</link>
+      <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/07/18/2018-07-18-storm-events/</guid>
+      <description>Introduction This blog post attempts an analysis of the annual variability of dates on which storms formed during the years 1950 to 2016. Throughout, the word storm will refer to named tropical or subtropical cyclones in the Atlantic Ocean. The inspiration of this analysis came from a CSU, Chico campus seminar.
+During the Fall semester of 2017, CSU, Chico&amp;rsquo;s Dr. Ann Bykerk-Kauffman gave one of three talks at the Department of Geological and Environmental Sciences seminar titled 2017 Hurricane Talk.</description>
+    </item>
+    
+  </channel>
+</rss>

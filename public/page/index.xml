@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Chico State DSI Blog</title>
+    <link>/page/</link>
+    <description>Recent content in Pages on Chico State DSI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Sep 2017 20:42:50 +0000</lastBuildDate><atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>People</title>
+      <link>/page/people/</link>
+      <pubDate>Fri, 08 Sep 2017 20:42:50 +0000</pubDate>
+      
+      <guid>/page/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chico State Data Science Related Courses and Programs</title>
+      <link>/page/courses/</link>
+      <pubDate>Mon, 21 Aug 2017 02:13:50 +0000</pubDate>
+      
+      <guid>/page/courses/</guid>
+      <description>Degree / Certification Programs Undergraduate Certificate in Data Science
+![courses](/materials/DS FlowChart.jpg)
+ Envisioning Data Science at Chico state: A three course sequence [PDF] Approved Certificate Proposal [[PDF]](/materials/DS Certificate Proposal 20170314_Approved.pdf) Link to the Course Catalog forthcoming  Introductory  MATH 130: Introduction to R MATH 385 / CSCI 385: Introduction to Data Science JOUR 310: Data Journalism GEOG 211: Introduction to Geographic Information Systems GEOG 311: GIS Concepts and Techniques GEOG 315: Applied Statistical Methods in Geography  Advanced  MATH 485 / CSCI 485: Advanced Data Science MATH 490: Capstone in Data Science CSCI 446: Introduction to Computer Networks and Network Management CSCI 582: Artificial Intelligence CSCI 580 / BIOL 482: Bioinformatics GEOG 411: Geospatial Analysis and Modeling in GIS GEOG 413: Advanced Cartography and Geovisualization  Graduate  BSIS 610: Business Analytics   Please contact Robin Donatello for consideration of additional classes to this list.</description>
+    </item>
+    
+    <item>
+      <title>A Resource for Campus and Community</title>
+      <link>/page/about/</link>
+      <pubDate>Tue, 01 Aug 2017 02:13:50 +0000</pubDate>
+      
+      <guid>/page/about/</guid>
+      <description>The Data Science Initative is an interdisiplinary community that provides support and training for Data Science. The Data Science Initiative aims to help organize the Data Science community by:
+ Providing a centralized location for information sharing and networking Proving a well-known nexus to obtain, maintain, share, and enhance relevant skills, knowledge, and abilities Providing a comprehensive overview of data science related curriculum connecting researchers and students Connecting community partners with campus resources  Skills and competency development  Prepare students for success in the Analytics Economy Support Campus in their efforts Enable the community to benefit from Applied Data Science Provide timely resources, practical advice, and germane information regarding areas-of-interest to all Data Science users  from novice to expert practitioners    DSI-Workshops  Short events to enable people from across campus and community to learn about data science/analytic techniques and software Hands on - active participation Drop in as interested Variety of skill &amp;amp; knowledge levels Community driven - all volunteers Training by experts in the field Open source training materials  </description>
+    </item>
+    
+    <item>
+      <title>Calendar of Events</title>
+      <link>/page/events/</link>
+      <pubDate>Tue, 01 Aug 2017 02:13:50 +0000</pubDate>
+      
+      <guid>/page/events/</guid>
+      <description>Spring 2020 Hours  MW 10-12, Tehama 116 T 2-4, Butte 518 W 5:30-7pm Butte 518 R 4-6pm Butte 518 F 1-2pm, 3-4pm, Butte 518  Flyer with hours: bit.ly/cc_hours
+Tehama Hall Butte Hall </description>
+    </item>
+    
+    <item>
+      <title>Contact us</title>
+      <link>/page/contact/</link>
+      <pubDate>Fri, 03 Apr 2015 02:13:50 +0000</pubDate>
+      
+      <guid>/page/contact/</guid>
+      <description>You can email us directly at datascience at csuchico dot edu, or use the form below.</description>
+    </item>
+    
+    <item>
+      <title>Sign in form</title>
+      <link>/page/dsi-log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/page/dsi-log/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

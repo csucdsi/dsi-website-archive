@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>seminar on Chico State DSI Blog</title>
+    <link>/categories/seminar/</link>
+    <description>Recent content in seminar on Chico State DSI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="/categories/seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DSI seminar 2/19: Managing data from multiple tables using SQL </title>
+      <link>/blog/2019/02/13/2019-02-13-intro-sql/</link>
+      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/02/13/2019-02-13-intro-sql/</guid>
+      <description>Logistics / Setup  Presenter: Robin Donatello, Assistant Professor of Statistics Date: Tuesday February 19th, 2019 Time: 3-3:50 pm Location: Tehama 116 RSVP: http://goo.gl/forms/BnjV0y5zoz09tUU83  Description You’ve got person level data (like country of origin) in one data set, annual data (like income) for each person across multiple years in another data set, but each person is on a team and team characteristics are on yet a THIRD data set. How do you link all this information together to gain any kind of insights?</description>
+    </item>
+    
+    <item>
+      <title>DSI seminar 2/14: Spatial is Special!</title>
+      <link>/blog/2019/02/02/2019-02-02-dsi-seminar-spatial-is-special/</link>
+      <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/02/02/2019-02-02-dsi-seminar-spatial-is-special/</guid>
+      <description>Logistics / Setup  Presenter: Peter Hansen, Chico State GIS Specialist Date: Thursday February 14th, 2019 Time: 2-2:50 pm Location: Tehama 116 RSVP: http://goo.gl/forms/BnjV0y5zoz09tUU83  Description Are you curious about how to work with or create spatial data? Are you interested in beginning to explore how geographic data can be used in your research and other data inquiries? Data with a spatial component can be analyzed with software called GIS (Geographic Information Systems).</description>
+    </item>
+    
+    <item>
+      <title>Community Coding - Now for credit!</title>
+      <link>/blog/2019/01/21/2019-01-21-community-coding-now-for-credit/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/01/21/2019-01-21-community-coding-now-for-credit/</guid>
+      <description>Spring 19 semester is upon us and we&amp;rsquo;re exicted to start up Community Coding again.
+ Dates &amp;amp; Times: Tuesday &amp;amp; Thursday - 2-4pm Location : Tehama (THMA) 116  What is community coding? Students, staff, faculty, and the public are invited to join our Community Coding sessions. Bring your computer, coding projects, and your questions to this open working environment.
+What is this for credit option? Commit to studying 1 hr.</description>
+    </item>
+    
+    <item>
+      <title>Biomedical Optical Imaging and Machine Learning for Cancer and Disease Detection</title>
+      <link>/blog/2018/10/25/2018-10-25-seminar-biol-salehi/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/10/25/2018-10-25-seminar-biol-salehi/</guid>
+      <description>Who: Dr. Hassan S. Salehi, Assistant Professor, Department of Electrical &amp;amp; Computer Engineering, CSU, Chico
+When: Friday, Oct 26, 2018; 4pm
+Where: Holt Hall 170
+Abstract
+Ovarian cancer ranks fifth as the cause of cancer death in women. Due to nonspecific associated symptoms as well as lack of efficacious screening techniques at the disposal of patients, the survival rate for ovarian cancer has not significantly improved over the last two decades.</description>
+    </item>
+    
+  </channel>
+</rss>

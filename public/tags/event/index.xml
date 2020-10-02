@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>event on Chico State DSI Blog</title>
+    <link>/tags/event/</link>
+    <description>Recent content in event on Chico State DSI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/event/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ASA DataFest 2020 @ Chico State - April 17-19</title>
+      <link>/blog/2019/11/07/2019-11-07-asa-datafest-2020/</link>
+      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/11/07/2019-11-07-asa-datafest-2020/</guid>
+      <description>Save the Date - April 17-19, 2020! In 2019 Chico State&amp;rsquo;s ASA DataFest tripled the participation from our first year. DataFest 2020 is set to break (our) records! DataFest 2019 hosted 36 undergraduate students in 6 teams, a ton of food and a lot of fun.
+This event is open to ALL undergraduates in the North State!
+Registration opens January 2020. What is the ASA DataFest?
+ASA DataFest is a data hackathon for undergraduate students, sponsored by the American Statistical Association and founded at UCLA, in 2011.</description>
+    </item>
+    
+    <item>
+      <title>ASA DataFest 2019 @ Chico State - April 5-7</title>
+      <link>/blog/2019/02/17/2019-02-17-asa-datafest-2019/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/02/17/2019-02-17-asa-datafest-2019/</guid>
+      <description>We&amp;rsquo;re doing it again! Last year the ASA DataFest at Chico State featured 12 undergraduate students in 3 teams of 4 people, a ton of food and a lot of fun. This year we&amp;rsquo;re expanding this event, registration is open to ALL undergraduates in the North State! As of 2-17-19 we we already have 22 students (about 5 teams) already registered!
+More students means more funding is needed to keep everyone fed, caffinated and to provide excellent prizes to the winners.</description>
+    </item>
+    
+    <item>
+      <title>Data Fest Prep</title>
+      <link>/blog/2018/04/23/2018-04-23-data-fest-prep/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/04/23/2018-04-23-data-fest-prep/</guid>
+      <description>Logistics / Setup  Date: Tuesday April 24, 2018 Time: 2-3:50 pm Location: MLIB 442  Description Planning on participating in Data Fest 2018? Want to practice your data wrangling skills?
+On Tuesday we will be doing a &amp;ldquo;dry run&amp;rdquo; of DataFest by using 2017 data. Basically here&amp;rsquo;s the data and the overall analysis goal.
+GO! </description>
+    </item>
+    
+    <item>
+      <title>Save the Date! April 27-29 ASA DataFest 2018 @ CSUC</title>
+      <link>/blog/2018/02/21/2018-02-21-asa-datafest-2018/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/02/21/2018-02-21-asa-datafest-2018/</guid>
+      <description>This year the CSU Chico Data Science Initiative will be hosting an ASA DataFest. This will be the first year Chico State has participated.
+ASA DataFest is a data hackathon for undergraduate students, sponsored by the American Statistical Association and founded at UCLA, in 2011. A data analysis problem is presented in the form of a dataset and an associated challenge. Teams of students get a dataset on Friday afternoon and work on the problem until Sunday afternoon where they present their findings.</description>
+    </item>
+    
+    <item>
+      <title>Fun Opportunities for Statistics Students</title>
+      <link>/blog/2017/10/12/2017-10-12-data-opportunities-for-stat-data-science-students/</link>
+      <pubDate>Thu, 12 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/10/12/2017-10-12-data-opportunities-for-stat-data-science-students/</guid>
+      <description>The following list of opportunities for students of Statisics was sent to us by Mark Harbison at Sacramento City College.
+Police Data Challenge: The American Statistical Association (ASA)&amp;rsquo;s public education campaign, This Is Statistics, in collaboration with the Police Data Initiative, has launched the Police Data Challenge - a national contest for high school and undergraduate students to put their statistical and data visualization skills to work creating safer communities. Data sets from metropolitan police departments in Baltimore, Cincinnati, and Seattle are available for participants to peruse in formulating analyses and recommending innovative solutions to enhance public safety.</description>
+    </item>
+    
+  </channel>
+</rss>

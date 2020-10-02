@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>job on Chico State DSI Blog</title>
+    <link>/tags/job/</link>
+    <description>Recent content in job on Chico State DSI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/job/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We&#39;re Hiring!</title>
+      <link>/blog/2019/11/05/2019-11-05-were-hiring/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/11/05/2019-11-05-were-hiring/</guid>
+      <description>The Department of Mathematics and Statistics at Chico State is hiring TWO Tenure-track Assisstant Professor positions in Statistics. We are looking for individuls from diverse backgrounds to join our team as we build the most amazing Statistics and Data Science programs in the North State.</description>
+    </item>
+    
+  </channel>
+</rss>

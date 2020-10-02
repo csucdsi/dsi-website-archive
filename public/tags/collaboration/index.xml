@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>collaboration on Chico State DSI Blog</title>
+    <link>/tags/collaboration/</link>
+    <description>Recent content in collaboration on Chico State DSI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/collaboration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Community Coding - Now for credit!</title>
+      <link>/blog/2019/01/21/2019-01-21-community-coding-now-for-credit/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/01/21/2019-01-21-community-coding-now-for-credit/</guid>
+      <description>Spring 19 semester is upon us and we&amp;rsquo;re exicted to start up Community Coding again.
+ Dates &amp;amp; Times: Tuesday &amp;amp; Thursday - 2-4pm Location : Tehama (THMA) 116  What is community coding? Students, staff, faculty, and the public are invited to join our Community Coding sessions. Bring your computer, coding projects, and your questions to this open working environment.
+What is this for credit option? Commit to studying 1 hr.</description>
+    </item>
+    
+    <item>
+      <title>Seminar: LabKey Server</title>
+      <link>/blog/2018/10/01/2018-08-19-seminar-labkey/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/10/01/2018-08-19-seminar-labkey/</guid>
+      <description>The DSI is excited for our first speaker for Fall 2018. Jim Piper has been a regular at our DSI talks and events and is going to share with us his work on LabKey Server, a team collaboration software program specialized for the sciences. A hands demo of this program will be included.
+ When: Tuesday October 9th, 2- 2:50pm Where: MLIB 442  Light refreshments will be provided by the DSI.</description>
+    </item>
+    
+  </channel>
+</rss>

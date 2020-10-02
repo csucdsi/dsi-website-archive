@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coding on Chico State DSI Blog</title>
+    <link>/tags/coding/</link>
+    <description>Recent content in coding on Chico State DSI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extended hours for Community coding! Spring 20</title>
+      <link>/blog/2020/01/22/2020-01-22-spring20-cc/</link>
+      <pubDate>Wed, 22 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2020/01/22/2020-01-22-spring20-cc/</guid>
+      <description>Hours &amp;amp; Location  MW 10-12, Tehama 116 T 2-4, Butte 518 W 5:30-7pm Butte 518 R 4-6pm Butte 518 F 1-2pm, 3-4pm, Butte 518  Flyer with hours: bit.ly/cc_hours
+What is community coding? Taking a programming class this semester? Or a class doing statistical data analysis? Have a pet programming/data science project you’re working on? Students, staff, faculty, and the public are invited to join our Community Coding sessions. Bring your computer, coding projects, and your questions to this open working environment.</description>
+    </item>
+    
+    <item>
+      <title>Community Coding - Now for credit!</title>
+      <link>/blog/2019/01/21/2019-01-21-community-coding-now-for-credit/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/01/21/2019-01-21-community-coding-now-for-credit/</guid>
+      <description>Spring 19 semester is upon us and we&amp;rsquo;re exicted to start up Community Coding again.
+ Dates &amp;amp; Times: Tuesday &amp;amp; Thursday - 2-4pm Location : Tehama (THMA) 116  What is community coding? Students, staff, faculty, and the public are invited to join our Community Coding sessions. Bring your computer, coding projects, and your questions to this open working environment.
+What is this for credit option? Commit to studying 1 hr.</description>
+    </item>
+    
+    <item>
+      <title>Fall hours set for DSI Workshops &amp; Community Coding</title>
+      <link>/blog/2018/10/08/2018-10-01-dsi-workshops-community-coding/</link>
+      <pubDate>Mon, 08 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/10/08/2018-10-01-dsi-workshops-community-coding/</guid>
+      <description>The Data Science Initative workshops and Community Coding sessions are in full swing for Fall! We secured the same time and place as last semester.
+ Tuesday &amp;amp; Thursday 2-3:50 Meriam Library (MLIB) 442 (4th floor, directly left out of elevators).
+ Workshops &amp;amp; Seminars
+ We will be reviewing suggestions from Spring and planning talks and workshops at all levels. Do you have a request for a specialized workshop topic, or want to share your research or project?</description>
+    </item>
+    
+    <item>
+      <title>Software Carpentry- Post workshop report</title>
+      <link>/blog/2018/08/19/2018-08-19-post-workshop-report/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/08/19/2018-08-19-post-workshop-report/</guid>
+      <description>Last week Chico State hosted it&amp;rsquo;s first Software Carpentry workshop and it was a great success. We were thrilled to have Reid Otsuji  from UC San Diego and a Library Carpentry instructor come up to help teach the material.
+We had three undergraduate students help out as technical assistant roaming helpers throughout the workshop: Grant Esparza (Computer Science), Jerry Tucay (Applied Mathematics &amp;amp; Statistics), and Eisley Adoremos (Statistics). Their assistance with answer questions and helping add to the collaborate class notes was invaluable!</description>
+    </item>
+    
+    <item>
+      <title>Data Fest Prep</title>
+      <link>/blog/2018/04/23/2018-04-23-data-fest-prep/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/04/23/2018-04-23-data-fest-prep/</guid>
+      <description>Logistics / Setup  Date: Tuesday April 24, 2018 Time: 2-3:50 pm Location: MLIB 442  Description Planning on participating in Data Fest 2018? Want to practice your data wrangling skills?
+On Tuesday we will be doing a &amp;ldquo;dry run&amp;rdquo; of DataFest by using 2017 data. Basically here&amp;rsquo;s the data and the overall analysis goal.
+GO! </description>
+    </item>
+    
+    <item>
+      <title>Spring hours set for DSI Workshops &amp; Community Coding</title>
+      <link>/blog/2018/01/29/2018-01-29-dsi-workshops-community-coding/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018/01/29/2018-01-29-dsi-workshops-community-coding/</guid>
+      <description>The Data Science Initative at Chico State and the Chico R Users Group are hosting bi-weekly work sessions and tutorial sessions for the entire campus and Chico community.
+ Spring 18: Tuesday &amp;amp; Thursday 2-3:50 Meriam Library (MLIB) 442 (4th floor, directly left out of elevators).
+ Workshops
+ We will be planning a few introductory workshops on topics such as R, Python, Git And a few advanced workshops on creating academic webpages with R Markdown, and an introduction to Bayesian Methods for statistical analysis.</description>
+    </item>
+    
+    <item>
+      <title>Meet and analyze data</title>
+      <link>/blog/2017/10/24/2017-10-24-meet-and-analyze-data/</link>
+      <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017/10/24/2017-10-24-meet-and-analyze-data/</guid>
+      <description>The Data Science Initative and the Statistics Faculty are hosting &amp;ldquo;meet and analyze data&amp;rdquo;. This is simply a reserved space held in central locations for people working on code, data analysis, or some other form of Data Science to come, hang out, and code in proximity with other coders. Got a question? We&amp;rsquo;re right there. We may not be able to help directly, but we&amp;rsquo;ll try. At least we&amp;rsquo;ll help you get a good Google search going.</description>
+    </item>
+    
+  </channel>
+</rss>
