@@ -1,12 +1,24 @@
-# Website for the Chico State Data Science Initative
+# Blog site for the Chico State Data Science Initative
 
 https://datascience.csuchico.edu 
 
+# NOTE
+* if you clean the site, you delete the public folder. You then have to re-render ALL posts on the next build.			- Don't do this
+
 # todo
-* Update theme to fix post author bug
-* build workshop schedule 
-    - display as a calendar
-* link to RUG and Google L-serv
+
+- [ ] Enable blog post link from campus website
+- [ ] Talk to csuc to get https
+- [ ] enable mathjax to work [soln?](https://github.com/devcows/hugo-universal-theme/pull/153)
+- [ ] trim down categories in blog posts 
+- [ ] write a post to announce new siteS
+- [ ] write covid post
+- [ ] fix webpage tab icon
+- [ ] change header on blog page from "blog"
+- [ ] remove 'recent posts' from the footer
+- [ ] change footer contact button to be an email
+- [ ] figure out copyright
+- [ ] create instructions on how to contribute posts to this site
 
 
 # File org & post order
@@ -18,11 +30,7 @@ https://datascience.csuchico.edu
 |--config.toml (site configuration file)
 | 
 |--content
-|  |--page (static pages)
-|     |--about.md
-|     |--contact.md
-|     |--courses.md
-|     |--people.md
+|  |--page (static pages) -- None. Removed when converted to blog site. 
 |  |--post
 |     |--YYYY-MM-DD_topic_announce.md (slug = topic_stuff)
 |  |--event[formerly known as workshops]  
@@ -40,13 +48,4 @@ https://datascience.csuchico.edu
 |  |--post
 |  |  |--folders containing files (like images) that may be associated with a post
 
-
-
-
-```
-
-
-## Random comments 
-* Bottom of every announcement [Workshop Details & Materials](/workshop/stat-models-brief/)
-* In RMD refrences to data/files `read.table(topic_stuff/data.txt)`
-
+---
