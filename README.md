@@ -7,14 +7,16 @@ https://datascience.csuchico.edu
 
 # todo
 
-- [ ] Enable blog post link from campus website
-- [ ] Talk to csuc to get https
+- [x] Enable blog post link from campus website
+- [x] Talk to csuc to get https
 - [ ] enable mathjax to work [soln?](https://github.com/devcows/hugo-universal-theme/pull/153)
 - [ ] trim down categories in blog posts 
 - [ ] write a post to announce new siteS
 - [ ] write covid post
 - [ ] fix webpage tab icon
-- [ ] change header on blog page from "blog"
+    - head.html, line 49
+- [ ] change header on blog page from "blog" 
+    - Something about  `<h2>{{ .Site.Params.recent_posts.title | markdownify }}</h2>`
 - [ ] remove 'recent posts' from the footer
 - [ ] change footer contact button to be an email
 - [ ] figure out copyright
