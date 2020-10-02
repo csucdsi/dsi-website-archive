@@ -8,8 +8,6 @@ tags: []
 description: ''
 ---
 
-
-
 # Introduction
 
 During [CSU, Chico's DataFest 2019](https://csudsi.netlify.com/2019/02/17/2019-02-17-asa-datafest-2019/), two questions from different teams provided me (Edward, not Dr. Donatello) an excellent learning experience.  This blog post attempts to describe the problems these teams faced and then offer up some solutions.  This post is about my own learnings during DataFest and does not even pretend to claim that these are the only, nor the best, solutions to these problems.
@@ -137,4 +135,3 @@ all(df$mgf == df$ngf)
 # Conclusion
 
 Dr. D's solution is much simpler, but at least I came up with a solution and learned something along the way.  DataFest 2019 was great, and it's my opinion that all involved gained a lot from the event. Thanks, Dr. D.
-
