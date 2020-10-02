@@ -20,13 +20,13 @@ paginate = 6
 
 [[menu.main]]
     identifier="about"
-    name = "Chico State DSI Homepage"
+    name = "DSI Homepage"
     url  = "https://www.csuchico.edu/datascience/"
     weight = 2
 
 [[menu.main]]
     identifier="blog"
-    name = "Blog Home"
+    name = "Blog"
     url  = "/blog/"
     weight = 1
 
@@ -95,21 +95,22 @@ paginate = 6
     email = "your@email.com"
     contact_form_ajax = false
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    about_us = """<p>The Chico State Data Science Initative strives to foster a 
+                      data-empowered society working within a culture of equity-minded
+                      open science. We do so by connecting people to opportunities
+                      to learn new skills and engage in impactful research across
+                      the spectrum of disciplines. 
+                     <br>
+                  </p>"""
+    copyright = "Copyright (c) 2020, Robin Donatello; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
     logo = "img/logo.png"
-    logo_small = "img/logo-small.png"
+    logo_small = "img/logo.png"
     address = """<p class="text-uppercase"><strong>Data Science Initative</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
+        <br><a href="mailto:datascience@csuchico.edu">datascience@csuchico.edu</a>
       </p>
       """
 
@@ -118,7 +119,7 @@ paginate = 6
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    enable = true
+    enable = false
     text = """<p class="hidden-sm hidden-xs">Direct questions and comments to datascience@csuchico.edu</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
@@ -168,5 +169,5 @@ paginate = 6
 
 [params.recent_posts]
     enable = true
-    title = "Data Science Blog"
-    subtitle = """<strong>Data Science Initative</strong>"""
+    title = "Featured Posts"
+    subtitle = ""
