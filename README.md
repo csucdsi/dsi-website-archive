@@ -9,9 +9,10 @@ https://datascience.csuchico.edu
 
 - [x] Enable blog post link from campus website
 - [x] Talk to csuc to get https
-- [ ] enable mathjax to work [soln?](https://github.com/devcows/hugo-universal-theme/pull/153)
+- [x] enable mathjax to work [soln?](https://github.com/devcows/hugo-universal-theme/pull/153)
 - [ ] trim down categories in blog posts 
 - [ ] write a post to announce new siteS
+- [ ] add css to use campus colors
 - [ ] write covid post
 - [ ] fix webpage tab icon
     - head.html, line 49
