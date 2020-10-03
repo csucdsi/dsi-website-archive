@@ -25,7 +25,7 @@ paginate = 6
     weight = 2
 
 [[menu.main]]
-    identifier="blog"
+    identifier="blogz"
     name = "Blog"
     url  = "/blog/"
     weight = 1
@@ -152,12 +152,12 @@ paginate = 6
     subtitle = ""
 
 [params.see_more]
-    enable = false
-    icon = "far fa-file-alt"
-    title = "Do you want to see more?"
-    subtitle = ""
-    link_url = "#"
-    link_text = "Check other homepages"
+    enable = true
+    icon = "faveicon.ico"
+    title = "Chico State Data Science Initative"
+    subtitle = "Fostering a data-empowered society working within a culture of equity-minded open science."
+    link_url = "https://www.csuchico.edu/datascience"
+    link_text = "Learn more"
 
 [params.clients]
     enable = false
@@ -169,5 +169,5 @@ paginate = 6
 
 [params.recent_posts]
     enable = true
-    title = "Recent Posts"
+    title = "Recent News & Posts"
     subtitle = ""
