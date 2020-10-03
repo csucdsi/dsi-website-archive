@@ -10,9 +10,28 @@
             <hr class="hidden-md hidden-lg hidden-sm">
 
         </div>
+        
+          <div class="col-md-4 col-sm-6">
+            <h4>What we do</h4>
+            <p>
+                <ul>
+                  <li>Curriculum Development</li>
+                  <li>Professional Data Skills Training</li>
+                  <li>Data Wrangling/Analysis</li>
+                  <li>Interactive Dashboard Storytelling</li>
+                  <li>Student Internships</li>
+                  <li>Project/Thesis Consulting</li>
+                </ul> 
+            </p>
+            
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
         <!-- /.col-md-4 -->
         {{ end }}
-
+<!---
         <div class="col-md-4 col-sm-6">
 
             {{ if isset .Site.Params "recent_posts" }} {{ if .Site.Params.recent_posts.enable }}
@@ -41,6 +60,8 @@
             {{ end }} {{ end }}
 
         </div>
+        
+--->
         <!-- /.col-md-4 -->
 
         {{ if isset .Site.Params "address" }}
@@ -50,7 +71,8 @@
 
             {{ .Site.Params.address | safeHTML }}
 
-            <a href="/contact" class="btn btn-small btn-template-main">{{ i18n "contactGoTo" }}</a>
+            <a href="https://www.csuchico.edu/datascience/" 
+            class="btn btn-small btn-template-main">{{ i18n "contactGoTo" }}</a>
 
             <hr class="hidden-md hidden-lg hidden-sm">
 
