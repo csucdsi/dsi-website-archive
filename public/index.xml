@@ -6,7 +6,17 @@
     <description>Recent content on Chico State DSI Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring internship opportunity</title>
+      <link>/blog/2020/12/11/2020-12-11-spring-internship-opportunity/</link>
+      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2020/12/11/2020-12-11-spring-internship-opportunity/</guid>
+      <description>The Data Science Initiative is partnering with the Center for Healthy Communities to offer a virtual internship experience this Spring. This flexible, 3 unit internship is focused on the management, analysis and reporting of data through a variety of projects relating to basic needs and our community’s health.
+This is a great opportunity for students who need to complete the Capstone for the Data Science Certificate or students who need additional units to round out their schedules.</description>
+    </item>
+    
     <item>
       <title>Extended hours for Community coding! Spring 20</title>
       <link>/blog/2020/01/22/2020-01-22-spring20-cc/</link>

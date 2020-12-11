@@ -4,12 +4,42 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2020-01-22T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/capstone/</loc>
+    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/certificate/</loc>
+    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-01-22T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/internship/</loc>
+    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2020/12/11/2020-12-11-spring-internship-opportunity/</loc>
+    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -24,11 +54,6 @@
   
   <url>
     <loc>/blog/2020/01/22/2020-01-22-spring20-cc/</loc>
-    <lastmod>2020-01-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-01-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -99,11 +124,6 @@
   
   <url>
     <loc>/blog/2019/04/09/2019-04-11-learnings/</loc>
-    <lastmod>2019-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
     <lastmod>2019-04-09T00:00:00+00:00</lastmod>
   </url>
   
