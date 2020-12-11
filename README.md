@@ -19,7 +19,7 @@ https://datascience.csuchico.edu
 - [ ] write covid post
 - [ ] create instructions on how to contribute posts to this site
 - [ ] add css to use campus colors
-    - Email out to UCOMM to see if they can do this
+    - Email out to UCOMM to see if they can do this (they can't)
 - [x] fix webpage tab icon
 - [ ] remove 'recent posts' from the footer
 - [ ] change footer contact button to be an email
