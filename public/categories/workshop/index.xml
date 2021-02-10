@@ -6,7 +6,17 @@
     <description>Recent content in workshop on Chico State DSI Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="/categories/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sofware Carpentry Workshop for Website Building</title>
+      <link>/blog/2021/02/10/2021-02-10-swc-website-march/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2021/02/10/2021-02-10-swc-website-march/</guid>
+      <description>Ever wish you had a way to showcase your work inside and out of the classroom? A place to share materials with students, or to blog about current research and developments in your field?
+On March 6th &amp;amp; 13th, 2021 the CSU Math Council is sponsoring a virtual professional development workshop for Mathematics &amp;amp; Statistics faculty across the CSU to learn how to build a professional website using Data Science tools such as GitHub and R Markdown.</description>
+    </item>
+    
     <item>
       <title>DSI Seminar 4/23 &amp; 4/25: Growing a Scientific Mindset to Develop Analytics Teams</title>
       <link>/blog/2019/04/09/2019-04-09-case_study_lyft/</link>
