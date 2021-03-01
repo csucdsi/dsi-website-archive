@@ -9,6 +9,7 @@ tags:
   - swcarpentry
 ---
 
+> This event has been postponed due to unforseen and unavoidable circumstances. We will be rescheduling this event for Summer. We are considering expanding the workshop an additional 2 days to include more lessons on R programming. Registered participants want a refund please email datascience@csuchico.edu. We apologize for the inconvenience. 
 
 Ever wish you had a way to showcase your work inside and out of the classroom? A place to share materials with students, or to blog about current research and developments in your field? 
 
