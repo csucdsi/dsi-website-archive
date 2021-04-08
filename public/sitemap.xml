@@ -3,18 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/analysis/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/</loc>
-    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/career/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/healthy-communities/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/paid/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2021/04/07/2021-04-07-csc2-chc-2021-ugr/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/paid-opportunity/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/research/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/summer/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -24,11 +69,6 @@
   
   <url>
     <loc>/tags/swcarpentry/</loc>
-    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2021-02-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -79,11 +119,6 @@
   
   <url>
     <loc>/tags/analytics/</loc>
-    <lastmod>2019-12-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/career/</loc>
     <lastmod>2019-12-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -195,11 +230,6 @@
   <url>
     <loc>/blog/2019/03/03/2019-03-03-dsi-seminar-strategies-to-manage-big-data/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/analysis/</loc>
-    <lastmod>2019-02-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
