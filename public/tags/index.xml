@@ -6,7 +6,34 @@
     <description>Recent content in Tags on Chico State DSI Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>capstone</title>
+      <link>/tags/capstone/</link>
+      <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/capstone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>certificate</title>
+      <link>/tags/certificate/</link>
+      <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/certificate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>health-research</title>
+      <link>/tags/health-research/</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/health-research/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>analysis</title>
       <link>/tags/analysis/</link>
@@ -67,24 +94,6 @@
       <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>/tags/swcarpentry/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>capstone</title>
-      <link>/tags/capstone/</link>
-      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/capstone/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>certificate</title>
-      <link>/tags/certificate/</link>
-      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/certificate/</guid>
       <description></description>
     </item>
     

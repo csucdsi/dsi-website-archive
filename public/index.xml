@@ -6,7 +6,27 @@
     <description>Recent content on Chico State DSI Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fall 21 internship opportunity</title>
+      <link>/blog/2021/12/11/2021-05-11-fall-internship-opportunity/</link>
+      <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2021/12/11/2021-05-11-fall-internship-opportunity/</guid>
+      <description>Due to the great success we had this Spring, we are offering another Data Science internship experience with the Center for Healthy Communities. This flexible, 3 unit internship is focused on the management, analysis and reporting of data through a variety of projects relating to basic needs and our communities health.
+This is a great opportunity for students who need to complete the Capstone for the Data Science Certificate or students who need additional units to round out their schedules.</description>
+    </item>
+    
+    <item>
+      <title>Virtual Workshop Series for Harnessing the Power of Data to Advance Immune-mediated and Infectious Disease Research</title>
+      <link>/blog/2021/04/09/2021-04-09-niaid/</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2021/04/09/2021-04-09-niaid/</guid>
+      <description>Description The National Institute of Allergy and Infectious Diseases (NIAID) is excited to advance discovery and innovation in infectious diseases and immune-mediated disorders research by leveraging data and data science approaches. Towards this end, NIAID will conduct a series of ideas and innovation webinars that bring together experts and stakeholders in data science, infectious diseases, immunology, and immune-mediated disorders.
+Through the webinar series, participants will have the opportunity to provide insights into the current landscape of data science research and development, as well as offer ideas that promise to shape the future of data-driven immune-mediated and infectious disease research.</description>
+    </item>
+    
     <item>
       <title>Paid summer research opportunity- Basic needs and food insecurity among college students</title>
       <link>/blog/2021/04/07/2021-04-07-csc2-chc-2021-ugr/</link>

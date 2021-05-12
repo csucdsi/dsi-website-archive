@@ -6,7 +6,17 @@
     <description>Recent content in seminar on Chico State DSI Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="/categories/seminar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Virtual Workshop Series for Harnessing the Power of Data to Advance Immune-mediated and Infectious Disease Research</title>
+      <link>/blog/2021/04/09/2021-04-09-niaid/</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2021/04/09/2021-04-09-niaid/</guid>
+      <description>Description The National Institute of Allergy and Infectious Diseases (NIAID) is excited to advance discovery and innovation in infectious diseases and immune-mediated disorders research by leveraging data and data science approaches. Towards this end, NIAID will conduct a series of ideas and innovation webinars that bring together experts and stakeholders in data science, infectious diseases, immunology, and immune-mediated disorders.
+Through the webinar series, participants will have the opportunity to provide insights into the current landscape of data science research and development, as well as offer ideas that promise to shape the future of data-driven immune-mediated and infectious disease research.</description>
+    </item>
+    
     <item>
       <title>DSI seminar 2/19: Managing data from multiple tables using SQL </title>
       <link>/blog/2019/02/13/2019-02-13-intro-sql/</link>

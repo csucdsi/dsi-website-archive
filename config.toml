@@ -26,7 +26,7 @@ paginate = 6
 
 [[menu.main]]
     identifier="blogz"
-    name = "Blog"
+    name = "All posts"
     url  = "/blog/"
     weight = 1
 
