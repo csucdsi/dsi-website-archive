@@ -43,6 +43,21 @@
   </url>
   
   <url>
+    <loc>/categories/classes/</loc>
+    <lastmod>2021-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/learning/</loc>
+    <lastmod>2021-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2021/05/12/2021-05-12-dasg/</loc>
+    <lastmod>2021-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/event/</loc>
     <lastmod>2021-04-09T00:00:00+00:00</lastmod>
   </url>
@@ -278,11 +293,6 @@
   </url>
   
   <url>
-    <loc>/categories/learning/</loc>
-    <lastmod>2019-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/sql/</loc>
     <lastmod>2019-02-13T00:00:00+00:00</lastmod>
   </url>
@@ -324,11 +334,6 @@
   
   <url>
     <loc>/tags/chicostate/</loc>
-    <lastmod>2018-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/classes/</loc>
     <lastmod>2018-10-29T00:00:00+00:00</lastmod>
   </url>
   

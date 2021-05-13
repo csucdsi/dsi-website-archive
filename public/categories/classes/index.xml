@@ -6,7 +6,16 @@
     <description>Recent content in classes on Chico State DSI Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="/categories/classes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/classes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Class!</title>
+      <link>/blog/2021/05/12/2021-05-12-dasg/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2021/05/12/2021-05-12-dasg/</guid>
+      <description>Data is not neutral, nor are the algorithms that control how the data that governs our lives are used. Interpretations and recommendations made using data are subjective. This course introduces students how to start harnessing the power of data to intelligently cope with the requirements of citizenship, employment, and family to be prepared for a healthy, happy and productive life. In this class students will practice collecting and wrangling data into a usable form, visualizing large data sets to discover patterns, representing data in a meaningful way, exploring varying interpretations of the data and results, and discussing potentials for misuse and abuse.</description>
+    </item>
+    
     <item>
       <title>Data Science info session</title>
       <link>/blog/2018/10/29/2018-10-29-ds-info-session-f18/</link>
