@@ -1,8 +1,8 @@
 ---
-title: Fall 21 internship opportunity
-author: DSI Coordinator
+title: 'Fall 21 internship opportunity'
+author: 'DSI Coordinator'
 date: '2021-05-11'
-slug: spring-internship-opportunity
+slug: fall-internship-opportunity
 banner: "img/banners/woc_computer.jpg"
 ---
 
