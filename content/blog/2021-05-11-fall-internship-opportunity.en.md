@@ -1,13 +1,8 @@
 ---
 title: Fall 21 internship opportunity
-author: 'DSI Coordinator'
-date: '2021-12-11'
+author: DSI Coordinator
+date: '2021-05-11'
 slug: spring-internship-opportunity
-categories:
-  - internship
-tags:
-  - certificate
-  - capstone
 banner: "img/banners/woc_computer.jpg"
 ---
 

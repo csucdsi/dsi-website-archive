@@ -76,7 +76,7 @@ paginate = 6
     #latitude = "-12.043333"
     #longitude = "-77.028333"
 
-    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "marsala"
 
     # Since this template is static, the contact form uses www.formspree.io as a
