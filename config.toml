@@ -50,6 +50,13 @@ paginate = 6
     weight = 2
     parent = "eventz"
     
+[[menu.main]]
+    identifier="dfest22"
+    name = "Datafest 2022"
+    url = "/datafest19/"
+    weight = 3
+    parent = "eventz"
+    
 # Top bar social links menu
 
 [[menu.topbar]]
