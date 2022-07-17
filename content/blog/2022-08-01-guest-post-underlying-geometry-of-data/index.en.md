@@ -11,7 +11,7 @@ tags:
 slug:
   - geometry-of-data
 draft: TRUE
-banner: 01_skip.png
+banner: img/banners/01_skip.png
 ---
 
 
