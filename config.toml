@@ -29,8 +29,34 @@ paginate = 6
     name = "All posts"
     url  = "/blog/"
     weight = 1
+    
+[[menu.main]]
+    identifier="eventz"
+    name = "Past events"
+    url  = "/blog/"
+    weight = 1
+    
+[[menu.main]]
+    identifier="dfest18"
+    name = "Datafest 2018"
+    url = ""
+    weight = 3
+    parent = "eventz"
 
-
+[[menu.main]]
+    identifier="dfest19"
+    name = "Datafest 2019"
+    url = ""
+    weight = 2
+    parent = "eventz"
+    
+[[menu.main]]
+    identifier="dfest22"
+    name = "Datafest 2022"
+    url = "/2022-04-04-chico-state-data-fest-2022-recap/"
+    weight = 1
+    parent = "eventz"
+    
 # Top bar social links menu
 
 [[menu.topbar]]
