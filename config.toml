@@ -31,32 +31,11 @@ paginate = 6
     weight = 1
     
 [[menu.main]]
-    identifier="eventz"
-    name = "Past events"
-    url  = "/blog/"
+    identifier="dfest"
+    name = "Datafest"
+    url = "https://chicodatafest.netlify.app/"
     weight = 1
-    
-[[menu.main]]
-    identifier="dfest18"
-    name = "Datafest 2018"
-    url = ""
-    weight = 3
-    parent = "eventz"
 
-[[menu.main]]
-    identifier="dfest19"
-    name = "Datafest 2019"
-    url = ""
-    weight = 2
-    parent = "eventz"
-    
-[[menu.main]]
-    identifier="dfest22"
-    name = "Datafest 2022"
-    url = "/2022-04-04-chico-state-data-fest-2022-recap/"
-    weight = 1
-    parent = "eventz"
-    
 # Top bar social links menu
 
 [[menu.topbar]]
@@ -128,7 +107,7 @@ paginate = 6
                       the spectrum of disciplines. 
                      <br>
                   </p>"""
-    copyright = "Copyright (c) 2020, Robin Donatello; all rights reserved."
+    copyright = "Copyright (c) 2022, Robin Donatello; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -179,11 +158,11 @@ paginate = 6
 
 [params.see_more]
     enable = true
-    icon = "faveicon.ico"
-    title = "Chico State Data Science Initative"
-    subtitle = "Fostering a data-empowered society working within a culture of equity-minded open science."
+    icon = "DSI_Hexbin_sticker_03.png"
+    title = "The DSI Blog"
+    subtitle = "What's going on in the world of Data Science at Chico State?"
     link_url = "https://www.csuchico.edu/datascience"
-    link_text = "Learn more"
+    link_text = "Learn more about the Chico State DSI"
 
 [params.clients]
     enable = false

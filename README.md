@@ -72,4 +72,15 @@ It is not difficult to make a new post, so long as a few details are satisfied. 
 |  |--post
 |  |  |--folders containing files (like images) that may be associated with a post
 
+```
+
 ---
+
+# Images
+Theme images that i can't figure out how to change w/o changing the original file. 
+These are located at `\themes\hugo-universal-theme\static\img\` 
+
+* Landing page banner: `fixed-background-2.png`
+* Grey background on blog posts: `texture-bw.png`
+
+
