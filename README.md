@@ -80,7 +80,7 @@ It is not difficult to make a new post, so long as a few details are satisfied. 
 Theme images that i can't figure out how to change w/o changing the original file. 
 These are located at `\themes\hugo-universal-theme\static\img\` 
 
-* Landing page banner: `fixed-background-2.png`
+* Landing page banner: `fixed-background-2.jpg`
 * Grey background on blog posts: `texture-bw.png`
 
 
