@@ -1,5 +1,5 @@
 ---
-title: 'August Guest post: Underlying geometry of data'
+title: 'August Student post: Underlying geometry of data'
 author: Skip Moses
 date: '2022-08-01'
 categories:
@@ -10,7 +10,6 @@ tags:
   - graph
 slug:
   - geometry-of-data
-draft: TRUE
 banner: img/banners/01_skip.png
 ---
 
