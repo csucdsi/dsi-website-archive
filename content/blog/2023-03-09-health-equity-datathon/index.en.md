@@ -12,4 +12,8 @@ banner: img/banners/HED23_banner.png
 To learn more and secure your spot >> [CIVIC-HACKERS.ORG/HED23](CIVIC-HACKERS.ORG/HED23)
 
 
-<img src="img/banners/HED23_banner.png" width="30%">
+![](HED23_banner.png)
+
+
+![](HED_Info.png)
+

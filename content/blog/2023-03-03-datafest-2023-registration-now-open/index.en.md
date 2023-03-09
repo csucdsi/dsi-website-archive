@@ -10,10 +10,7 @@ tags:
 banner: img/banners/datafest_logo_sacstate.png
 ---
 
-
-<a href="https://norcaldatafest.netlify.app//">
-    <img src="img/banners/datafest_logo_sacstate.png" width="30%">
-</a>
+![](datafest_logo_sacstate.png)
 
 ## What is the ASA DataFest?
 
