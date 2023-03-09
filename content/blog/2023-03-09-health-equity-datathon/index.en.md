@@ -12,12 +12,4 @@ banner: img/banners/HED23_banner.png
 To learn more and secure your spot >> [CIVIC-HACKERS.ORG/HED23](CIVIC-HACKERS.ORG/HED23)
 
 
-![](static/img/HE Datathon Info.png)
-
-tset
-
-
-![](HE Datathon Info.png)
-
-test2
-![](images/HE Datathon Info.png)
+<img src="img/banners/HED23_banner.png" width="30%">
