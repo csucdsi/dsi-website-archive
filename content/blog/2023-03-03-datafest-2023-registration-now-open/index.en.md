@@ -7,9 +7,10 @@ categories:
   - event
 tags:
   - DataFest
+banner: img/banners/datafest_logo_sacstate.png
 ---
 
-[![logo](/img/datafest_logo_Chico_Red.png)](https://norcaldatafest.netlify.app//)
+[![logo](img/banners/datafest_logo_sacstate.png)](https://norcaldatafest.netlify.app//)
 
 ## What is the ASA DataFest? 
  
