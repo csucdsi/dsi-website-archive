@@ -1,8 +1,8 @@
 # Blog site for the Chico State Data Science Initative
 
-https://datascience.csuchico.edu 
+⚠️This Hugo based site has been archived. See https://datascience.csuchico.edu for the newest Quarto version. 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9464522b-b3ed-4a12-ad15-9ed2db315244/deploy-status)](https://app.netlify.com/sites/csudsi/deploys)
+
 
 
 # NOTE
